@@ -83,10 +83,12 @@ the object model.
 
 The ontology records UBERON identifiers where an exact open term is available,
 and the project records OpenStax Anatomy & Physiology as the human-skeletal
-coverage reference. UBERON is a multi-species anatomy ontology, so a BONES entry
-also records the intended human display scope rather than silently claiming that
-every cross-species definition is identical. This repository contains original,
-simplified vector artwork; it does not copy proprietary anatomical illustrations.
+coverage reference. Bone glyphs are now derived from cleaned, thresholded traces
+of public-domain 1918 Gray's Anatomy plates hosted by Wikimedia Commons; the
+plate manifest, raw scans, crop recipes, and deterministic trace script are kept
+under `sources/gray-plates/`. BONES ships vector derivatives, not proprietary
+modern medical illustrations. See `docs/artwork-sources.md` for the provenance
+and regeneration path.
 
 ## Project status
 

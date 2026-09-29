@@ -26,6 +26,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Skull",
@@ -57,6 +58,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Mandible",
@@ -89,6 +91,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Clavicle",
@@ -120,6 +123,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Scapula",
@@ -151,6 +155,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Sternum",
@@ -182,6 +187,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Rib",
@@ -213,6 +219,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Vertebra",
@@ -244,6 +251,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Humerus",
@@ -275,6 +283,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Radius",
@@ -306,6 +315,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Ulna",
@@ -338,6 +348,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Pelvis",
@@ -369,6 +380,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Femur",
@@ -400,6 +412,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Left femur",
@@ -431,6 +444,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Right femur",
@@ -462,6 +476,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Patella",
@@ -493,6 +508,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Tibia",
@@ -524,6 +540,7 @@ const registry = [
     "sources": [
       "uberon",
       "openstax_ap",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Fibula",

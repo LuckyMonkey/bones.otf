@@ -69,7 +69,7 @@ objects:
     ligature: ':skull:'
     shortcode: ':skull:'
     external_ids: {uberon: UBERON:0003129}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: skull, monochrome: glyphs/mono/skull.svg, color: glyphs/color/skull.svg}
   - id: anatomy:mandible
     label: Mandible
@@ -84,7 +84,7 @@ objects:
     ligature: ':mandible:'
     shortcode: ':mandible:'
     external_ids: {uberon: UBERON:0001684}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: mandible, monochrome: glyphs/mono/mandible.svg, color: glyphs/color/mandible.svg}
   - id: anatomy:clavicle
     label: Clavicle
@@ -99,7 +99,7 @@ objects:
     ligature: ':clavicle:'
     shortcode: ':clavicle:'
     external_ids: {uberon: UBERON:0001105}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: clavicle, monochrome: glyphs/mono/clavicle.svg, color: glyphs/color/clavicle.svg}
   - id: anatomy:scapula
     label: Scapula
@@ -114,7 +114,7 @@ objects:
     ligature: ':scapula:'
     shortcode: ':scapula:'
     external_ids: {uberon: UBERON:0006849}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: scapula, monochrome: glyphs/mono/scapula.svg, color: glyphs/color/scapula.svg}
   - id: anatomy:sternum
     label: Sternum
@@ -129,7 +129,7 @@ objects:
     ligature: ':sternum:'
     shortcode: ':sternum:'
     external_ids: {uberon: UBERON:0000975}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: sternum, monochrome: glyphs/mono/sternum.svg, color: glyphs/color/sternum.svg}
   - id: anatomy:rib
     label: Rib
@@ -144,7 +144,7 @@ objects:
     ligature: ':rib:'
     shortcode: ':rib:'
     external_ids: {uberon: UBERON:0002228}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: rib, monochrome: glyphs/mono/rib.svg, color: glyphs/color/rib.svg}
   - id: anatomy:vertebra
     label: Vertebra
@@ -159,7 +159,7 @@ objects:
     ligature: ':vertebra:'
     shortcode: ':vertebra:'
     external_ids: {uberon: UBERON:0002412}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: vertebra, monochrome: glyphs/mono/vertebra.svg, color: glyphs/color/vertebra.svg}
   - id: anatomy:humerus
     label: Humerus
@@ -174,7 +174,7 @@ objects:
     ligature: ':humerus:'
     shortcode: ':humerus:'
     external_ids: {uberon: UBERON:0000976}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: humerus, monochrome: glyphs/mono/humerus.svg, color: glyphs/color/humerus.svg}
   - id: anatomy:radius
     label: Radius
@@ -189,7 +189,7 @@ objects:
     ligature: ':radius:'
     shortcode: ':radius:'
     external_ids: {uberon: UBERON:0001423}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: radius, monochrome: glyphs/mono/radius.svg, color: glyphs/color/radius.svg}
   - id: anatomy:ulna
     label: Ulna
@@ -204,7 +204,7 @@ objects:
     ligature: ':ulna:'
     shortcode: ':ulna:'
     external_ids: {uberon: UBERON:0001424}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: ulna, monochrome: glyphs/mono/ulna.svg, color: glyphs/color/ulna.svg}
   - id: anatomy:pelvis
     label: Pelvis
@@ -219,7 +219,7 @@ objects:
     ligature: ':pelvis:'
     shortcode: ':pelvis:'
     external_ids: {uberon: UBERON:0001270}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: pelvis, monochrome: glyphs/mono/pelvis.svg, color: glyphs/color/pelvis.svg}
   - id: anatomy:femur
     label: Femur
@@ -234,7 +234,7 @@ objects:
     ligature: ':femur:'
     shortcode: ':femur:'
     external_ids: {uberon: UBERON:0000981}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: femur, monochrome: glyphs/mono/femur.svg, color: glyphs/color/femur.svg}
   - id: anatomy:left_femur
     label: Left femur
@@ -251,7 +251,7 @@ objects:
     ligature: ':left_femur:'
     shortcode: ':left_femur:'
     external_ids: {uberon: UBERON:0000981}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: femur, monochrome: glyphs/mono/left_femur.svg, color: glyphs/color/left_femur.svg}
   - id: anatomy:right_femur
     label: Right femur
@@ -268,7 +268,7 @@ objects:
     ligature: ':right_femur:'
     shortcode: ':right_femur:'
     external_ids: {uberon: UBERON:0000981}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: femur, monochrome: glyphs/mono/right_femur.svg, color: glyphs/color/right_femur.svg}
   - id: anatomy:patella
     label: Patella
@@ -283,7 +283,7 @@ objects:
     ligature: ':patella:'
     shortcode: ':patella:'
     external_ids: {uberon: UBERON:0002446}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: patella, monochrome: glyphs/mono/patella.svg, color: glyphs/color/patella.svg}
   - id: anatomy:tibia
     label: Tibia
@@ -298,7 +298,7 @@ objects:
     ligature: ':tibia:'
     shortcode: ':tibia:'
     external_ids: {uberon: UBERON:0000979}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: tibia, monochrome: glyphs/mono/tibia.svg, color: glyphs/color/tibia.svg}
   - id: anatomy:fibula
     label: Fibula
@@ -313,7 +313,7 @@ objects:
     ligature: ':fibula:'
     shortcode: ':fibula:'
     external_ids: {uberon: UBERON:0001446}
-    sources: [uberon, openstax_ap, bones_original_art]
+    sources: [uberon, openstax_ap, grays_anatomy_commons, bones_original_art]
     glyph: {base: fibula, monochrome: glyphs/mono/fibula.svg, color: glyphs/color/fibula.svg}
   - id: anatomy:brain
     label: Brain

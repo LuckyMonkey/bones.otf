@@ -109,8 +109,13 @@ def add_anatomical_glyphs(font: TTFont, items: list[dict], color: bool = False) 
     color_layers: dict[str, list[str]] = {}
     for item in items:
         glyph_name = "anatomy_" + item["id"].split(":", 1)[1]
-        paths = svg_paths(ROOT / item["glyph"]["color" if color else "monochrome"])
-        add_outline_glyph(font, glyph_name, paths, knockouts=not color)
+        svg_path = ROOT / item["glyph"]["color" if color else "monochrome"]
+        paths = svg_paths(svg_path)
+        # Gray plate derivatives are already complete dark linework.  Their
+        # small detail paths must remain ink in mono mode; reversing them into
+        # holes would turn engraved hatching into accidental cut-outs.
+        is_trace = 'data-source="gray-anatomy"' in svg_path.read_text(encoding="utf-8")
+        add_outline_glyph(font, glyph_name, paths, knockouts=not color and not is_trace)
         order.append(glyph_name)
         if color:
             layers = []

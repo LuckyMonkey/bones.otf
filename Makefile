@@ -1,6 +1,7 @@
 PYTHON ?= .venv/bin/python
+TRACE_PYTHON ?= /usr/bin/python3
 
-.PHONY: all build test validate clean install
+.PHONY: all build test validate trace clean install
 
 all: build
 
@@ -12,6 +13,9 @@ validate:
 	$(PYTHON) scripts/validate_ontology.py
 	$(PYTHON) scripts/generate_glyphs.py
 	$(PYTHON) scripts/validate_glyphs.py
+
+trace:
+	$(TRACE_PYTHON) scripts/trace_gray_bones.py
 
 build: validate
 	$(PYTHON) scripts/generate_registry.py

@@ -1,0 +1,51 @@
+edition: Gray's Anatomy of the Human Body, 20th U.S. edition (1918)
+repository: Wikimedia Commons
+repository_url: https://commons.wikimedia.org/wiki/Category:Gray%27s_Anatomy_plates_of_bones
+license: Public domain
+note: Raw scans are retained as provenance references; BONES glyph masters are original traced/cleaned derivatives.
+plates:
+  skull:
+    file: Gray188.png
+    page: https://commons.wikimedia.org/wiki/File:Gray188.png
+  mandible:
+    file: Gray176.png
+    page: https://commons.wikimedia.org/wiki/File:Gray176.png
+  clavicle:
+    file: Gray201.png
+    page: https://commons.wikimedia.org/wiki/File:Gray201.png
+  scapula:
+    file: Gray205 left scapula lateral view.png
+    page: https://commons.wikimedia.org/wiki/File:Gray205_left_scapula_lateral_view.png
+  sternum:
+    file: Gray116.png
+    page: https://commons.wikimedia.org/wiki/File:Gray116.png
+  rib:
+    file: First rib Gray.png
+    page: https://commons.wikimedia.org/wiki/File:First_rib_Gray.png
+  vertebra:
+    file: Gray314.png
+    page: https://commons.wikimedia.org/wiki/File:Gray314.png
+  humerus:
+    file: Gray208.png
+    page: https://commons.wikimedia.org/wiki/File:Gray208.png
+  radius:
+    file: Gray217.png
+    page: https://commons.wikimedia.org/wiki/File:Gray217.png
+  ulna:
+    file: Gray214.png
+    page: https://commons.wikimedia.org/wiki/File:Gray214.png
+  pelvis:
+    file: Gray241.png
+    page: https://commons.wikimedia.org/wiki/File:Gray241.png
+  femur:
+    file: Femur front.png
+    page: https://commons.wikimedia.org/wiki/File:Femur_front.png
+  patella:
+    file: Gray256.png
+    page: https://commons.wikimedia.org/wiki/File:Gray256.png
+  tibia:
+    file: Unterschenkel.gif
+    page: https://commons.wikimedia.org/wiki/File:Unterschenkel.gif
+  fibula:
+    file: Unterschenkel.gif
+    page: https://commons.wikimedia.org/wiki/File:Unterschenkel.gif

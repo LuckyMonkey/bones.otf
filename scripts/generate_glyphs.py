@@ -12,6 +12,7 @@ from glyph_designs import DESIGNS
 
 
 ROOT = Path(__file__).resolve().parents[1]
+TRACE_DIR = ROOT / "glyphs/gray-trace"
 
 
 def anatomy() -> dict:
@@ -50,10 +51,30 @@ def write_svg(path: Path, label: str, parts: list[tuple[str, str]], color: bool)
     path.write_text(text, encoding="utf-8")
 
 
+def write_trace_svg(path: Path, label: str, trace_path: Path, color: bool) -> None:
+    """Install a source-derived Gray plate trace as a glyph master."""
+    text = trace_path.read_text(encoding="utf-8")
+    text = text.replace("<title id=\"title\">Gray's Anatomy plate derivative: ", '<title id="title">')
+    title_end = text.find("</title>")
+    if title_end < 0:
+        raise SystemExit(f"trace master has no title: {trace_path}")
+    title_start = text.find('<title id="title">') + len('<title id="title">')
+    text = text[:title_start] + html.escape(label) + text[title_end:]
+    if not color:
+        text = text.replace('fill="#b4384c"', f'fill="{MONO_INK}"')
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+
+
 def main() -> int:
     data = anatomy()
     for item in data["objects"]:
         base = item["glyph"]["base"]
+        trace_path = TRACE_DIR / f"{base}.svg"
+        if trace_path.is_file():
+            write_trace_svg(ROOT / item["glyph"]["monochrome"], item["label"], trace_path, color=False)
+            write_trace_svg(ROOT / item["glyph"]["color"], item["label"], trace_path, color=True)
+            continue
         if base not in DESIGNS:
             raise SystemExit(f"missing design for {item['id']}: {base}")
         parts = DESIGNS[base]

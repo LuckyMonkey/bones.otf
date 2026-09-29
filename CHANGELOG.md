@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Replaced the initial symbolic bone silhouettes with deterministic, source-derived
+  Gray's Anatomy plate trace masters for the representative bone set, including
+  separate radius/ulna and tibia/fibula crops, preserved engraved detail, and
+  restrained red plate accents in color output.
+- Added public-domain plate provenance, raw source scans, crop manifest, and the
+  optional OpenCV trace step under `sources/gray-plates/`.
 - Added explicit anatomy grouping nodes and review flags to the canonical ontology.
 - Hardened append-only PUA validation against moved or deleted released objects.
 - Preserved mono glyph detail with body/detail roles and knockout contours.
