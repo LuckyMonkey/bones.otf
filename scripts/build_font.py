@@ -56,6 +56,7 @@ def add_outline_glyph(font: TTFont, name: str, paths: list[tuple[str, str]], adv
 def prepare_font() -> TTFont:
     font = TTFont(str(ROOT / "font/sources/DejaVuSans.ttf"))
     font.flavor = None
+    font.recalcTimestamp = False
     if "GSUB" in font:
         del font["GSUB"]
     # Fixed Macintosh-epoch timestamps keep binaries reproducible without the
