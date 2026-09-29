@@ -27,6 +27,9 @@ Artifacts include `dist/BONES.otf`, `dist/BONES.ttf`, `dist/BONES-Color.otf`,
 `dist/BONES-Color.ttf`, WOFF2 files, SVG assets, PNG exports, a zero-framework
 specimen site in `docs/`, and a small JavaScript package in `packages/js/`.
 
+Open `demo.html` for the standalone live rendering demo, or `docs/index.html`
+for the full searchable specimen registry.
+
 ## Build
 
 ```sh

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BONES.OTF interactive anatomical symbol demo">
+  <title>BONES.OTF — live font demo</title>
+  <link rel="stylesheet" href="dist/bones.css">
+  <link rel="stylesheet" href="docs/styles.css">
+  <style>
+    .demo-nav { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 54px; font: 700 13px/1 ui-monospace, monospace; }
+    .demo-nav a { color: var(--ink); text-decoration: none; }
+    .demo-nav a:last-child { color: var(--red); }
+    .demo-intro { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr); align-items: end; gap: 34px; }
+    .demo-intro .lede { margin-bottom: 0; }
+    .glyph-cloud { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 11px; color: var(--ink); font-size: clamp(38px, 6vw, 72px); line-height: .8; }
+    .glyph-cloud span:nth-child(3n) { color: var(--red); }
+    .glyph-cloud span:nth-child(4n) { color: var(--gold); }
+    .demo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .mode-card { min-height: 220px; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: #fff; }
+    .mode-card h3 { margin: 0 0 7px; font-size: 16px; }
+    .mode-card p { color: var(--muted); font-size: 13px; }
+    .mode-card .sample { display: grid; place-items: center; min-height: 106px; margin: 15px 0; border-radius: 12px; background: #f1ece3; }
+    .mode-card .sample.text { font: 700 20px/1.2 ui-monospace, monospace; }
+    .mode-card .sample.glyph { font-size: 86px; line-height: 1; }
+    .mode-card img { width: 94px; height: 94px; }
+    .mono-sample { color: var(--ink); }
+    .color-sample { background: #17232b !important; }
+    .data-strip { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .data-strip code { font-size: 12px; }
+    .demo-callout { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 24px; }
+    .demo-callout p:last-child { margin: 0; }
+    @media (max-width: 760px) { .demo-intro, .demo-callout { grid-template-columns: 1fr; } .glyph-cloud { justify-content: flex-start; } .demo-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav class="demo-nav" aria-label="Demo navigation">
+      <a href="demo.html">BONES.OTF</a>
+      <a href="docs/index.html">Open full specimen →</a>
+    </nav>
+    <div class="demo-intro">
+      <div>
+        <p class="eyebrow">LIVE FONT DEMO</p>
+        <h1>A femur is an object that happens to have a glyph.</h1>
+        <p class="lede">BONES.OTF gives anatomy stable identities, semantic text aliases, PUA characters, vector masters, and emoji-like rendering.</p>
+      </div>
+      <div class="glyph-cloud bones-emoji" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <p class="note">This is not Wingdings. Ordinary letters stay ordinary. Try <code>:femur:</code> below; without BONES installed, the source text is still readable.</p>
+    <div class="data-strip"><code>35 objects</code><code>U+E000–U+E022</code><code>COLRv1</code><code>OpenType liga</code><code>SVG masters</code></div>
+  </header>
+
+  <main>
+    <section class="panel" aria-labelledby="rendering-title">
+      <p class="eyebrow">ONE OBJECT / MANY RENDERERS</p>
+      <h2 id="rendering-title">The femur, six ways.</h2>
+      <div class="demo-grid">
+        <article class="mode-card"><h3>Semantic source</h3><div class="sample text">:femur:</div><p>Meaningful fallback text. This is what an author writes.</p></article>
+        <article class="mode-card"><h3>Ligature shaping</h3><div class="sample text bones">:femur:</div><p>The font's <code>liga</code> feature turns the token into one glyph.</p></article>
+        <article class="mode-card"><h3>Direct PUA</h3><div class="sample glyph bones-emoji" role="img" aria-label="Femur">&#xE00B;</div><p>Stable project character: <code>U+E00B</code>. Always pair with a label.</p></article>
+        <article class="mode-card"><h3>Monochrome font</h3><div class="sample glyph mono-sample bones" role="img" aria-label="Femur">&#xE00B;</div><p>Scalable outline rendering for text and UI.</p></article>
+        <article class="mode-card"><h3>Color font</h3><div class="sample glyph color-sample bones-emoji" role="img" aria-label="Femur">&#xE00B;</div><p>COLRv1 palette layers add restrained anatomical color.</p></article>
+        <article class="mode-card"><h3>Independent SVG</h3><div class="sample"><img src="glyphs/mono/femur.svg" alt="Femur SVG glyph"></div><p>The font is optional; the vector master remains portable.</p></article>
+      </div>
+    </section>
+
+    <section class="playground panel" aria-labelledby="playground-title">
+      <div><p class="eyebrow">SHAPING PLAYGROUND</p><h2 id="playground-title">Type anatomy into a sentence.</h2></div>
+      <label for="playground">Semantic input</label>
+      <input id="playground" value="Fracture of the :left_femur: near the :patella:." autocomplete="off">
+      <div class="playground-output"><span id="ligature-output" class="bones" aria-label="Shaped semantic text"></span><span id="unicode-output" class="bones-emoji" aria-label="Direct Unicode output"></span></div>
+      <p class="hint">Top: original shortcode text shaped by OpenType. Bottom: the helper resolves tokens to direct PUA characters.</p>
+    </section>
+
+    <section class="demo-callout panel" aria-labelledby="identity-title">
+      <div><p class="eyebrow">CANONICAL IDENTITY</p><h2 id="identity-title">The glyph is not the object.</h2><p class="note">Applications can consume <code>anatomy:femur</code>, retrieve its label, shortcode, codepoint, SVG, and accessible name, then choose the renderer that fits.</p></div>
+      <a class="download" href="dist/BONES.woff2" download>Download webfont</a>
+    </section>
+
+    <section class="panel" aria-labelledby="registry-title">
+      <div class="section-head"><div><p class="eyebrow">LIVE REGISTRY</p><h2 id="registry-title">Search anatomy</h2></div><div id="counts" class="counts"></div></div>
+      <div class="filters" role="toolbar" aria-label="Filter anatomy"><button class="active" data-filter="all">All</button><button data-filter="bone">Bones</button><button data-filter="organ">Organs</button><button data-filter="tissue">Tissues</button></div>
+      <label class="search-label" for="search">Search by name, ID, shortcode, or UBERON ID</label><input id="search" placeholder="try pancreas or UBERON:0000981">
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer><span>BONES.OTF — semantic anatomy infrastructure.</span><a href="README.md">Read the README</a></footer>
+  <script src="docs/registry.js"></script>
+  <script src="docs/app.js"></script>
+</body>
+</html>

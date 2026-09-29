@@ -25,6 +25,13 @@ class WebPackageTest(unittest.TestCase):
         self.assertTrue((ROOT / "docs/assets/BONES.woff2").is_file())
         self.assertIn('url("./BONES.woff2")', (ROOT / "docs/assets/bones.css").read_text())
 
+    def test_root_demo_page_is_wired(self):
+        demo = (ROOT / "demo.html").read_text()
+        self.assertIn('href="dist/bones.css"', demo)
+        self.assertIn('src="docs/registry.js"', demo)
+        self.assertIn('glyphs/mono/femur.svg', demo)
+        self.assertIn('id="playground"', demo)
+
 
 if __name__ == "__main__":
     unittest.main()
