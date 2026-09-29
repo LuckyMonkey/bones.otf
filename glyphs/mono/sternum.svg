@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Sternum</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M385 115 Q500 70 615 115 L650 270 L610 355 L635 760 L555 865 L445 865 L365 760 L390 355 L350 270 Z" fill="#17232b"/>
+  <path d="M398 365 L602 365 L600 420 L400 420 Z M402 485 L598 485 L598 530 L402 530 Z M405 605 L595 605 L595 650 L405 650 Z M410 725 L590 725 L575 785 L425 785 Z" fill="#17232b"/>
+  </g>
+</svg>

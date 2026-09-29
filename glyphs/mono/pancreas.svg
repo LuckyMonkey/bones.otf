@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Pancreas</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M130 480 Q185 300 360 335 Q500 215 680 340 Q835 300 875 480 Q820 620 665 565 Q500 680 330 560 Q190 625 130 480 Z" fill="#17232b"/>
+  <path d="M250 430 Q500 370 750 445 L735 490 Q500 435 265 485 Z" fill="#17232b"/>
+  </g>
+</svg>

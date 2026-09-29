@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Fibula</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M405 125 Q345 180 390 290 L450 345 L455 710 L405 820 Q390 900 475 925 L525 925 Q610 900 595 820 L545 710 L550 345 L610 290 Q655 180 595 125 L545 160 L455 160 Z" fill="#f3efe2"/>
+  </g>
+</svg>

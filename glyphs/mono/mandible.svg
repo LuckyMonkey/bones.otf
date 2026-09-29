@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Mandible</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M180 350 Q230 260 330 285 Q500 330 670 285 Q770 260 820 350 L775 560 Q720 720 500 760 Q280 720 225 560 Z M300 475 Q500 545 700 475 L660 585 Q500 675 340 585 Z" fill="#17232b"/>
+  <path d="M300 470 Q500 530 700 470 L675 505 Q500 565 325 505 Z" fill="#17232b"/>
+  </g>
+</svg>

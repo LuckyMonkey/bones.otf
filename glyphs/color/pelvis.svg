@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Pelvis</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M115 220 Q230 120 390 190 L500 260 L610 190 Q770 120 885 220 L820 520 L675 650 L610 850 L500 875 L390 850 L325 650 L180 520 Z" fill="#f3efe2"/>
+  <path d="M270 320 Q350 260 430 330 L400 520 L300 530 Z M730 320 Q650 260 570 330 L600 520 L700 530 Z" fill="#17232b"/>
+  <path d="M445 350 L555 350 L585 700 L500 785 L415 700 Z" fill="#d3cbb7"/>
+  </g>
+</svg>

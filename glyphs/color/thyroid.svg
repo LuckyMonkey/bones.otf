@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Thyroid gland</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M440 230 Q300 185 250 315 L270 600 Q320 700 440 610 L500 520 L560 610 Q680 700 730 600 L750 315 Q700 185 560 230 L500 390 Z" fill="#d95757"/>
+  <path d="M485 405 L515 405 L515 630 L485 630 Z" fill="#8d2938"/>
+  </g>
+</svg>

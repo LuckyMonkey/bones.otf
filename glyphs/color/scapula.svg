@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Scapula</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M180 210 Q390 120 720 235 Q820 280 770 400 L650 675 Q620 750 530 685 L250 470 Q155 385 180 210 Z" fill="#f3efe2"/>
+  <path d="M235 255 Q430 215 700 300 L650 345 Q450 300 270 350 Z" fill="#17232b"/>
+  <path d="M350 365 L655 450 L625 490 L335 410 Z" fill="#17232b"/>
+  </g>
+</svg>

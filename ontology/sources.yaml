@@ -1,0 +1,19 @@
+sources:
+  uberon:
+    title: Uberon multi-species anatomy ontology
+    url: https://uberon.github.io/
+    license: CC BY 3.0
+    accessed: 2026-09-29
+    note: Used for open anatomical identifiers and broad structure names; BONES retains a human display scope.
+  openstax_ap:
+    title: OpenStax Anatomy and Physiology 2e, Chapter 7
+    url: https://openstax.org/books/anatomy-and-physiology-2e/pages/7-1-divisions-of-the-skeletal-system
+    license: CC BY 4.0
+    accessed: 2026-09-29
+    note: Used for adult axial/appendicular skeletal grouping and coverage review.
+  bones_original_art:
+    title: BONES.OTF original simplified vector artwork
+    url: ./glyphs/
+    license: OFL-1.1
+    accessed: 2026-09-29
+    note: Original outline designs in this repository; not traced from a proprietary illustration.

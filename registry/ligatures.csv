@@ -1,0 +1,36 @@
+id,label,ligature,glyph_name,codepoint
+anatomy:skull,Skull,:skull:,anatomy_skull,U+E000
+anatomy:mandible,Mandible,:mandible:,anatomy_mandible,U+E001
+anatomy:clavicle,Clavicle,:clavicle:,anatomy_clavicle,U+E002
+anatomy:scapula,Scapula,:scapula:,anatomy_scapula,U+E003
+anatomy:sternum,Sternum,:sternum:,anatomy_sternum,U+E004
+anatomy:rib,Rib,:rib:,anatomy_rib,U+E005
+anatomy:vertebra,Vertebra,:vertebra:,anatomy_vertebra,U+E006
+anatomy:humerus,Humerus,:humerus:,anatomy_humerus,U+E007
+anatomy:radius,Radius,:radius:,anatomy_radius,U+E008
+anatomy:ulna,Ulna,:ulna:,anatomy_ulna,U+E009
+anatomy:pelvis,Pelvis,:pelvis:,anatomy_pelvis,U+E00A
+anatomy:femur,Femur,:femur:,anatomy_femur,U+E00B
+anatomy:left_femur,Left femur,:left_femur:,anatomy_left_femur,U+E00C
+anatomy:right_femur,Right femur,:right_femur:,anatomy_right_femur,U+E00D
+anatomy:patella,Patella,:patella:,anatomy_patella,U+E00E
+anatomy:tibia,Tibia,:tibia:,anatomy_tibia,U+E00F
+anatomy:fibula,Fibula,:fibula:,anatomy_fibula,U+E010
+anatomy:brain,Brain,:brain:,anatomy_brain,U+E011
+anatomy:heart,Heart,:heart:,anatomy_heart,U+E012
+anatomy:left_lung,Left lung,:left_lung:,anatomy_left_lung,U+E013
+anatomy:right_lung,Right lung,:right_lung:,anatomy_right_lung,U+E014
+anatomy:liver,Liver,:liver:,anatomy_liver,U+E015
+anatomy:gallbladder,Gallbladder,:gallbladder:,anatomy_gallbladder,U+E016
+anatomy:pancreas,Pancreas,:pancreas:,anatomy_pancreas,U+E017
+anatomy:spleen,Spleen,:spleen:,anatomy_spleen,U+E018
+anatomy:stomach,Stomach,:stomach:,anatomy_stomach,U+E019
+anatomy:small_intestine,Small intestine,:small_intestine:,anatomy_small_intestine,U+E01A
+anatomy:large_intestine,Large intestine,:large_intestine:,anatomy_large_intestine,U+E01B
+anatomy:left_kidney,Left kidney,:left_kidney:,anatomy_left_kidney,U+E01C
+anatomy:right_kidney,Right kidney,:right_kidney:,anatomy_right_kidney,U+E01D
+anatomy:urinary_bladder,Urinary bladder,:urinary_bladder:,anatomy_urinary_bladder,U+E01E
+anatomy:thyroid,Thyroid gland,:thyroid:,anatomy_thyroid,U+E01F
+anatomy:esophagus,Esophagus,:esophagus:,anatomy_esophagus,U+E020
+anatomy:trachea,Trachea,:trachea:,anatomy_trachea,U+E021
+anatomy:skin,Skin,:skin:,anatomy_skin,U+E022

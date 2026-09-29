@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Right lung</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M530 220 Q740 145 830 360 L835 700 Q810 825 665 790 L525 650 L525 300 Z" fill="#17232b"/>
+  <path d="M530 270 L530 670 L645 710 L690 410 Z" fill="#17232b"/>
+  </g>
+</svg>

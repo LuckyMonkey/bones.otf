@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Vertebra</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M315 260 Q500 175 685 260 L740 380 L660 475 L715 620 L500 850 L285 620 L340 475 L260 380 Z" fill="#17232b"/>
+  <path d="M405 345 Q500 295 595 345 L610 465 L500 535 L390 465 Z" fill="#17232b"/>
+  <path d="M335 505 L665 505 L620 620 L380 620 Z" fill="#17232b"/>
+  </g>
+</svg>

@@ -1,0 +1,502 @@
+version: 0.1.0
+namespace: anatomy
+objects:
+  - id: anatomy:skull
+    label: Skull
+    category: bone
+    system: skeletal
+    parent: anatomy:axial_skeleton
+    paired: false
+    laterality_supported: false
+    aliases: [cranium]
+    unicode_pua: E000
+    ligature: ':skull:'
+    shortcode: ':skull:'
+    external_ids: {uberon: UBERON:0003129}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: skull, monochrome: glyphs/mono/skull.svg, color: glyphs/color/skull.svg}
+  - id: anatomy:mandible
+    label: Mandible
+    category: bone
+    system: skeletal
+    parent: anatomy:facial_skeleton
+    paired: false
+    laterality_supported: false
+    aliases: [lower jaw]
+    unicode_pua: E001
+    ligature: ':mandible:'
+    shortcode: ':mandible:'
+    external_ids: {uberon: UBERON:0001684}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: mandible, monochrome: glyphs/mono/mandible.svg, color: glyphs/color/mandible.svg}
+  - id: anatomy:clavicle
+    label: Clavicle
+    category: bone
+    system: skeletal
+    parent: anatomy:pectoral_girdle
+    paired: true
+    laterality_supported: true
+    aliases: [collar bone, collarbone]
+    unicode_pua: E002
+    ligature: ':clavicle:'
+    shortcode: ':clavicle:'
+    external_ids: {uberon: UBERON:0001105}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: clavicle, monochrome: glyphs/mono/clavicle.svg, color: glyphs/color/clavicle.svg}
+  - id: anatomy:scapula
+    label: Scapula
+    category: bone
+    system: skeletal
+    parent: anatomy:pectoral_girdle
+    paired: true
+    laterality_supported: true
+    aliases: [shoulder blade]
+    unicode_pua: E003
+    ligature: ':scapula:'
+    shortcode: ':scapula:'
+    external_ids: {uberon: UBERON:0006849}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: scapula, monochrome: glyphs/mono/scapula.svg, color: glyphs/color/scapula.svg}
+  - id: anatomy:sternum
+    label: Sternum
+    category: bone
+    system: skeletal
+    parent: anatomy:thoracic_cage
+    paired: false
+    laterality_supported: false
+    aliases: [breastbone]
+    unicode_pua: E004
+    ligature: ':sternum:'
+    shortcode: ':sternum:'
+    external_ids: {uberon: UBERON:0000975}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: sternum, monochrome: glyphs/mono/sternum.svg, color: glyphs/color/sternum.svg}
+  - id: anatomy:rib
+    label: Rib
+    category: bone
+    system: skeletal
+    parent: anatomy:thoracic_cage
+    paired: true
+    laterality_supported: true
+    aliases: [costal bone]
+    unicode_pua: E005
+    ligature: ':rib:'
+    shortcode: ':rib:'
+    external_ids: {uberon: UBERON:0002228}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: rib, monochrome: glyphs/mono/rib.svg, color: glyphs/color/rib.svg}
+  - id: anatomy:vertebra
+    label: Vertebra
+    category: bone
+    system: skeletal
+    parent: anatomy:vertebral_column
+    paired: false
+    laterality_supported: false
+    aliases: [spinal bone]
+    unicode_pua: E006
+    ligature: ':vertebra:'
+    shortcode: ':vertebra:'
+    external_ids: {uberon: UBERON:0002412}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: vertebra, monochrome: glyphs/mono/vertebra.svg, color: glyphs/color/vertebra.svg}
+  - id: anatomy:humerus
+    label: Humerus
+    category: bone
+    system: skeletal
+    parent: anatomy:upper_limb
+    paired: true
+    laterality_supported: true
+    aliases: [upper arm bone]
+    unicode_pua: E007
+    ligature: ':humerus:'
+    shortcode: ':humerus:'
+    external_ids: {uberon: UBERON:0000976}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: humerus, monochrome: glyphs/mono/humerus.svg, color: glyphs/color/humerus.svg}
+  - id: anatomy:radius
+    label: Radius
+    category: bone
+    system: skeletal
+    parent: anatomy:forearm
+    paired: true
+    laterality_supported: true
+    aliases: [radial bone]
+    unicode_pua: E008
+    ligature: ':radius:'
+    shortcode: ':radius:'
+    external_ids: {uberon: UBERON:0001423}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: radius, monochrome: glyphs/mono/radius.svg, color: glyphs/color/radius.svg}
+  - id: anatomy:ulna
+    label: Ulna
+    category: bone
+    system: skeletal
+    parent: anatomy:forearm
+    paired: true
+    laterality_supported: true
+    aliases: [ulnar bone]
+    unicode_pua: E009
+    ligature: ':ulna:'
+    shortcode: ':ulna:'
+    external_ids: {uberon: UBERON:0001424}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: ulna, monochrome: glyphs/mono/ulna.svg, color: glyphs/color/ulna.svg}
+  - id: anatomy:pelvis
+    label: Pelvis
+    category: bone
+    system: skeletal
+    parent: anatomy:pelvic_girdle
+    paired: false
+    laterality_supported: true
+    aliases: [bony pelvis, hip girdle]
+    unicode_pua: E00A
+    ligature: ':pelvis:'
+    shortcode: ':pelvis:'
+    external_ids: {uberon: UBERON:0001270}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: pelvis, monochrome: glyphs/mono/pelvis.svg, color: glyphs/color/pelvis.svg}
+  - id: anatomy:femur
+    label: Femur
+    category: bone
+    system: skeletal
+    parent: anatomy:lower_limb
+    paired: true
+    laterality_supported: true
+    aliases: [thigh bone]
+    unicode_pua: E00B
+    ligature: ':femur:'
+    shortcode: ':femur:'
+    external_ids: {uberon: UBERON:0000981}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: femur, monochrome: glyphs/mono/femur.svg, color: glyphs/color/femur.svg}
+  - id: anatomy:left_femur
+    label: Left femur
+    category: bone
+    system: skeletal
+    parent: anatomy:lower_limb
+    paired: true
+    laterality_supported: true
+    laterality: left
+    glyph_base: anatomy:femur
+    aliases: [left thigh bone]
+    unicode_pua: E00C
+    ligature: ':left_femur:'
+    shortcode: ':left_femur:'
+    external_ids: {uberon: UBERON:0000981}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: femur, monochrome: glyphs/mono/left_femur.svg, color: glyphs/color/left_femur.svg}
+  - id: anatomy:right_femur
+    label: Right femur
+    category: bone
+    system: skeletal
+    parent: anatomy:lower_limb
+    paired: true
+    laterality_supported: true
+    laterality: right
+    glyph_base: anatomy:femur
+    aliases: [right thigh bone]
+    unicode_pua: E00D
+    ligature: ':right_femur:'
+    shortcode: ':right_femur:'
+    external_ids: {uberon: UBERON:0000981}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: femur, monochrome: glyphs/mono/right_femur.svg, color: glyphs/color/right_femur.svg}
+  - id: anatomy:patella
+    label: Patella
+    category: bone
+    system: skeletal
+    parent: anatomy:lower_limb
+    paired: true
+    laterality_supported: true
+    aliases: [kneecap]
+    unicode_pua: E00E
+    ligature: ':patella:'
+    shortcode: ':patella:'
+    external_ids: {uberon: UBERON:0002446}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: patella, monochrome: glyphs/mono/patella.svg, color: glyphs/color/patella.svg}
+  - id: anatomy:tibia
+    label: Tibia
+    category: bone
+    system: skeletal
+    parent: anatomy:lower_limb
+    paired: true
+    laterality_supported: true
+    aliases: [shin bone]
+    unicode_pua: E00F
+    ligature: ':tibia:'
+    shortcode: ':tibia:'
+    external_ids: {uberon: UBERON:0000979}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: tibia, monochrome: glyphs/mono/tibia.svg, color: glyphs/color/tibia.svg}
+  - id: anatomy:fibula
+    label: Fibula
+    category: bone
+    system: skeletal
+    parent: anatomy:lower_limb
+    paired: true
+    laterality_supported: true
+    aliases: [calf bone]
+    unicode_pua: E010
+    ligature: ':fibula:'
+    shortcode: ':fibula:'
+    external_ids: {uberon: UBERON:0001446}
+    sources: [uberon, openstax_ap, bones_original_art]
+    glyph: {base: fibula, monochrome: glyphs/mono/fibula.svg, color: glyphs/color/fibula.svg}
+  - id: anatomy:brain
+    label: Brain
+    category: organ
+    system: nervous
+    parent: anatomy:nervous_system
+    paired: false
+    laterality_supported: false
+    aliases: [encephalon]
+    unicode_pua: E011
+    ligature: ':brain:'
+    shortcode: ':brain:'
+    external_ids: {uberon: UBERON:0000955}
+    sources: [uberon, bones_original_art]
+    glyph: {base: brain, monochrome: glyphs/mono/brain.svg, color: glyphs/color/brain.svg}
+  - id: anatomy:heart
+    label: Heart
+    category: organ
+    system: circulatory
+    parent: anatomy:circulatory_system
+    paired: false
+    laterality_supported: false
+    aliases: [cardiac organ]
+    unicode_pua: E012
+    ligature: ':heart:'
+    shortcode: ':heart:'
+    external_ids: {uberon: UBERON:0000948}
+    sources: [uberon, bones_original_art]
+    glyph: {base: heart, monochrome: glyphs/mono/heart.svg, color: glyphs/color/heart.svg}
+  - id: anatomy:left_lung
+    label: Left lung
+    category: organ
+    system: respiratory
+    parent: anatomy:respiratory_system
+    paired: true
+    laterality_supported: true
+    laterality: left
+    aliases: [left pulmonary lung]
+    unicode_pua: E013
+    ligature: ':left_lung:'
+    shortcode: ':left_lung:'
+    external_ids: {uberon: UBERON:0002048}
+    sources: [uberon, bones_original_art]
+    glyph: {base: left_lung, monochrome: glyphs/mono/left_lung.svg, color: glyphs/color/left_lung.svg}
+  - id: anatomy:right_lung
+    label: Right lung
+    category: organ
+    system: respiratory
+    parent: anatomy:respiratory_system
+    paired: true
+    laterality_supported: true
+    laterality: right
+    aliases: [right pulmonary lung]
+    unicode_pua: E014
+    ligature: ':right_lung:'
+    shortcode: ':right_lung:'
+    external_ids: {uberon: UBERON:0002048}
+    sources: [uberon, bones_original_art]
+    glyph: {base: right_lung, monochrome: glyphs/mono/right_lung.svg, color: glyphs/color/right_lung.svg}
+  - id: anatomy:liver
+    label: Liver
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [hepatic organ]
+    unicode_pua: E015
+    ligature: ':liver:'
+    shortcode: ':liver:'
+    external_ids: {uberon: UBERON:0002107}
+    sources: [uberon, bones_original_art]
+    glyph: {base: liver, monochrome: glyphs/mono/liver.svg, color: glyphs/color/liver.svg}
+  - id: anatomy:gallbladder
+    label: Gallbladder
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [biliary bladder]
+    unicode_pua: E016
+    ligature: ':gallbladder:'
+    shortcode: ':gallbladder:'
+    external_ids: {uberon: UBERON:0002110}
+    sources: [uberon, bones_original_art]
+    glyph: {base: gallbladder, monochrome: glyphs/mono/gallbladder.svg, color: glyphs/color/gallbladder.svg}
+  - id: anatomy:pancreas
+    label: Pancreas
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [pancreatic organ]
+    unicode_pua: E017
+    ligature: ':pancreas:'
+    shortcode: ':pancreas:'
+    external_ids: {uberon: UBERON:0001264}
+    sources: [uberon, bones_original_art]
+    glyph: {base: pancreas, monochrome: glyphs/mono/pancreas.svg, color: glyphs/color/pancreas.svg}
+  - id: anatomy:spleen
+    label: Spleen
+    category: organ
+    system: lymphatic
+    parent: anatomy:lymphatic_system
+    paired: false
+    laterality_supported: false
+    aliases: [splenic organ]
+    unicode_pua: E018
+    ligature: ':spleen:'
+    shortcode: ':spleen:'
+    external_ids: {uberon: UBERON:0002106}
+    sources: [uberon, bones_original_art]
+    glyph: {base: spleen, monochrome: glyphs/mono/spleen.svg, color: glyphs/color/spleen.svg}
+  - id: anatomy:stomach
+    label: Stomach
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [gastric organ]
+    unicode_pua: E019
+    ligature: ':stomach:'
+    shortcode: ':stomach:'
+    external_ids: {uberon: UBERON:0000945}
+    sources: [uberon, bones_original_art]
+    glyph: {base: stomach, monochrome: glyphs/mono/stomach.svg, color: glyphs/color/stomach.svg}
+  - id: anatomy:small_intestine
+    label: Small intestine
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [small bowel]
+    unicode_pua: E01A
+    ligature: ':small_intestine:'
+    shortcode: ':small_intestine:'
+    external_ids: {uberon: UBERON:0002108}
+    sources: [uberon, bones_original_art]
+    glyph: {base: small_intestine, monochrome: glyphs/mono/small_intestine.svg, color: glyphs/color/small_intestine.svg}
+  - id: anatomy:large_intestine
+    label: Large intestine
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [large bowel, colon]
+    unicode_pua: E01B
+    ligature: ':large_intestine:'
+    shortcode: ':large_intestine:'
+    external_ids: {uberon: UBERON:0000059}
+    sources: [uberon, bones_original_art]
+    glyph: {base: large_intestine, monochrome: glyphs/mono/large_intestine.svg, color: glyphs/color/large_intestine.svg}
+  - id: anatomy:left_kidney
+    label: Left kidney
+    category: organ
+    system: urinary
+    parent: anatomy:urinary_system
+    paired: true
+    laterality_supported: true
+    laterality: left
+    aliases: [left renal organ]
+    unicode_pua: E01C
+    ligature: ':left_kidney:'
+    shortcode: ':left_kidney:'
+    external_ids: {uberon: UBERON:0002113}
+    sources: [uberon, bones_original_art]
+    glyph: {base: left_kidney, monochrome: glyphs/mono/left_kidney.svg, color: glyphs/color/left_kidney.svg}
+  - id: anatomy:right_kidney
+    label: Right kidney
+    category: organ
+    system: urinary
+    parent: anatomy:urinary_system
+    paired: true
+    laterality_supported: true
+    laterality: right
+    aliases: [right renal organ]
+    unicode_pua: E01D
+    ligature: ':right_kidney:'
+    shortcode: ':right_kidney:'
+    external_ids: {uberon: UBERON:0002113}
+    sources: [uberon, bones_original_art]
+    glyph: {base: right_kidney, monochrome: glyphs/mono/right_kidney.svg, color: glyphs/color/right_kidney.svg}
+  - id: anatomy:urinary_bladder
+    label: Urinary bladder
+    category: organ
+    system: urinary
+    parent: anatomy:urinary_system
+    paired: false
+    laterality_supported: false
+    aliases: [bladder]
+    unicode_pua: E01E
+    ligature: ':urinary_bladder:'
+    shortcode: ':urinary_bladder:'
+    external_ids: {uberon: UBERON:0001255}
+    sources: [uberon, bones_original_art]
+    glyph: {base: urinary_bladder, monochrome: glyphs/mono/urinary_bladder.svg, color: glyphs/color/urinary_bladder.svg}
+  - id: anatomy:thyroid
+    label: Thyroid gland
+    category: organ
+    system: endocrine
+    parent: anatomy:endocrine_system
+    paired: false
+    laterality_supported: false
+    aliases: [thyroid]
+    unicode_pua: E01F
+    ligature: ':thyroid:'
+    shortcode: ':thyroid:'
+    external_ids: {uberon: UBERON:0002046}
+    sources: [uberon, bones_original_art]
+    glyph: {base: thyroid, monochrome: glyphs/mono/thyroid.svg, color: glyphs/color/thyroid.svg}
+  - id: anatomy:esophagus
+    label: Esophagus
+    category: organ
+    system: digestive
+    parent: anatomy:digestive_system
+    paired: false
+    laterality_supported: false
+    aliases: [gullet]
+    unicode_pua: E020
+    ligature: ':esophagus:'
+    shortcode: ':esophagus:'
+    external_ids: {uberon: UBERON:0001043}
+    sources: [uberon, bones_original_art]
+    glyph: {base: esophagus, monochrome: glyphs/mono/esophagus.svg, color: glyphs/color/esophagus.svg}
+  - id: anatomy:trachea
+    label: Trachea
+    category: organ
+    system: respiratory
+    parent: anatomy:respiratory_system
+    paired: false
+    laterality_supported: false
+    aliases: [windpipe]
+    unicode_pua: E021
+    ligature: ':trachea:'
+    shortcode: ':trachea:'
+    external_ids: {uberon: UBERON:0003126}
+    sources: [uberon, bones_original_art]
+    glyph: {base: trachea, monochrome: glyphs/mono/trachea.svg, color: glyphs/color/trachea.svg}
+  - id: anatomy:skin
+    label: Skin
+    category: tissue
+    system: integumentary
+    parent: anatomy:integumentary_system
+    paired: false
+    laterality_supported: false
+    aliases: [cutaneous tissue]
+    unicode_pua: E022
+    ligature: ':skin:'
+    shortcode: ':skin:'
+    external_ids: {uberon: UBERON:0002097}
+    sources: [uberon, bones_original_art]
+    glyph: {base: skin, monochrome: glyphs/mono/skin.svg, color: glyphs/color/skin.svg}
+

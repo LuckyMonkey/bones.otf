@@ -1,0 +1,9 @@
+{
+  "name": "bones-otf",
+  "version": "0.1.0",
+  "description": "Semantic metadata and shortcode helpers for BONES.OTF",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "sideEffects": false
+}

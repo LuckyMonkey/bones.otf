@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BONES.OTF — anatomical symbols</title>
+  <link rel="stylesheet" href="../dist/bones.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">BONES.OTF / 0.1.0</p>
+    <h1>Anatomy, with a glyph.</h1>
+    <p class="lede">A semantic Unicode-compatible symbol system for bones, organs, and tissues. The object is canonical; the glyph is only one rendering.</p>
+    <p class="note">Not Wingdings. Ordinary letters stay ordinary. Write <code>:femur:</code>; the text remains meaningful without this font.</p>
+    <a class="download" href="../dist/BONES.woff2" download>Download BONES.woff2</a>
+  </header>
+  <main>
+    <section class="playground panel" aria-labelledby="playground-title">
+      <div><p class="eyebrow">SHAPING PLAYGROUND</p><h2 id="playground-title">Semantic text in, anatomy out.</h2></div>
+      <label for="playground">Type a sentence</label>
+      <input id="playground" value="Fracture of the :left_femur:." autocomplete="off">
+      <div class="playground-output"><span id="ligature-output" class="bones" aria-label="Shaped semantic text"></span><span id="unicode-output" class="bones-emoji" aria-label="Direct Unicode output"></span></div>
+      <p class="hint">The first line asks the font’s <code>liga</code> feature to shape the shortcode. The second line uses the direct PUA character with its label.</p>
+    </section>
+    <section class="panel" aria-labelledby="registry-title">
+      <div class="section-head"><div><p class="eyebrow">SPECIMEN REGISTRY</p><h2 id="registry-title">Search anatomy</h2></div><div id="counts" class="counts"></div></div>
+      <div class="filters" role="toolbar" aria-label="Filter anatomy"><button class="active" data-filter="all">All</button><button data-filter="bone">Bones</button><button data-filter="organ">Organs</button><button data-filter="tissue">Tissues</button></div>
+      <label class="search-label" for="search">Search by name, ID, or shortcode</label><input id="search" placeholder="try pancreas or UBERON:0000981">
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+  <footer><span>BONES.OTF is open source. PUA codepoints are project assignments, not official Unicode characters.</span><a href="../README.md">Read the README</a></footer>
+  <script src="./registry.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
+

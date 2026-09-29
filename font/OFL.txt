@@ -1,0 +1,17 @@
+Copyright 2026 BONES.OTF contributors.
+
+This font software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied from https://scripts.sil.org/OFL and is provided with
+the project so generated font artifacts have a clear, independent license.
+
+The SIL Open Font License (OFL) allows the licensed font software to be used,
+studied, modified and redistributed freely as long as it is not sold by itself.
+The font software, including any modified version, can be bundled, embedded,
+redistributed and/or sold with any software provided that reserved font names
+are not used by derivatives and the license is included. The font software and
+derivatives may not be released under any other kind of license. The font
+software is provided without warranty.
+
+The complete canonical text is available at:
+https://scripts.sil.org/OFL
+

@@ -1,0 +1,36 @@
+id,label,category,system,codepoint,char,glyph_name,svg,color_svg
+anatomy:skull,Skull,bone,skeletal,U+E000,,anatomy_skull,glyphs/mono/skull.svg,glyphs/color/skull.svg
+anatomy:mandible,Mandible,bone,skeletal,U+E001,,anatomy_mandible,glyphs/mono/mandible.svg,glyphs/color/mandible.svg
+anatomy:clavicle,Clavicle,bone,skeletal,U+E002,,anatomy_clavicle,glyphs/mono/clavicle.svg,glyphs/color/clavicle.svg
+anatomy:scapula,Scapula,bone,skeletal,U+E003,,anatomy_scapula,glyphs/mono/scapula.svg,glyphs/color/scapula.svg
+anatomy:sternum,Sternum,bone,skeletal,U+E004,,anatomy_sternum,glyphs/mono/sternum.svg,glyphs/color/sternum.svg
+anatomy:rib,Rib,bone,skeletal,U+E005,,anatomy_rib,glyphs/mono/rib.svg,glyphs/color/rib.svg
+anatomy:vertebra,Vertebra,bone,skeletal,U+E006,,anatomy_vertebra,glyphs/mono/vertebra.svg,glyphs/color/vertebra.svg
+anatomy:humerus,Humerus,bone,skeletal,U+E007,,anatomy_humerus,glyphs/mono/humerus.svg,glyphs/color/humerus.svg
+anatomy:radius,Radius,bone,skeletal,U+E008,,anatomy_radius,glyphs/mono/radius.svg,glyphs/color/radius.svg
+anatomy:ulna,Ulna,bone,skeletal,U+E009,,anatomy_ulna,glyphs/mono/ulna.svg,glyphs/color/ulna.svg
+anatomy:pelvis,Pelvis,bone,skeletal,U+E00A,,anatomy_pelvis,glyphs/mono/pelvis.svg,glyphs/color/pelvis.svg
+anatomy:femur,Femur,bone,skeletal,U+E00B,,anatomy_femur,glyphs/mono/femur.svg,glyphs/color/femur.svg
+anatomy:left_femur,Left femur,bone,skeletal,U+E00C,,anatomy_left_femur,glyphs/mono/left_femur.svg,glyphs/color/left_femur.svg
+anatomy:right_femur,Right femur,bone,skeletal,U+E00D,,anatomy_right_femur,glyphs/mono/right_femur.svg,glyphs/color/right_femur.svg
+anatomy:patella,Patella,bone,skeletal,U+E00E,,anatomy_patella,glyphs/mono/patella.svg,glyphs/color/patella.svg
+anatomy:tibia,Tibia,bone,skeletal,U+E00F,,anatomy_tibia,glyphs/mono/tibia.svg,glyphs/color/tibia.svg
+anatomy:fibula,Fibula,bone,skeletal,U+E010,,anatomy_fibula,glyphs/mono/fibula.svg,glyphs/color/fibula.svg
+anatomy:brain,Brain,organ,nervous,U+E011,,anatomy_brain,glyphs/mono/brain.svg,glyphs/color/brain.svg
+anatomy:heart,Heart,organ,circulatory,U+E012,,anatomy_heart,glyphs/mono/heart.svg,glyphs/color/heart.svg
+anatomy:left_lung,Left lung,organ,respiratory,U+E013,,anatomy_left_lung,glyphs/mono/left_lung.svg,glyphs/color/left_lung.svg
+anatomy:right_lung,Right lung,organ,respiratory,U+E014,,anatomy_right_lung,glyphs/mono/right_lung.svg,glyphs/color/right_lung.svg
+anatomy:liver,Liver,organ,digestive,U+E015,,anatomy_liver,glyphs/mono/liver.svg,glyphs/color/liver.svg
+anatomy:gallbladder,Gallbladder,organ,digestive,U+E016,,anatomy_gallbladder,glyphs/mono/gallbladder.svg,glyphs/color/gallbladder.svg
+anatomy:pancreas,Pancreas,organ,digestive,U+E017,,anatomy_pancreas,glyphs/mono/pancreas.svg,glyphs/color/pancreas.svg
+anatomy:spleen,Spleen,organ,lymphatic,U+E018,,anatomy_spleen,glyphs/mono/spleen.svg,glyphs/color/spleen.svg
+anatomy:stomach,Stomach,organ,digestive,U+E019,,anatomy_stomach,glyphs/mono/stomach.svg,glyphs/color/stomach.svg
+anatomy:small_intestine,Small intestine,organ,digestive,U+E01A,,anatomy_small_intestine,glyphs/mono/small_intestine.svg,glyphs/color/small_intestine.svg
+anatomy:large_intestine,Large intestine,organ,digestive,U+E01B,,anatomy_large_intestine,glyphs/mono/large_intestine.svg,glyphs/color/large_intestine.svg
+anatomy:left_kidney,Left kidney,organ,urinary,U+E01C,,anatomy_left_kidney,glyphs/mono/left_kidney.svg,glyphs/color/left_kidney.svg
+anatomy:right_kidney,Right kidney,organ,urinary,U+E01D,,anatomy_right_kidney,glyphs/mono/right_kidney.svg,glyphs/color/right_kidney.svg
+anatomy:urinary_bladder,Urinary bladder,organ,urinary,U+E01E,,anatomy_urinary_bladder,glyphs/mono/urinary_bladder.svg,glyphs/color/urinary_bladder.svg
+anatomy:thyroid,Thyroid gland,organ,endocrine,U+E01F,,anatomy_thyroid,glyphs/mono/thyroid.svg,glyphs/color/thyroid.svg
+anatomy:esophagus,Esophagus,organ,digestive,U+E020,,anatomy_esophagus,glyphs/mono/esophagus.svg,glyphs/color/esophagus.svg
+anatomy:trachea,Trachea,organ,respiratory,U+E021,,anatomy_trachea,glyphs/mono/trachea.svg,glyphs/color/trachea.svg
+anatomy:skin,Skin,tissue,integumentary,U+E022,,anatomy_skin,glyphs/mono/skin.svg,glyphs/color/skin.svg

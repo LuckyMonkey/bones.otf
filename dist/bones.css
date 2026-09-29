@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "BONES";
+  src: url("./BONES.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BONES Color";
+  src: url("./BONES-Color.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.bones { font-family: "BONES", sans-serif; font-variant-ligatures: common-ligatures; }
+.bones-emoji { font-family: "BONES Color", "BONES", sans-serif; font-variant-ligatures: common-ligatures; }

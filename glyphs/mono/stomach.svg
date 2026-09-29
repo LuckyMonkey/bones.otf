@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Stomach</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M330 165 Q270 260 345 365 Q260 500 330 670 Q420 830 615 720 Q790 610 690 410 Q625 285 520 320 Q450 320 450 220 Q445 145 330 165 Z" fill="#17232b"/>
+  <path d="M450 220 Q500 300 575 350 Q655 420 635 560" fill="#17232b"/>
+  </g>
+</svg>

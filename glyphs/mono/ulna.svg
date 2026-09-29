@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
+  <title id="title">Ulna</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M340 130 Q255 170 295 290 L390 350 L405 700 Q390 820 500 900 Q610 820 595 700 L610 350 L705 290 Q745 170 660 130 L575 170 L425 170 Z" fill="#17232b"/>
+  <path d="M430 350 L570 350 L565 700 L435 700 Z" fill="#17232b"/>
+  </g>
+</svg>

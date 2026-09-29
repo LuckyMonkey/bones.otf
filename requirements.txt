@@ -1,0 +1,5 @@
+fonttools==4.66.0
+brotli==1.2.0
+uharfbuzz==0.56.2
+PyYAML==6.0.1
+

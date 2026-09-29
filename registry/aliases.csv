@@ -1,0 +1,109 @@
+id,alias,kind
+anatomy:skull,Skull,label
+anatomy:skull,:skull:,shortcode
+anatomy:skull,cranium,alias
+anatomy:mandible,Mandible,label
+anatomy:mandible,:mandible:,shortcode
+anatomy:mandible,lower jaw,alias
+anatomy:clavicle,Clavicle,label
+anatomy:clavicle,:clavicle:,shortcode
+anatomy:clavicle,collar bone,alias
+anatomy:clavicle,collarbone,alias
+anatomy:scapula,Scapula,label
+anatomy:scapula,:scapula:,shortcode
+anatomy:scapula,shoulder blade,alias
+anatomy:sternum,Sternum,label
+anatomy:sternum,:sternum:,shortcode
+anatomy:sternum,breastbone,alias
+anatomy:rib,Rib,label
+anatomy:rib,:rib:,shortcode
+anatomy:rib,costal bone,alias
+anatomy:vertebra,Vertebra,label
+anatomy:vertebra,:vertebra:,shortcode
+anatomy:vertebra,spinal bone,alias
+anatomy:humerus,Humerus,label
+anatomy:humerus,:humerus:,shortcode
+anatomy:humerus,upper arm bone,alias
+anatomy:radius,Radius,label
+anatomy:radius,:radius:,shortcode
+anatomy:radius,radial bone,alias
+anatomy:ulna,Ulna,label
+anatomy:ulna,:ulna:,shortcode
+anatomy:ulna,ulnar bone,alias
+anatomy:pelvis,Pelvis,label
+anatomy:pelvis,:pelvis:,shortcode
+anatomy:pelvis,bony pelvis,alias
+anatomy:pelvis,hip girdle,alias
+anatomy:femur,Femur,label
+anatomy:femur,:femur:,shortcode
+anatomy:femur,thigh bone,alias
+anatomy:left_femur,Left femur,label
+anatomy:left_femur,:left_femur:,shortcode
+anatomy:left_femur,left thigh bone,alias
+anatomy:right_femur,Right femur,label
+anatomy:right_femur,:right_femur:,shortcode
+anatomy:right_femur,right thigh bone,alias
+anatomy:patella,Patella,label
+anatomy:patella,:patella:,shortcode
+anatomy:patella,kneecap,alias
+anatomy:tibia,Tibia,label
+anatomy:tibia,:tibia:,shortcode
+anatomy:tibia,shin bone,alias
+anatomy:fibula,Fibula,label
+anatomy:fibula,:fibula:,shortcode
+anatomy:fibula,calf bone,alias
+anatomy:brain,Brain,label
+anatomy:brain,:brain:,shortcode
+anatomy:brain,encephalon,alias
+anatomy:heart,Heart,label
+anatomy:heart,:heart:,shortcode
+anatomy:heart,cardiac organ,alias
+anatomy:left_lung,Left lung,label
+anatomy:left_lung,:left_lung:,shortcode
+anatomy:left_lung,left pulmonary lung,alias
+anatomy:right_lung,Right lung,label
+anatomy:right_lung,:right_lung:,shortcode
+anatomy:right_lung,right pulmonary lung,alias
+anatomy:liver,Liver,label
+anatomy:liver,:liver:,shortcode
+anatomy:liver,hepatic organ,alias
+anatomy:gallbladder,Gallbladder,label
+anatomy:gallbladder,:gallbladder:,shortcode
+anatomy:gallbladder,biliary bladder,alias
+anatomy:pancreas,Pancreas,label
+anatomy:pancreas,:pancreas:,shortcode
+anatomy:pancreas,pancreatic organ,alias
+anatomy:spleen,Spleen,label
+anatomy:spleen,:spleen:,shortcode
+anatomy:spleen,splenic organ,alias
+anatomy:stomach,Stomach,label
+anatomy:stomach,:stomach:,shortcode
+anatomy:stomach,gastric organ,alias
+anatomy:small_intestine,Small intestine,label
+anatomy:small_intestine,:small_intestine:,shortcode
+anatomy:small_intestine,small bowel,alias
+anatomy:large_intestine,Large intestine,label
+anatomy:large_intestine,:large_intestine:,shortcode
+anatomy:large_intestine,large bowel,alias
+anatomy:large_intestine,colon,alias
+anatomy:left_kidney,Left kidney,label
+anatomy:left_kidney,:left_kidney:,shortcode
+anatomy:left_kidney,left renal organ,alias
+anatomy:right_kidney,Right kidney,label
+anatomy:right_kidney,:right_kidney:,shortcode
+anatomy:right_kidney,right renal organ,alias
+anatomy:urinary_bladder,Urinary bladder,label
+anatomy:urinary_bladder,:urinary_bladder:,shortcode
+anatomy:urinary_bladder,bladder,alias
+anatomy:thyroid,Thyroid gland,label
+anatomy:thyroid,:thyroid:,shortcode
+anatomy:thyroid,thyroid,alias
+anatomy:esophagus,Esophagus,label
+anatomy:esophagus,:esophagus:,shortcode
+anatomy:esophagus,gullet,alias
+anatomy:trachea,Trachea,label
+anatomy:trachea,:trachea:,shortcode
+anatomy:trachea,windpipe,alias
+anatomy:skin,Skin,label
+anatomy:skin,:skin:,shortcode
+anatomy:skin,cutaneous tissue,alias
