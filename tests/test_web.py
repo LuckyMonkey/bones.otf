@@ -13,6 +13,8 @@ class WebPackageTest(unittest.TestCase):
         self.assertIn("BONES-Color.woff2", css)
         self.assertIn("Search anatomy", html)
         self.assertIn("Copy shortcode", (ROOT / "docs/app.js").read_text())
+        self.assertIn('item.color_svg', (ROOT / "docs/app.js").read_text())
+        self.assertIn('data-bones-asset-prefix="../"', html)
 
     def test_generated_metadata_is_accessible(self):
         metadata = (ROOT / "packages/js/index.js").read_text()

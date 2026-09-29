@@ -4,6 +4,7 @@
   const search = document.querySelector('#search');
   const cards = document.querySelector('#cards');
   const counts = document.querySelector('#counts');
+  const assetPrefix = document.body.dataset.bonesAssetPrefix || '';
   let filter = 'all';
 
   function copy(value, button) {
@@ -24,7 +25,7 @@
     cards.replaceChildren(...items.map((item) => {
       const card = document.createElement('article');
       card.className = 'card';
-      card.innerHTML = `<div class="glyph bones-emoji" role="img" aria-label="${item.accessible_label}">${item.char}</div><h3>${item.label}</h3><div class="meta">${item.id}<br>${item.codepoint} · ${item.shortcode}</div><div class="card-actions"><button data-copy="${item.shortcode}">Copy shortcode</button><button data-copy="${item.char}">Copy character</button></div>`;
+      card.innerHTML = `<div class="glyph" role="img" aria-label="${item.accessible_label}"><img src="${assetPrefix}${item.color_svg}" alt="" aria-hidden="true"></div><h3>${item.label}</h3><div class="meta">${item.id}<br>${item.codepoint} · ${item.shortcode}</div><div class="card-actions"><button data-copy="${item.shortcode}">Copy shortcode</button><button data-copy="${item.char}">Copy character</button></div>`;
       card.querySelectorAll('[data-copy]').forEach((button) => button.addEventListener('click', () => copy(button.dataset.copy, button)));
       return card;
     }));
