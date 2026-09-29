@@ -17,3 +17,6 @@ Evidence for a proposal should include:
 - clear glyph semantics and accessibility behavior;
 - a public registry and a compatibility plan.
 
+The generated snapshot in `statistics.json` records the current object/category,
+system, PUA, shortcode, and external-identifier counts without pretending that
+the PUA assignments are standardized Unicode characters.

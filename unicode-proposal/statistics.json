@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "object_count": 35,
+  "category_counts": {
+    "bone": 17,
+    "organ": 17,
+    "tissue": 1
+  },
+  "system_counts": {
+    "skeletal": 17,
+    "nervous": 1,
+    "circulatory": 1,
+    "respiratory": 3,
+    "digestive": 7,
+    "lymphatic": 1,
+    "urinary": 3,
+    "endocrine": 1,
+    "integumentary": 1
+  },
+  "pua": {
+    "first": "U+E000",
+    "last": "U+E022",
+    "assigned": 35
+  },
+  "shortcodes": 35,
+  "external_id_namespace_counts": {
+    "uberon": 35
+  }
+}

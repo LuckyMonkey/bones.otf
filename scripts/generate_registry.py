@@ -68,6 +68,22 @@ def main() -> int:
     (ROOT / "packages/js/index.d.ts").write_text("""export interface AnatomyRecord {\n  id: string; label: string; category: 'bone' | 'organ' | 'tissue'; system: string;\n  parent: string | null; paired: boolean; laterality_supported: boolean; laterality: 'left' | 'right' | null;\n  aliases: string[]; codepoint: string; char: string; ligature: string; shortcode: string; glyph_name: string;\n  glyph_base: string; svg: string; color_svg: string; external_ids: Record<string, string>; sources: string[]; accessible_label: string;\n}\nexport const registry: AnatomyRecord[];\nexport function get(id: string): AnatomyRecord | null;\nexport function resolveShortcode(shortcode: string): AnatomyRecord | null;\nexport function unicodeFor(id: string): string | null;\nexport function search(query: string): AnatomyRecord[];\n""", encoding="utf-8")
     docs_data = json.dumps(package_rows, ensure_ascii=False)
     (ROOT / "docs/registry.js").write_text(f"window.BONES_REGISTRY = {docs_data};\n", encoding="utf-8")
+    categories = {}
+    systems = {}
+    for row in rows:
+        categories[row["category"]] = categories.get(row["category"], 0) + 1
+        systems[row["system"]] = systems.get(row["system"], 0) + 1
+    codepoints = [int(row["codepoint"][2:], 16) for row in rows]
+    stats = {
+        "version": "0.1.0",
+        "object_count": len(rows),
+        "category_counts": categories,
+        "system_counts": systems,
+        "pua": {"first": f"U+{min(codepoints):04X}", "last": f"U+{max(codepoints):04X}", "assigned": len(codepoints)},
+        "shortcodes": len({row["shortcode"] for row in rows}),
+        "external_id_namespace_counts": {"uberon": sum("uberon" in row["external_ids"] for row in rows)},
+    }
+    (ROOT / "unicode-proposal/statistics.json").write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
     print(f"generated registries and JS metadata for {len(rows)} objects")
     return 0
 
