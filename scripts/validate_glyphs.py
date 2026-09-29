@@ -27,8 +27,8 @@ def main() -> int:
             text = path.read_text(encoding="utf-8")
             if not SVG_RE.search(text) or not PATH_RE.search(text) or not ROLE_RE.search(text) or "<image" in text:
                 raise SystemExit(f"invalid vector SVG: {path}")
-            if item["category"] == "bone" and not TRACE_RE.search(text):
-                raise SystemExit(f"bone is not sourced from a Gray trace master: {path}")
+            if not TRACE_RE.search(text):
+                raise SystemExit(f"anatomy glyph is not sourced from a Gray trace master: {path}")
             checked += 1
     print(f"SVG masters OK: {checked} vector files")
     return 0

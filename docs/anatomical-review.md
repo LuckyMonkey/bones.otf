@@ -13,9 +13,9 @@ Every current vertical-slice entry has `review_required: true`. That is an
 explicit QA flag for the simplified artwork and classification; it is not a
 claim that the object is fictional or unusable.
 
-The 0.1.0 organ outlines are original atlas-style simplifications, not
-diagnostic illustrations. The bone outlines use cleaned Gray's Anatomy plate
+The representative bone and organ outlines use cleaned Gray's Anatomy plate
 linework as a stronger stylistic and anatomical reference, but remain font-sized
 derivatives rather than diagnostic illustrations. The registry is intentionally
-narrow and leaves individual carpals, metacarpals, tarsals, phalanges, ribs, and
-vertebral levels for expert review rather than inventing identities.
+narrow and leaves individual carpals, metacarpals, tarsals, phalanges, ribs,
+vertebral levels, and many additional organs/body regions for expert review
+rather than inventing identities.

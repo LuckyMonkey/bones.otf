@@ -328,7 +328,7 @@ objects:
     ligature: ':brain:'
     shortcode: ':brain:'
     external_ids: {uberon: UBERON:0000955}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: brain, monochrome: glyphs/mono/brain.svg, color: glyphs/color/brain.svg}
   - id: anatomy:heart
     label: Heart
@@ -343,7 +343,7 @@ objects:
     ligature: ':heart:'
     shortcode: ':heart:'
     external_ids: {uberon: UBERON:0000948}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: heart, monochrome: glyphs/mono/heart.svg, color: glyphs/color/heart.svg}
   - id: anatomy:left_lung
     label: Left lung
@@ -359,7 +359,7 @@ objects:
     ligature: ':left_lung:'
     shortcode: ':left_lung:'
     external_ids: {uberon: UBERON:0002048}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: left_lung, monochrome: glyphs/mono/left_lung.svg, color: glyphs/color/left_lung.svg}
   - id: anatomy:right_lung
     label: Right lung
@@ -375,7 +375,7 @@ objects:
     ligature: ':right_lung:'
     shortcode: ':right_lung:'
     external_ids: {uberon: UBERON:0002048}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: right_lung, monochrome: glyphs/mono/right_lung.svg, color: glyphs/color/right_lung.svg}
   - id: anatomy:liver
     label: Liver
@@ -390,7 +390,7 @@ objects:
     ligature: ':liver:'
     shortcode: ':liver:'
     external_ids: {uberon: UBERON:0002107}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: liver, monochrome: glyphs/mono/liver.svg, color: glyphs/color/liver.svg}
   - id: anatomy:gallbladder
     label: Gallbladder
@@ -405,7 +405,7 @@ objects:
     ligature: ':gallbladder:'
     shortcode: ':gallbladder:'
     external_ids: {uberon: UBERON:0002110}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: gallbladder, monochrome: glyphs/mono/gallbladder.svg, color: glyphs/color/gallbladder.svg}
   - id: anatomy:pancreas
     label: Pancreas
@@ -420,7 +420,7 @@ objects:
     ligature: ':pancreas:'
     shortcode: ':pancreas:'
     external_ids: {uberon: UBERON:0001264}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: pancreas, monochrome: glyphs/mono/pancreas.svg, color: glyphs/color/pancreas.svg}
   - id: anatomy:spleen
     label: Spleen
@@ -435,7 +435,7 @@ objects:
     ligature: ':spleen:'
     shortcode: ':spleen:'
     external_ids: {uberon: UBERON:0002106}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: spleen, monochrome: glyphs/mono/spleen.svg, color: glyphs/color/spleen.svg}
   - id: anatomy:stomach
     label: Stomach
@@ -450,7 +450,7 @@ objects:
     ligature: ':stomach:'
     shortcode: ':stomach:'
     external_ids: {uberon: UBERON:0000945}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: stomach, monochrome: glyphs/mono/stomach.svg, color: glyphs/color/stomach.svg}
   - id: anatomy:small_intestine
     label: Small intestine
@@ -465,7 +465,7 @@ objects:
     ligature: ':small_intestine:'
     shortcode: ':small_intestine:'
     external_ids: {uberon: UBERON:0002108}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: small_intestine, monochrome: glyphs/mono/small_intestine.svg, color: glyphs/color/small_intestine.svg}
   - id: anatomy:large_intestine
     label: Large intestine
@@ -480,7 +480,7 @@ objects:
     ligature: ':large_intestine:'
     shortcode: ':large_intestine:'
     external_ids: {uberon: UBERON:0000059}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: large_intestine, monochrome: glyphs/mono/large_intestine.svg, color: glyphs/color/large_intestine.svg}
   - id: anatomy:left_kidney
     label: Left kidney
@@ -496,7 +496,7 @@ objects:
     ligature: ':left_kidney:'
     shortcode: ':left_kidney:'
     external_ids: {uberon: UBERON:0002113}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: left_kidney, monochrome: glyphs/mono/left_kidney.svg, color: glyphs/color/left_kidney.svg}
   - id: anatomy:right_kidney
     label: Right kidney
@@ -512,7 +512,7 @@ objects:
     ligature: ':right_kidney:'
     shortcode: ':right_kidney:'
     external_ids: {uberon: UBERON:0002113}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: right_kidney, monochrome: glyphs/mono/right_kidney.svg, color: glyphs/color/right_kidney.svg}
   - id: anatomy:urinary_bladder
     label: Urinary bladder
@@ -527,7 +527,7 @@ objects:
     ligature: ':urinary_bladder:'
     shortcode: ':urinary_bladder:'
     external_ids: {uberon: UBERON:0001255}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: urinary_bladder, monochrome: glyphs/mono/urinary_bladder.svg, color: glyphs/color/urinary_bladder.svg}
   - id: anatomy:thyroid
     label: Thyroid gland
@@ -542,7 +542,7 @@ objects:
     ligature: ':thyroid:'
     shortcode: ':thyroid:'
     external_ids: {uberon: UBERON:0002046}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: thyroid, monochrome: glyphs/mono/thyroid.svg, color: glyphs/color/thyroid.svg}
   - id: anatomy:esophagus
     label: Esophagus
@@ -557,7 +557,7 @@ objects:
     ligature: ':esophagus:'
     shortcode: ':esophagus:'
     external_ids: {uberon: UBERON:0001043}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: esophagus, monochrome: glyphs/mono/esophagus.svg, color: glyphs/color/esophagus.svg}
   - id: anatomy:trachea
     label: Trachea
@@ -572,7 +572,7 @@ objects:
     ligature: ':trachea:'
     shortcode: ':trachea:'
     external_ids: {uberon: UBERON:0003126}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: trachea, monochrome: glyphs/mono/trachea.svg, color: glyphs/color/trachea.svg}
   - id: anatomy:skin
     label: Skin
@@ -587,5 +587,5 @@ objects:
     ligature: ':skin:'
     shortcode: ':skin:'
     external_ids: {uberon: UBERON:0002097}
-    sources: [uberon, bones_original_art]
+    sources: [uberon, grays_anatomy_commons, bones_original_art]
     glyph: {base: skin, monochrome: glyphs/mono/skin.svg, color: glyphs/color/skin.svg}

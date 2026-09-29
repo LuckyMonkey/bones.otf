@@ -6,6 +6,9 @@
   Gray's Anatomy plate trace masters for the representative bone set, including
   separate radius/ulna and tibia/fibula crops, preserved engraved detail, and
   restrained red plate accents in color output.
+- Extended the same source-derived vector treatment to the representative organ
+  and tissue set: brain, heart, lungs, liver, gallbladder, pancreas, spleen,
+  stomach, intestines, kidneys, bladder, thyroid, esophagus, trachea, and skin.
 - Added public-domain plate provenance, raw source scans, crop manifest, and the
   optional OpenCV trace step under `sources/gray-plates/`.
 - Added explicit anatomy grouping nodes and review flags to the canonical ontology.

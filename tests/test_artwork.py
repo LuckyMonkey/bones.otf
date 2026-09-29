@@ -13,13 +13,13 @@ class GrayArtworkTest(unittest.TestCase):
         cls.data = yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())
         cls.bones = [item for item in cls.data["objects"] if item["category"] == "bone"]
 
-    def test_every_bone_uses_a_trace_master(self):
-        bases = {item["glyph"]["base"] for item in self.bones}
-        self.assertEqual(len(bases), 15)
+    def test_every_anatomy_object_uses_a_trace_master(self):
+        bases = {item["glyph"]["base"] for item in self.data["objects"]}
+        self.assertEqual(len(bases), 33)
         for base in bases:
             trace = ROOT / "glyphs/gray-trace" / f"{base}.svg"
             self.assertTrue(trace.is_file(), base)
-        for item in self.bones:
+        for item in self.data["objects"]:
             mono = (ROOT / item["glyph"]["monochrome"]).read_text()
             color = (ROOT / item["glyph"]["color"]).read_text()
             self.assertIn('data-source="gray-anatomy"', mono, item["id"])
@@ -30,7 +30,9 @@ class GrayArtworkTest(unittest.TestCase):
         manifest = yaml.safe_load((ROOT / "sources/gray-plates.yaml").read_text())
         self.assertEqual(manifest["license"], "Public domain")
         self.assertGreaterEqual(len(manifest["plates"]), 15)
+        self.assertGreaterEqual(len(manifest["organs"]), 18)
         self.assertGreaterEqual(len(list((ROOT / "sources/gray-plates/raw").iterdir())), 14)
+        self.assertGreaterEqual(len(list((ROOT / "sources/gray-plates/raw/organs").iterdir())), 16)
 
 
 if __name__ == "__main__":

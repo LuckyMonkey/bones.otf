@@ -3,6 +3,7 @@
   const byShortcode = new Map(registry.map((item) => [item.shortcode, item]));
   const search = document.querySelector('#search');
   const cards = document.querySelector('#cards');
+  const organAtlas = document.querySelector('#organ-atlas');
   const counts = document.querySelector('#counts');
   const assetPrefix = document.body.dataset.bonesAssetPrefix || '';
   let filter = 'all';
@@ -31,6 +32,17 @@
     }));
   }
 
+  function renderOrganAtlas() {
+    if (!organAtlas) return;
+    const items = registry.filter((item) => item.category === 'organ' || item.category === 'tissue');
+    organAtlas.replaceChildren(...items.map((item) => {
+      const card = document.createElement('article');
+      card.className = 'atlas-card';
+      card.innerHTML = `<figure><img src="${assetPrefix}${item.color_svg}" alt="${item.accessible_label}"></figure><h3>${item.label}</h3><code>${item.id}</code>`;
+      return card;
+    }));
+  }
+
   function shape(value) {
     return value.replace(/:[a-z0-9_]+:/g, (token) => byShortcode.has(token) ? byShortcode.get(token).char : token);
   }
@@ -51,4 +63,5 @@
   playground.addEventListener('input', updatePlayground);
   updatePlayground();
   render();
+  renderOrganAtlas();
 }());

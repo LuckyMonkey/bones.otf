@@ -32,6 +32,8 @@ class WebPackageTest(unittest.TestCase):
         self.assertIn('href="dist/bones.css"', demo)
         self.assertIn('src="docs/registry.js"', demo)
         self.assertIn('glyphs/mono/femur.svg', demo)
+        self.assertIn('id="organ-atlas"', demo)
+        self.assertIn('renderOrganAtlas', (ROOT / "docs/app.js").read_text())
         self.assertIn('id="playground"', demo)
 
 

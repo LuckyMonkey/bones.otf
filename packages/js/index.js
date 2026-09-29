@@ -571,6 +571,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Brain",
@@ -601,6 +602,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Heart",
@@ -631,6 +633,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Left lung",
@@ -661,6 +664,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Right lung",
@@ -691,6 +695,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Liver",
@@ -721,6 +726,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Gallbladder",
@@ -751,6 +757,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Pancreas",
@@ -781,6 +788,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Spleen",
@@ -811,6 +819,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Stomach",
@@ -841,6 +850,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Small intestine",
@@ -872,6 +882,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Large intestine",
@@ -902,6 +913,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Left kidney",
@@ -932,6 +944,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Right kidney",
@@ -962,6 +975,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Urinary bladder",
@@ -992,6 +1006,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Thyroid gland",
@@ -1022,6 +1037,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Esophagus",
@@ -1052,6 +1068,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Trachea",
@@ -1082,6 +1099,7 @@ const registry = [
     },
     "sources": [
       "uberon",
+      "grays_anatomy_commons",
       "bones_original_art"
     ],
     "accessible_label": "Skin",

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Trace Gray's Anatomy plate scans into deterministic BONES SVG masters.
 
-This is a source-art step, not part of the normal font build.  The downloaded
-plate scans remain in sources/gray-plates/raw/ and this script turns their
-engraved linework into clean filled paths suitable for fontTools.
+This is a source-art step, not part of the normal font build. The downloaded
+bone and organ plate scans remain in sources/gray-plates/raw/ and this script
+turns their engraved linework into clean filled paths suitable for fontTools.
 
 OpenCV is intentionally an optional source dependency.  Once generated, the
 SVG masters are committed and normal builds remain portable and offline.
@@ -43,6 +43,24 @@ PLATES = {
     "patella": ("patella.png", (0, 0, 196, 200), "Gray256.png"),
     "tibia": ("lower_leg.gif", (105, 0, 346, 1000), "Unterschenkel.gif"),
     "fibula": ("lower_leg.gif", (10, 0, 185, 1000), "Unterschenkel.gif"),
+    "brain": ("organs/brain.png", (0, 0, 255, 600), "Gray725.png"),
+    "heart": ("organs/heart.png", (0, 0, 600, 436), "Gray493.png"),
+    "left_lung": ("organs/lungs.jpg", (170, 0, 350, 292), "Lungs open.jpg"),
+    "right_lung": ("organs/lungs.jpg", (0, 0, 180, 292), "Lungs open.jpg"),
+    "liver": ("organs/liver.png", (0, 0, 675, 465), "Gray1086-liver.PNG"),
+    "gallbladder": ("organs/gallbladder.png", (0, 0, 249, 500), "Gray1095-gall bladder.png"),
+    "pancreas": ("organs/pancreas.png", (180, 100, 680, 390), "Gray1098.png"),
+    "spleen": ("organs/spleen.png", (0, 0, 428, 500), "Gray1188.png"),
+    "stomach": ("organs/stomach.png", (0, 0, 500, 327), "Gray1050-stomach.png"),
+    "small_intestine": ("organs/small_intestine.png", (0, 0, 300, 243), "Gray1065.png"),
+    "large_intestine": ("organs/large_intestine.png", (0, 0, 600, 503), "Gray1076.png"),
+    "left_kidney": ("organs/kidney.jpg", (0, 0, 208, 350), "Kidney section.jpg"),
+    "right_kidney": ("organs/kidney.jpg", (0, 0, 208, 350), "Kidney section.jpg"),
+    "urinary_bladder": ("organs/bladder.png", (0, 0, 455, 500), "Gray1140.png"),
+    "thyroid": ("organs/thyroid.png", (0, 0, 586, 600), "Thyroid.png"),
+    "esophagus": ("organs/esophagus.png", (180, 0, 330, 559), "Gray1032.png"),
+    "trachea": ("organs/trachea.png", (0, 0, 441, 600), "Gray953.png"),
+    "skin": ("organs/skin.png", (0, 0, 600, 208), "Gray943.png"),
 }
 
 # Historical plates vary in scan contrast.  Lowering the cutoff on the skull
@@ -57,6 +75,9 @@ THRESHOLDS = {
     "ulna": 185,
     "tibia": 185,
     "fibula": 185,
+    "brain": 190,
+    "esophagus": 185,
+    "skin": 185,
 }
 
 

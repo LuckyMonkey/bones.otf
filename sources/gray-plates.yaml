@@ -49,3 +49,58 @@ plates:
   fibula:
     file: Unterschenkel.gif
     page: https://commons.wikimedia.org/wiki/File:Unterschenkel.gif
+organs:
+  brain:
+    file: Gray725.png
+    page: https://commons.wikimedia.org/wiki/File:Gray725.png
+  heart:
+    file: Gray493.png
+    page: https://commons.wikimedia.org/wiki/File:Gray493.png
+  left_lung:
+    file: Lungs open.jpg
+    page: https://commons.wikimedia.org/wiki/File:Lungs_open.jpg
+  right_lung:
+    file: Lungs open.jpg
+    page: https://commons.wikimedia.org/wiki/File:Lungs_open.jpg
+  liver:
+    file: Gray1086-liver.PNG
+    page: https://commons.wikimedia.org/wiki/File:Gray1086-liver.PNG
+  gallbladder:
+    file: Gray1095-gall bladder.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1095-gall_bladder.png
+  pancreas:
+    file: Gray1098.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1098.png
+  spleen:
+    file: Gray1188.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1188.png
+  stomach:
+    file: Gray1050-stomach.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1050-stomach.png
+  small_intestine:
+    file: Gray1065.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1065.png
+  large_intestine:
+    file: Gray1076.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1076.png
+  left_kidney:
+    file: Kidney section.jpg
+    page: https://commons.wikimedia.org/wiki/File:Kidney_section.jpg
+  right_kidney:
+    file: Kidney section.jpg
+    page: https://commons.wikimedia.org/wiki/File:Kidney_section.jpg
+  urinary_bladder:
+    file: Gray1140.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1140.png
+  thyroid:
+    file: Thyroid.png
+    page: https://commons.wikimedia.org/wiki/File:Thyroid.png
+  esophagus:
+    file: Gray1032.png
+    page: https://commons.wikimedia.org/wiki/File:Gray1032.png
+  trachea:
+    file: Gray953.png
+    page: https://commons.wikimedia.org/wiki/File:Gray953.png
+  skin:
+    file: Gray943.png
+    page: https://commons.wikimedia.org/wiki/File:Gray943.png

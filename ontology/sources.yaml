@@ -13,13 +13,13 @@ sources:
     note: Used for adult axial/appendicular skeletal grouping and coverage review.
   grays_anatomy_commons:
     title: Gray's Anatomy of the Human Body, 20th U.S. edition (1918), Wikimedia Commons plates
-    url: https://commons.wikimedia.org/wiki/Category:Gray%27s_Anatomy_plates_of_bones
+    url: https://commons.wikimedia.org/wiki/Category:Gray%27s_Anatomy_plates
     license: Public domain
     accessed: 2026-09-29
     note: Public-domain historical plate scans used as visual references and cleaned/traced into original BONES glyph artwork. Individual file URLs are recorded in sources/gray-plates.yaml.
   bones_original_art:
-    title: BONES.OTF original simplified vector artwork
+    title: BONES.OTF original and source-derived vector artwork
     url: ./glyphs/
     license: OFL-1.1
     accessed: 2026-09-29
-    note: Original outline designs in this repository; not traced from a proprietary illustration.
+    note: Cleaned vector derivatives of public-domain Gray plates plus original project geometry where a source crop is not yet authoritative.

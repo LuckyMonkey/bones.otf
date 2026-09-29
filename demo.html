@@ -30,7 +30,63 @@
     .data-strip code { font-size: 12px; }
     .demo-callout { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 24px; }
     .demo-callout p:last-child { margin: 0; }
-    @media (max-width: 760px) { .demo-intro, .demo-callout { grid-template-columns: 1fr; } .glyph-cloud { justify-content: flex-start; } .demo-grid { grid-template-columns: 1fr; } }
+    .skeleton-panel { overflow: hidden; padding-bottom: 0; background: linear-gradient(135deg, #fffdf8 0%, #f0e8dc 100%); }
+    .skeleton-intro { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+    .skeleton-intro h2 { margin-bottom: 0; }
+    .plate-mark { color: var(--muted); font: 700 11px/1.3 ui-monospace, monospace; letter-spacing: .12em; text-align: right; text-transform: uppercase; }
+    .skeleton-layout { display: grid; grid-template-columns: minmax(340px, .9fr) minmax(300px, 1.1fr); gap: clamp(24px, 5vw, 64px); align-items: center; }
+    .skeleton-stage { position: relative; width: min(100%, 520px); aspect-ratio: .67; margin: 0 auto; overflow: hidden; border: 1px solid #d8cbb9; border-radius: 18px 18px 0 0; background: radial-gradient(ellipse at 50% 48%, #fffdf8 0 32%, transparent 70%), repeating-linear-gradient(90deg, transparent 0 24.5%, #d8cbb92b 24.7% 25%, transparent 25.2% 49.5%), #eee5d8; box-shadow: inset 0 0 60px #765c3617; }
+    .skeleton-stage::before { position: absolute; top: 6%; bottom: 2%; left: 50%; width: 1px; background: #b54c4e30; content: ""; }
+    .skeleton-stage::after { position: absolute; right: 16px; bottom: 13px; left: 16px; border-top: 1px solid #b54c4e55; content: ""; }
+    .stage-label { position: absolute; z-index: 2; color: #a37345; font: 700 9px/1 ui-monospace, monospace; letter-spacing: .17em; writing-mode: vertical-rl; }
+    .stage-label.axial { top: 11%; left: 10px; }
+    .stage-label.appendicular { top: 47%; right: 10px; }
+    .skeleton-part { position: absolute; z-index: 1; display: block; margin: 0; }
+    .skeleton-part img { display: block; width: 100%; height: 100%; object-fit: contain; opacity: .92; mix-blend-mode: multiply; }
+    .skeleton-part.mirror img { transform: scaleX(-1); }
+    .part-skull { top: 2%; left: 34%; width: 32%; height: 14%; }
+    .part-clavicle-left { top: 13%; left: 19%; width: 27%; height: 7%; transform: rotate(-5deg); }
+    .part-clavicle-right { top: 13%; left: 54%; width: 27%; height: 7%; transform: rotate(5deg); }
+    .part-scapula-left { top: 17%; left: 11%; width: 29%; height: 17%; transform: rotate(-8deg); }
+    .part-scapula-right { top: 17%; left: 60%; width: 29%; height: 17%; transform: rotate(8deg); }
+    .part-sternum { top: 15%; left: 38%; width: 24%; height: 19%; }
+    .part-vertebra { top: 26%; left: 44%; width: 12%; height: 24%; opacity: .72; }
+    .part-humerus-left { top: 27%; left: 17%; width: 13%; height: 25%; transform: rotate(5deg); }
+    .part-humerus-right { top: 27%; left: 70%; width: 13%; height: 25%; transform: rotate(-5deg); }
+    .part-radius-left { top: 47%; left: 22%; width: 9%; height: 20%; transform: rotate(4deg); }
+    .part-radius-right { top: 47%; left: 69%; width: 9%; height: 20%; transform: rotate(-4deg); }
+    .part-ulna-left { top: 47%; left: 28%; width: 10%; height: 20%; transform: rotate(4deg); }
+    .part-ulna-right { top: 47%; left: 62%; width: 10%; height: 20%; transform: rotate(-4deg); }
+    .part-pelvis { top: 49%; left: 28%; width: 44%; height: 18%; }
+    .part-femur-left { top: 64%; left: 28%; width: 15%; height: 26%; transform: rotate(2deg); }
+    .part-femur-right { top: 64%; left: 57%; width: 15%; height: 26%; transform: rotate(-2deg); }
+    .part-patella-left { top: 80%; left: 35%; width: 9%; height: 8%; }
+    .part-patella-right { top: 80%; left: 56%; width: 9%; height: 8%; }
+    .part-tibia-left { top: 84%; left: 28%; width: 12%; height: 19%; transform: rotate(2deg); }
+    .part-tibia-right { top: 84%; left: 60%; width: 12%; height: 19%; transform: rotate(-2deg); }
+    .part-fibula-left { top: 84%; left: 36%; width: 8%; height: 19%; transform: rotate(2deg); }
+    .part-fibula-right { top: 84%; left: 56%; width: 8%; height: 19%; transform: rotate(-2deg); }
+    .skeleton-index { padding: 6px 0 28px; }
+    .skeleton-index-head { display: flex; justify-content: space-between; margin-bottom: 18px; color: var(--muted); font: 700 11px/1 ui-monospace, monospace; letter-spacing: .12em; text-transform: uppercase; }
+    .anatomy-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .anatomy-chip { display: flex; min-height: 57px; flex-direction: column; justify-content: center; padding: 9px 11px; border: 1px solid #d8cbb9; border-radius: 9px; color: var(--ink); background: #fffdf8a8; text-decoration: none; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
+    .anatomy-chip:hover { border-color: var(--red); background: #fff; transform: translateY(-2px); }
+    .anatomy-chip strong { font: 700 12px/1.2 Georgia, serif; }
+    .anatomy-chip code { align-self: start; margin-top: 5px; padding: 0; color: var(--muted); background: transparent; font-size: 10px; }
+    .skeleton-caption { margin: 0; padding: 13px 17px; border-top: 1px solid #d8cbb9; color: var(--muted); font-size: 12px; }
+    .atlas-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+    .atlas-heading p:last-child { max-width: 430px; margin-bottom: 0; text-align: right; }
+    .organ-atlas { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+    .atlas-card { position: relative; display: flex; min-height: 202px; flex-direction: column; padding: 11px; overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: #f1ece3; }
+    .atlas-card::before { position: absolute; top: 10px; right: 10px; color: var(--red); content: "ORG"; font: 700 9px/1 ui-monospace, monospace; letter-spacing: .12em; }
+    .atlas-card figure { display: grid; min-height: 142px; place-items: center; margin: 0 0 8px; border-radius: 9px; background: #fffdf8; }
+    .atlas-card img { width: 100%; height: 140px; object-fit: contain; mix-blend-mode: multiply; }
+    .atlas-card h3 { margin: 0; font: 700 15px/1.1 Georgia, serif; }
+    .atlas-card code { margin-top: 4px; padding: 0; color: var(--muted); background: transparent; font-size: 10px; }
+    .atlas-foot { margin: 18px 0 0; color: var(--muted); font-size: 12px; }
+    @media (max-width: 900px) { .organ-atlas { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (max-width: 760px) { .demo-intro, .demo-callout, .skeleton-layout { grid-template-columns: 1fr; } .glyph-cloud { justify-content: flex-start; } .demo-grid { grid-template-columns: 1fr; } .skeleton-stage { width: min(100%, 470px); } .skeleton-intro, .atlas-heading { align-items: start; flex-direction: column; } .plate-mark, .atlas-heading p:last-child { text-align: left; } .organ-atlas { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 430px) { .skeleton-layout { display: block; } .skeleton-stage { width: 100%; } .skeleton-index { padding-top: 24px; } .anatomy-list { gap: 6px; } .anatomy-chip { min-height: 52px; padding: 8px; } }
   </style>
 </head>
 <body>
@@ -52,6 +108,63 @@
   </header>
 
   <main>
+    <section class="skeleton-panel panel" aria-labelledby="skeleton-title">
+      <div class="skeleton-intro">
+        <div><p class="eyebrow">PLATE 01 / REPRESENTATIVE ASSEMBLY</p><h2 id="skeleton-title">A skeleton, assembled from objects.</h2></div>
+        <div class="plate-mark">17 semantic bone objects<br>15 illustrated masters</div>
+      </div>
+      <div class="skeleton-layout">
+        <div class="skeleton-stage" role="img" aria-label="Representative human skeleton assembly made from BONES Gray's Anatomy bone glyphs">
+          <span class="stage-label axial">AXIAL</span><span class="stage-label appendicular">APPENDICULAR</span>
+          <figure class="skeleton-part part-skull"><img src="glyphs/color/skull.svg" alt=""></figure>
+          <figure class="skeleton-part part-clavicle-left"><img src="glyphs/color/clavicle.svg" alt=""></figure>
+          <figure class="skeleton-part part-clavicle-right mirror"><img src="glyphs/color/clavicle.svg" alt=""></figure>
+          <figure class="skeleton-part part-scapula-left"><img src="glyphs/color/scapula.svg" alt=""></figure>
+          <figure class="skeleton-part part-scapula-right mirror"><img src="glyphs/color/scapula.svg" alt=""></figure>
+          <figure class="skeleton-part part-sternum"><img src="glyphs/color/sternum.svg" alt=""></figure>
+          <figure class="skeleton-part part-vertebra"><img src="glyphs/color/vertebra.svg" alt=""></figure>
+          <figure class="skeleton-part part-humerus-left"><img src="glyphs/color/humerus.svg" alt=""></figure>
+          <figure class="skeleton-part part-humerus-right mirror"><img src="glyphs/color/humerus.svg" alt=""></figure>
+          <figure class="skeleton-part part-radius-left"><img src="glyphs/color/radius.svg" alt=""></figure>
+          <figure class="skeleton-part part-radius-right mirror"><img src="glyphs/color/radius.svg" alt=""></figure>
+          <figure class="skeleton-part part-ulna-left"><img src="glyphs/color/ulna.svg" alt=""></figure>
+          <figure class="skeleton-part part-ulna-right mirror"><img src="glyphs/color/ulna.svg" alt=""></figure>
+          <figure class="skeleton-part part-pelvis"><img src="glyphs/color/pelvis.svg" alt=""></figure>
+          <figure class="skeleton-part part-femur-left"><img src="glyphs/color/femur.svg" alt=""></figure>
+          <figure class="skeleton-part part-femur-right mirror"><img src="glyphs/color/femur.svg" alt=""></figure>
+          <figure class="skeleton-part part-patella-left"><img src="glyphs/color/patella.svg" alt=""></figure>
+          <figure class="skeleton-part part-patella-right"><img src="glyphs/color/patella.svg" alt=""></figure>
+          <figure class="skeleton-part part-tibia-left"><img src="glyphs/color/tibia.svg" alt=""></figure>
+          <figure class="skeleton-part part-tibia-right mirror"><img src="glyphs/color/tibia.svg" alt=""></figure>
+          <figure class="skeleton-part part-fibula-left"><img src="glyphs/color/fibula.svg" alt=""></figure>
+          <figure class="skeleton-part part-fibula-right mirror"><img src="glyphs/color/fibula.svg" alt=""></figure>
+        </div>
+        <aside class="skeleton-index" aria-label="Objects used in the assembly">
+          <div class="skeleton-index-head"><span>Object index</span><span>Gray / SVG</span></div>
+          <div class="anatomy-list">
+            <a class="anatomy-chip" href="#registry-title"><strong>Skull</strong><code>anatomy:skull</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Clavicle ×2</strong><code>anatomy:clavicle</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Scapula ×2</strong><code>anatomy:scapula</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Sternum</strong><code>anatomy:sternum</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Vertebra</strong><code>anatomy:vertebra</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Humerus ×2</strong><code>anatomy:humerus</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Radius + ulna</strong><code>anatomy:radius · :ulna:</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Pelvis</strong><code>anatomy:pelvis</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Femur ×2</strong><code>anatomy:left_femur</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Patella ×2</strong><code>anatomy:patella</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Tibia + fibula</strong><code>anatomy:tibia · :fibula:</code></a>
+          </div>
+        </aside>
+      </div>
+      <p class="skeleton-caption">A visual assembly, not a new canonical object: every part remains independently addressable in the registry. The lower extremities stop at the representative bone set while the complete skeletal ontology expands.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="organs-title">
+      <div class="atlas-heading"><div><p class="eyebrow">PLATE 02 / VISCERAL SET</p><h2 id="organs-title">The organs are illustrations too.</h2></div><p class="note">Every tile below is a real source-derived SVG master, not a placeholder icon. The registry still owns the identity.</p></div>
+      <div id="organ-atlas" class="organ-atlas" aria-live="polite"></div>
+      <p class="atlas-foot">Color is a restrained rendering layer; switch to the monochrome font when color must not carry meaning.</p>
+    </section>
+
     <section class="panel" aria-labelledby="rendering-title">
       <p class="eyebrow">ONE OBJECT / MANY RENDERERS</p>
       <h2 id="rendering-title">The femur, six ways.</h2>
