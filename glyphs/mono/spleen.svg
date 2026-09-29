@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Spleen</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M300 150 Q610 120 760 330 Q820 560 650 760 Q470 860 300 700 Q180 520 300 150 Z" fill="#17232b"/>
-  <path d="M365 250 Q520 200 650 360 Q700 500 590 630" fill="#17232b"/>
+  <path d="M300 150 Q610 120 760 330 Q820 560 650 760 Q470 860 300 700 Q180 520 300 150 Z" fill="#17232b" data-role="body"/>
+  <path d="M365 250 Q520 200 650 360 Q700 500 590 630" fill="#f4f0e8" data-role="detail"/>
   </g>
 </svg>

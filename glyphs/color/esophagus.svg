@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Esophagus</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M405 125 L595 125 L555 875 Q500 930 445 875 Z" fill="#e7b3ad"/>
-  <path d="M440 200 L560 200 L545 800 L455 800 Z" fill="#8d4d5d"/>
+  <path d="M405 125 L595 125 L555 875 Q500 930 445 875 Z" fill="#e7b3ad" data-role="body"/>
+  <path d="M440 200 L560 200 L545 800 L455 800 Z" fill="#8d4d5d" data-role="detail"/>
   </g>
 </svg>

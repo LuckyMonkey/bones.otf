@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Gallbladder</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M500 190 Q660 250 610 455 Q575 630 500 740 Q425 630 390 455 Q340 250 500 190 Z" fill="#c9a15a"/>
-  <path d="M500 180 L530 90 L560 85 L535 205 Z" fill="#8e6b33"/>
+  <path d="M500 190 Q660 250 610 455 Q575 630 500 740 Q425 630 390 455 Q340 250 500 190 Z" fill="#c9a15a" data-role="body"/>
+  <path d="M500 180 L530 90 L560 85 L535 205 Z" fill="#8e6b33" data-role="detail"/>
   </g>
 </svg>

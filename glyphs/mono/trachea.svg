@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Trachea</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M390 110 L610 110 L575 700 L500 850 L425 700 Z" fill="#17232b"/>
-  <path d="M395 170 L605 170 L600 215 L400 215 Z M395 275 L595 275 L592 320 L400 320 Z M390 380 L590 380 L587 425 L395 425 Z M385 485 L585 485 L582 530 L390 530 Z M380 590 L580 590 L575 635 L385 635 Z" fill="#17232b"/>
+  <path d="M390 110 L610 110 L575 700 L500 850 L425 700 Z" fill="#17232b" data-role="body"/>
+  <path d="M395 170 L605 170 L600 215 L400 215 Z M395 275 L595 275 L592 320 L400 320 Z M390 380 L590 380 L587 425 L395 425 Z M385 485 L585 485 L582 530 L390 530 Z M380 590 L580 590 L575 635 L385 635 Z" fill="#f4f0e8" data-role="detail"/>
   </g>
 </svg>

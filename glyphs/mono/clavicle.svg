@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Clavicle</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M120 400 C230 300 330 300 445 405 C485 440 515 440 555 405 C670 300 770 300 880 400 L830 505 C730 430 660 425 575 500 C525 545 475 545 425 500 C340 425 270 430 170 505 Z" fill="#17232b"/>
+  <path d="M120 400 C230 300 330 300 445 405 C485 440 515 440 555 405 C670 300 770 300 880 400 L830 505 C730 430 660 425 575 500 C525 545 475 545 425 500 C340 425 270 430 170 505 Z" fill="#17232b" data-role="body"/>
   </g>
 </svg>

@@ -18,8 +18,13 @@ class WebPackageTest(unittest.TestCase):
         metadata = (ROOT / "packages/js/index.js").read_text()
         self.assertIn("accessible_label", metadata)
         self.assertIn("anatomy:left_femur", metadata)
+        self.assertIn("Object.values(item.external_ids", metadata)
+        self.assertIn("anatomy:lower_limb", (ROOT / "registry/groups.csv").read_text())
+
+    def test_pages_site_has_local_webfont_assets(self):
+        self.assertTrue((ROOT / "docs/assets/BONES.woff2").is_file())
+        self.assertIn('url("./BONES.woff2")', (ROOT / "docs/assets/bones.css").read_text())
 
 
 if __name__ == "__main__":
     unittest.main()
-

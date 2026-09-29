@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Skull</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M220 430 C170 270 260 120 500 105 C740 120 830 270 780 430 L720 610 L625 680 L375 680 L280 610 Z M355 560 L430 530 L500 585 L570 530 L645 560 L610 670 L390 670 Z" fill="#f3efe2"/>
-  <path d="M315 350 C350 310 405 310 438 350 C415 392 345 392 315 350 Z M562 350 C595 310 650 310 685 350 C655 392 585 392 562 350 Z" fill="#17232b"/>
-  <path d="M470 410 L530 410 L500 480 Z" fill="#17232b"/>
-  <path d="M400 565 Q500 615 600 565 L570 620 Q500 650 430 620 Z" fill="#17232b"/>
+  <path d="M220 430 C170 270 260 120 500 105 C740 120 830 270 780 430 L720 610 L625 680 L375 680 L280 610 Z M355 560 L430 530 L500 585 L570 530 L645 560 L610 670 L390 670 Z" fill="#f3efe2" data-role="body"/>
+  <path d="M315 350 C350 310 405 310 438 350 C415 392 345 392 315 350 Z M562 350 C595 310 650 310 685 350 C655 392 585 392 562 350 Z" fill="#17232b" data-role="detail"/>
+  <path d="M470 410 L530 410 L500 480 Z" fill="#17232b" data-role="detail"/>
+  <path d="M400 565 Q500 615 600 565 L570 620 Q500 650 430 620 Z" fill="#17232b" data-role="detail"/>
   </g>
 </svg>

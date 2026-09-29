@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Left femur</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M255 140 Q155 155 150 255 Q145 350 250 375 L340 400 L420 665 L355 785 Q330 885 430 910 L570 910 Q670 885 645 785 L580 665 L660 400 L750 375 Q855 350 850 255 Q845 155 745 140 L665 180 L600 255 L400 255 L335 180 Z" fill="#17232b"/>
-  <path d="M420 300 L580 300 L540 650 L460 650 Z" fill="#17232b"/>
-  <path d="M390 710 L610 710 L575 790 L425 790 Z" fill="#17232b"/>
+  <path d="M255 140 Q155 155 150 255 Q145 350 250 375 L340 400 L420 665 L355 785 Q330 885 430 910 L570 910 Q670 885 645 785 L580 665 L660 400 L750 375 Q855 350 850 255 Q845 155 745 140 L665 180 L600 255 L400 255 L335 180 Z" fill="#17232b" data-role="body"/>
+  <path d="M420 300 L580 300 L540 650 L460 650 Z" fill="#f4f0e8" data-role="detail"/>
+  <path d="M390 710 L610 710 L575 790 L425 790 Z" fill="#f4f0e8" data-role="detail"/>
   </g>
 </svg>

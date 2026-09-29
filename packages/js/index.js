@@ -8,6 +8,7 @@ const registry = [
     "parent": "anatomy:axial_skeleton",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "cranium"
@@ -38,6 +39,7 @@ const registry = [
     "parent": "anatomy:facial_skeleton",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "lower jaw"
@@ -68,6 +70,7 @@ const registry = [
     "parent": "anatomy:pectoral_girdle",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "collar bone",
@@ -99,6 +102,7 @@ const registry = [
     "parent": "anatomy:pectoral_girdle",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "shoulder blade"
@@ -129,6 +133,7 @@ const registry = [
     "parent": "anatomy:thoracic_cage",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "breastbone"
@@ -159,6 +164,7 @@ const registry = [
     "parent": "anatomy:thoracic_cage",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "costal bone"
@@ -189,6 +195,7 @@ const registry = [
     "parent": "anatomy:vertebral_column",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "spinal bone"
@@ -219,6 +226,7 @@ const registry = [
     "parent": "anatomy:upper_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "upper arm bone"
@@ -249,6 +257,7 @@ const registry = [
     "parent": "anatomy:forearm",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "radial bone"
@@ -279,6 +288,7 @@ const registry = [
     "parent": "anatomy:forearm",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "ulnar bone"
@@ -309,6 +319,7 @@ const registry = [
     "parent": "anatomy:pelvic_girdle",
     "paired": false,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "bony pelvis",
@@ -340,6 +351,7 @@ const registry = [
     "parent": "anatomy:lower_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "thigh bone"
@@ -370,6 +382,7 @@ const registry = [
     "parent": "anatomy:lower_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": "left",
     "aliases": [
       "left thigh bone"
@@ -400,6 +413,7 @@ const registry = [
     "parent": "anatomy:lower_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": "right",
     "aliases": [
       "right thigh bone"
@@ -430,6 +444,7 @@ const registry = [
     "parent": "anatomy:lower_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "kneecap"
@@ -460,6 +475,7 @@ const registry = [
     "parent": "anatomy:lower_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "shin bone"
@@ -490,6 +506,7 @@ const registry = [
     "parent": "anatomy:lower_limb",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "calf bone"
@@ -520,6 +537,7 @@ const registry = [
     "parent": "anatomy:nervous_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "encephalon"
@@ -549,6 +567,7 @@ const registry = [
     "parent": "anatomy:circulatory_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "cardiac organ"
@@ -578,6 +597,7 @@ const registry = [
     "parent": "anatomy:respiratory_system",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": "left",
     "aliases": [
       "left pulmonary lung"
@@ -607,6 +627,7 @@ const registry = [
     "parent": "anatomy:respiratory_system",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": "right",
     "aliases": [
       "right pulmonary lung"
@@ -636,6 +657,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "hepatic organ"
@@ -665,6 +687,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "biliary bladder"
@@ -694,6 +717,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "pancreatic organ"
@@ -723,6 +747,7 @@ const registry = [
     "parent": "anatomy:lymphatic_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "splenic organ"
@@ -752,6 +777,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "gastric organ"
@@ -781,6 +807,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "small bowel"
@@ -810,6 +837,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "large bowel",
@@ -840,6 +868,7 @@ const registry = [
     "parent": "anatomy:urinary_system",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": "left",
     "aliases": [
       "left renal organ"
@@ -869,6 +898,7 @@ const registry = [
     "parent": "anatomy:urinary_system",
     "paired": true,
     "laterality_supported": true,
+    "review_required": true,
     "laterality": "right",
     "aliases": [
       "right renal organ"
@@ -898,6 +928,7 @@ const registry = [
     "parent": "anatomy:urinary_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "bladder"
@@ -927,6 +958,7 @@ const registry = [
     "parent": "anatomy:endocrine_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "thyroid"
@@ -956,6 +988,7 @@ const registry = [
     "parent": "anatomy:digestive_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "gullet"
@@ -985,6 +1018,7 @@ const registry = [
     "parent": "anatomy:respiratory_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "windpipe"
@@ -1014,6 +1048,7 @@ const registry = [
     "parent": "anatomy:integumentary_system",
     "paired": false,
     "laterality_supported": false,
+    "review_required": true,
     "laterality": null,
     "aliases": [
       "cutaneous tissue"
@@ -1036,10 +1071,102 @@ const registry = [
     "char": ""
   }
 ];
+const groups = [
+  {
+    "id": "anatomy:human_body",
+    "label": "Human body",
+    "parent": null
+  },
+  {
+    "id": "anatomy:axial_skeleton",
+    "label": "Axial skeleton",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:facial_skeleton",
+    "label": "Facial skeleton",
+    "parent": "anatomy:axial_skeleton"
+  },
+  {
+    "id": "anatomy:thoracic_cage",
+    "label": "Thoracic cage",
+    "parent": "anatomy:axial_skeleton"
+  },
+  {
+    "id": "anatomy:vertebral_column",
+    "label": "Vertebral column",
+    "parent": "anatomy:axial_skeleton"
+  },
+  {
+    "id": "anatomy:pectoral_girdle",
+    "label": "Pectoral girdle",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:upper_limb",
+    "label": "Upper limb",
+    "parent": "anatomy:pectoral_girdle"
+  },
+  {
+    "id": "anatomy:forearm",
+    "label": "Forearm",
+    "parent": "anatomy:upper_limb"
+  },
+  {
+    "id": "anatomy:pelvic_girdle",
+    "label": "Pelvic girdle",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:lower_limb",
+    "label": "Lower limb",
+    "parent": "anatomy:pelvic_girdle"
+  },
+  {
+    "id": "anatomy:nervous_system",
+    "label": "Nervous system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:circulatory_system",
+    "label": "Circulatory system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:respiratory_system",
+    "label": "Respiratory system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:digestive_system",
+    "label": "Digestive system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:lymphatic_system",
+    "label": "Lymphatic system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:urinary_system",
+    "label": "Urinary system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:endocrine_system",
+    "label": "Endocrine system",
+    "parent": "anatomy:human_body"
+  },
+  {
+    "id": "anatomy:integumentary_system",
+    "label": "Integumentary system",
+    "parent": "anatomy:human_body"
+  }
+];
 const byId = new Map(registry.map((item) => [item.id, item]));
 const byShortcode = new Map(registry.map((item) => [item.shortcode, item]));
 function get(id) { return byId.get(id) || null; }
 function resolveShortcode(shortcode) { return byShortcode.get(shortcode) || null; }
 function unicodeFor(id) { const item = get(id); return item ? item.char : null; }
-function search(query) { const needle = String(query || '').toLowerCase(); return registry.filter((item) => [item.id, item.label, item.shortcode, ...item.aliases].some((value) => String(value).toLowerCase().includes(needle))); }
-module.exports = { registry, get, resolveShortcode, unicodeFor, search };
+function search(query) { const needle = String(query || '').toLowerCase(); return registry.filter((item) => [item.id, item.label, item.shortcode, ...item.aliases, ...Object.values(item.external_ids || {})].some((value) => String(value).toLowerCase().includes(needle))); }
+module.exports = { registry, groups, get, resolveShortcode, unicodeFor, search };

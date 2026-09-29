@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Humerus</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M300 150 Q210 185 245 300 L350 385 L400 650 L345 790 Q335 880 430 900 L570 900 Q665 880 655 790 L600 650 L650 385 L755 300 Q790 185 700 150 L620 180 L560 250 L440 250 L380 180 Z" fill="#f3efe2"/>
-  <path d="M445 290 L555 290 L585 650 L415 650 Z" fill="#d3cbb7"/>
+  <path d="M300 150 Q210 185 245 300 L350 385 L400 650 L345 790 Q335 880 430 900 L570 900 Q665 880 655 790 L600 650 L650 385 L755 300 Q790 185 700 150 L620 180 L560 250 L440 250 L380 180 Z" fill="#f3efe2" data-role="body"/>
+  <path d="M445 290 L555 290 L585 650 L415 650 Z" fill="#d3cbb7" data-role="detail"/>
   </g>
 </svg>

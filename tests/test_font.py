@@ -25,12 +25,19 @@ class FontTest(unittest.TestCase):
         self.assertEqual(font["COLR"].version, 1)
         self.assertEqual(font.getBestCmap()[0xE012], "anatomy_heart")
 
+    def test_otf_artifacts_use_cff_outlines(self):
+        for name in ("BONES.otf", "BONES-Color.otf"):
+            font = TTFont(str(ROOT / "dist" / name))
+            self.assertEqual(font.sfntVersion, "OTTO")
+            self.assertIn("CFF ", font)
+            self.assertNotIn("glyf", font)
+
     def test_woff2_artifacts_load(self):
         for name in ("BONES.woff2", "BONES-Color.woff2"):
             font = TTFont(str(ROOT / "dist" / name))
             self.assertIn("cmap", font)
+            self.assertEqual(len([codepoint for codepoint in font.getBestCmap() if 0xE000 <= codepoint <= 0xF8FF]), 35)
 
 
 if __name__ == "__main__":
     unittest.main()
-

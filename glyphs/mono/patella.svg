@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Patella</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M500 115 Q680 150 735 330 L675 650 Q640 800 500 875 Q360 800 325 650 L265 330 Q320 150 500 115 Z" fill="#17232b"/>
-  <path d="M365 410 Q500 350 635 410 L620 465 Q500 420 380 465 Z" fill="#17232b"/>
+  <path d="M500 115 Q680 150 735 330 L675 650 Q640 800 500 875 Q360 800 325 650 L265 330 Q320 150 500 115 Z" fill="#17232b" data-role="body"/>
+  <path d="M365 410 Q500 350 635 410 L620 465 Q500 420 380 465 Z" fill="#f4f0e8" data-role="detail"/>
   </g>
 </svg>

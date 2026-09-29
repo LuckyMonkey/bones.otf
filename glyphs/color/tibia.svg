@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Tibia</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M300 130 Q220 190 270 320 L385 385 L395 700 L330 820 Q320 900 420 925 L580 925 Q680 900 670 820 L605 700 L615 385 L730 320 Q780 190 700 130 L600 165 L400 165 Z" fill="#f3efe2"/>
-  <path d="M415 390 L585 390 L570 710 L430 710 Z" fill="#d3cbb7"/>
+  <path d="M300 130 Q220 190 270 320 L385 385 L395 700 L330 820 Q320 900 420 925 L580 925 Q680 900 670 820 L605 700 L615 385 L730 320 Q780 190 700 130 L600 165 L400 165 Z" fill="#f3efe2" data-role="body"/>
+  <path d="M415 390 L585 390 L570 710 L430 710 Z" fill="#d3cbb7" data-role="detail"/>
   </g>
 </svg>

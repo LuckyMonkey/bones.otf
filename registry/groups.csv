@@ -1,0 +1,19 @@
+id,label,parent
+anatomy:human_body,Human body,
+anatomy:axial_skeleton,Axial skeleton,anatomy:human_body
+anatomy:facial_skeleton,Facial skeleton,anatomy:axial_skeleton
+anatomy:thoracic_cage,Thoracic cage,anatomy:axial_skeleton
+anatomy:vertebral_column,Vertebral column,anatomy:axial_skeleton
+anatomy:pectoral_girdle,Pectoral girdle,anatomy:human_body
+anatomy:upper_limb,Upper limb,anatomy:pectoral_girdle
+anatomy:forearm,Forearm,anatomy:upper_limb
+anatomy:pelvic_girdle,Pelvic girdle,anatomy:human_body
+anatomy:lower_limb,Lower limb,anatomy:pelvic_girdle
+anatomy:nervous_system,Nervous system,anatomy:human_body
+anatomy:circulatory_system,Circulatory system,anatomy:human_body
+anatomy:respiratory_system,Respiratory system,anatomy:human_body
+anatomy:digestive_system,Digestive system,anatomy:human_body
+anatomy:lymphatic_system,Lymphatic system,anatomy:human_body
+anatomy:urinary_system,Urinary system,anatomy:human_body
+anatomy:endocrine_system,Endocrine system,anatomy:human_body
+anatomy:integumentary_system,Integumentary system,anatomy:human_body

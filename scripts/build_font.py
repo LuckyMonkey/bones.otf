@@ -4,12 +4,16 @@
 from __future__ import annotations
 
 import re
+from io import BytesIO
 from pathlib import Path
 
 import yaml
 from fontTools.colorLib.builder import buildCOLR, buildCPAL
 from fontTools.feaLib.builder import addOpenTypeFeatures
+from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.pens.t2CharStringPen import T2CharStringPen
+from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path.parser import parse_path
 from fontTools.ttLib import TTFont
@@ -18,6 +22,7 @@ from fontTools.ttLib import TTFont
 ROOT = Path(__file__).resolve().parents[1]
 SVG_PATH = re.compile(r'<path\b([^>]*)\bd="([^"]+)"([^>]*)/?>')
 FILL = re.compile(r'\bfill="([#A-Fa-f0-9]+)"')
+ROLE = re.compile(r'\bdata-role="([a-z]+)"')
 UPM = 2048
 
 
@@ -25,30 +30,36 @@ def objects() -> list[dict]:
     return yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())["objects"]
 
 
-def svg_paths(path: Path) -> list[tuple[str, str]]:
+def project_version() -> str:
+    return str(yaml.safe_load((ROOT / "project.yaml").read_text())["version"])
+
+
+def svg_paths(path: Path) -> list[tuple[str, str, str]]:
     text = path.read_text(encoding="utf-8")
     result = []
     for match in SVG_PATH.finditer(text):
         attributes = match.group(1) + match.group(3)
         fill = FILL.search(attributes)
-        result.append((match.group(2), fill.group(1) if fill else "#17232b"))
+        role = ROLE.search(attributes)
+        result.append((match.group(2), fill.group(1) if fill else "#17232b", role.group(1) if role else "body"))
     if not result:
         raise SystemExit(f"no path data in {path}")
     return result
 
 
-def glyph_from_paths(font: TTFont, paths: list[tuple[str, str]]):
+def glyph_from_paths(font: TTFont, paths: list[tuple[str, str, str]], knockouts: bool = False):
     pen = TTGlyphPen(font.getGlyphSet())
     transformed = TransformPen(pen, (UPM / 1000, 0, 0, -(UPM / 1000), 0, UPM))
-    for data, _fill in paths:
-        parse_path(data, transformed)
+    for data, _fill, role in paths:
+        target = ReverseContourPen(transformed) if knockouts and role == "detail" else transformed
+        parse_path(data, target)
     glyph = pen.glyph()
     glyph.recalcBounds(font["glyf"])
     return glyph
 
 
-def add_outline_glyph(font: TTFont, name: str, paths: list[tuple[str, str]], advance: int = UPM) -> None:
-    glyph = glyph_from_paths(font, paths)
+def add_outline_glyph(font: TTFont, name: str, paths: list[tuple[str, str, str]], advance: int = UPM, knockouts: bool = False) -> None:
+    glyph = glyph_from_paths(font, paths, knockouts=knockouts)
     font["glyf"].glyphs[name] = glyph
     font["hmtx"].metrics[name] = (advance, 0)
 
@@ -71,7 +82,7 @@ def prepare_font() -> TTFont:
     font["name"].setName("BONES", 4, 3, 1, 0x409)
     font["name"].setName("BONES-Regular", 6, 3, 1, 0x409)
     font["name"].setName("BONES anatomical symbol system", 10, 3, 1, 0x409)
-    font["name"].setName("Version 0.1.0", 5, 3, 1, 0x409)
+    font["name"].setName(f"Version {project_version()}", 5, 3, 1, 0x409)
     return font
 
 
@@ -99,7 +110,7 @@ def add_anatomical_glyphs(font: TTFont, items: list[dict], color: bool = False) 
     for item in items:
         glyph_name = "anatomy_" + item["id"].split(":", 1)[1]
         paths = svg_paths(ROOT / item["glyph"]["color" if color else "monochrome"])
-        add_outline_glyph(font, glyph_name, paths)
+        add_outline_glyph(font, glyph_name, paths, knockouts=not color)
         order.append(glyph_name)
         if color:
             layers = []
@@ -156,12 +167,38 @@ def add_color(font: TTFont, layers: dict[str, list[tuple[str, str]]]) -> None:
     font["CPAL"] = buildCPAL([[rgba(color) for color in palette_colors]])
 
 
+def cff_font(font: TTFont, ps_name: str) -> TTFont:
+    """Convert the finished TrueType outline font to a real CFF OpenType font."""
+    buffer = BytesIO()
+    font.flavor = None
+    font.save(buffer)
+    buffer.seek(0)
+    converted = TTFont(buffer)
+    glyph_set = converted.getGlyphSet()
+    char_strings = {}
+    for glyph_name in converted.getGlyphOrder():
+        pen = T2CharStringPen(converted["head"].unitsPerEm, glyph_set)
+        glyph_set[glyph_name].draw(pen)
+        char_strings[glyph_name] = pen.getCharString()
+    del converted["glyf"]
+    del converted["loca"]
+    converted["maxp"].tableVersion = 0x00005000
+    builder = FontBuilder(converted["head"].unitsPerEm, isTTF=False)
+    builder.font = converted
+    builder.setupCFF(ps_name, {"FullName": ps_name, "FamilyName": ps_name, "Weight": "Regular"}, char_strings, {})
+    converted.sfntVersion = "OTTO"
+    converted.recalcTimestamp = False
+    return converted
+
+
 def save_variants(font: TTFont, stem: str) -> None:
     out = ROOT / "dist"
     out.mkdir(parents=True, exist_ok=True)
-    for suffix, flavor in ((".ttf", None), (".otf", None), (".woff2", "woff2")):
-        font.flavor = flavor
-        font.save(str(out / f"{stem}{suffix}"))
+    font.flavor = None
+    font.save(str(out / f"{stem}.ttf"))
+    cff_font(font, f"{stem}-Regular").save(str(out / f"{stem}.otf"))
+    font.flavor = "woff2"
+    font.save(str(out / f"{stem}.woff2"))
     font.flavor = None
 
 

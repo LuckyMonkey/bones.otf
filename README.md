@@ -36,12 +36,15 @@ make test          # build plus ontology, font, shaping, and web checks
 make clean
 ```
 
-The build uses the vendored DejaVu Sans base only for ordinary prose glyphs.
+The project version is authoritative in `project.yaml`; generated package and
+font metadata derive from it. The build uses the vendored DejaVu Sans base only for ordinary prose glyphs.
 This means `Fracture of the :left_femur:.` retains readable surrounding text
 when BONES is selected, while the semantic token shapes through a `liga`
 feature. The anatomical glyphs themselves originate only from the checked-in
-generated SVG vector sources. FontTools creates TrueType outlines, WOFF2, and
-COLRv1 palette layers; no proprietary font application is required.
+generated SVG vector sources. FontTools creates TrueType-outline `.ttf`, CFF
+`.otf`, compact WOFF2, and COLRv1 palette layers; no proprietary font
+application is required. See `docs/licensing.md` for the mixed provenance of
+the inherited prose outlines and original BONES glyphs.
 
 ## Usage
 
@@ -90,4 +93,3 @@ metacarpals, tarsals, phalanges, ribs, and vertebral levels for expansion rather
 than assigning guessed identities. The initial objects are fully wired end to
 end and `review_required` identifies where an anatomy expert should review the
 classification or outline before a 1.0 release.
-

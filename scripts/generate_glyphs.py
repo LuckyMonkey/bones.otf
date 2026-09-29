@@ -18,11 +18,26 @@ def anatomy() -> dict:
     return yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())
 
 
+MONO_INK = "#17232b"
+MONO_PAPER = "#f4f0e8"
+BASE_FILLS = {parts[0][1] for parts in DESIGNS.values()}
+
+
+def mono_parts(parts: list[tuple[str, str]]) -> list[tuple[str, str, str]]:
+    """Keep body/detail roles visible in mono masters instead of flattening color."""
+    result = []
+    for index, (data, fill) in enumerate(parts):
+        role = "body" if index == 0 or fill in BASE_FILLS else "detail"
+        result.append((data, MONO_INK if role == "body" else MONO_PAPER, role))
+    return result
+
+
 def write_svg(path: Path, label: str, parts: list[tuple[str, str]], color: bool) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     elements = []
-    for data, fill in parts:
-        elements.append(f'  <path d="{html.escape(data, quote=True)}" fill="{fill if color else "#17232b"}"/>')
+    role_parts = [(data, fill, "body" if index == 0 else "detail") for index, (data, fill) in enumerate(parts)] if color else mono_parts(parts)
+    for data, fill, role in role_parts:
+        elements.append(f'  <path d="{html.escape(data, quote=True)}" fill="{fill}" data-role="{role}"/>')
     text = "\n".join([
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">',
         f"  <title id=\"title\">{html.escape(label)}</title>",
@@ -50,4 +65,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

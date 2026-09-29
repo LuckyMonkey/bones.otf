@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Large intestine</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M240 170 L760 170 Q835 170 835 245 L835 755 Q835 830 760 830 L240 830 Q165 830 165 755 L165 245 Q165 170 240 170 Z M300 290 L300 710 L700 710 L700 290 Z" fill="#e7b3ad"/>
-  <path d="M235 190 L235 810 M765 190 L765 810 M210 245 L790 245 M210 755 L790 755" fill="#8d4d5d"/>
+  <path d="M240 170 L760 170 Q835 170 835 245 L835 755 Q835 830 760 830 L240 830 Q165 830 165 755 L165 245 Q165 170 240 170 Z M300 290 L300 710 L700 710 L700 290 Z" fill="#e7b3ad" data-role="body"/>
+  <path d="M235 190 L235 810 M765 190 L765 810 M210 245 L790 245 M210 755 L790 755" fill="#8d4d5d" data-role="detail"/>
   </g>
 </svg>

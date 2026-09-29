@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Radius</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M365 125 Q300 155 320 245 L410 305 L430 700 Q420 820 490 875 Q560 820 550 700 L570 305 L660 245 Q680 155 615 125 L560 150 L440 150 Z" fill="#17232b"/>
-  <path d="M430 330 L550 330 L545 700 L435 700 Z" fill="#17232b"/>
+  <path d="M365 125 Q300 155 320 245 L410 305 L430 700 Q420 820 490 875 Q560 820 550 700 L570 305 L660 245 Q680 155 615 125 L560 150 L440 150 Z" fill="#17232b" data-role="body"/>
+  <path d="M430 330 L550 330 L545 700 L435 700 Z" fill="#f4f0e8" data-role="detail"/>
   </g>
 </svg>

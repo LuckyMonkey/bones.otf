@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Liver</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M130 390 Q190 180 500 160 Q790 140 875 320 L820 610 Q650 730 370 660 L150 560 Z" fill="#8e4a3c"/>
-  <path d="M525 180 L525 650 L590 670 L620 180 Z" fill="#6d302d"/>
-  <path d="M750 400 Q805 430 790 520 Q770 585 730 555 Q700 500 750 400 Z" fill="#c9a15a"/>
+  <path d="M130 390 Q190 180 500 160 Q790 140 875 320 L820 610 Q650 730 370 660 L150 560 Z" fill="#8e4a3c" data-role="body"/>
+  <path d="M525 180 L525 650 L590 670 L620 180 Z" fill="#6d302d" data-role="detail"/>
+  <path d="M750 400 Q805 430 790 520 Q770 585 730 555 Q700 500 750 400 Z" fill="#c9a15a" data-role="detail"/>
   </g>
 </svg>

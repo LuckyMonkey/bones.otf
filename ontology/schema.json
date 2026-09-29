@@ -2,15 +2,27 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "BONES.OTF anatomy registry",
   "type": "object",
-  "required": ["version", "namespace", "objects"],
+  "required": ["version", "namespace", "groups", "objects"],
   "properties": {
     "version": {"type": "string"},
     "namespace": {"const": "anatomy"},
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "parent"],
+        "properties": {
+          "id": {"pattern": "^anatomy:[a-z0-9_]+$"},
+          "label": {"type": "string", "minLength": 1},
+          "parent": {"type": ["string", "null"]}
+        }
+      }
+    },
     "objects": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "label", "category", "system", "unicode_pua", "ligature", "shortcode", "glyph", "external_ids"],
+        "required": ["id", "label", "category", "system", "unicode_pua", "ligature", "shortcode", "glyph", "external_ids", "review_required"],
         "properties": {
           "id": {"pattern": "^anatomy:[a-z0-9_]+$"},
           "label": {"type": "string", "minLength": 1},
@@ -20,10 +32,10 @@
           "ligature": {"pattern": "^:[a-z0-9_]+:$"},
           "shortcode": {"pattern": "^:[a-z0-9_]+:$"},
           "glyph": {"type": "object", "required": ["monochrome", "color", "base"]},
-          "external_ids": {"type": "object"}
+          "external_ids": {"type": "object"},
+          "review_required": {"type": "boolean"}
         }
       }
     }
   }
 }
-

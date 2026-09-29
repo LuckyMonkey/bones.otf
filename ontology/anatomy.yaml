@@ -1,5 +1,60 @@
 version: 0.1.0
 namespace: anatomy
+groups:
+  - id: anatomy:human_body
+    label: Human body
+    parent: null
+  - id: anatomy:axial_skeleton
+    label: Axial skeleton
+    parent: anatomy:human_body
+  - id: anatomy:facial_skeleton
+    label: Facial skeleton
+    parent: anatomy:axial_skeleton
+  - id: anatomy:thoracic_cage
+    label: Thoracic cage
+    parent: anatomy:axial_skeleton
+  - id: anatomy:vertebral_column
+    label: Vertebral column
+    parent: anatomy:axial_skeleton
+  - id: anatomy:pectoral_girdle
+    label: Pectoral girdle
+    parent: anatomy:human_body
+  - id: anatomy:upper_limb
+    label: Upper limb
+    parent: anatomy:pectoral_girdle
+  - id: anatomy:forearm
+    label: Forearm
+    parent: anatomy:upper_limb
+  - id: anatomy:pelvic_girdle
+    label: Pelvic girdle
+    parent: anatomy:human_body
+  - id: anatomy:lower_limb
+    label: Lower limb
+    parent: anatomy:pelvic_girdle
+  - id: anatomy:nervous_system
+    label: Nervous system
+    parent: anatomy:human_body
+  - id: anatomy:circulatory_system
+    label: Circulatory system
+    parent: anatomy:human_body
+  - id: anatomy:respiratory_system
+    label: Respiratory system
+    parent: anatomy:human_body
+  - id: anatomy:digestive_system
+    label: Digestive system
+    parent: anatomy:human_body
+  - id: anatomy:lymphatic_system
+    label: Lymphatic system
+    parent: anatomy:human_body
+  - id: anatomy:urinary_system
+    label: Urinary system
+    parent: anatomy:human_body
+  - id: anatomy:endocrine_system
+    label: Endocrine system
+    parent: anatomy:human_body
+  - id: anatomy:integumentary_system
+    label: Integumentary system
+    parent: anatomy:human_body
 objects:
   - id: anatomy:skull
     label: Skull
@@ -8,6 +63,7 @@ objects:
     parent: anatomy:axial_skeleton
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [cranium]
     unicode_pua: E000
     ligature: ':skull:'
@@ -22,6 +78,7 @@ objects:
     parent: anatomy:facial_skeleton
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [lower jaw]
     unicode_pua: E001
     ligature: ':mandible:'
@@ -36,6 +93,7 @@ objects:
     parent: anatomy:pectoral_girdle
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [collar bone, collarbone]
     unicode_pua: E002
     ligature: ':clavicle:'
@@ -50,6 +108,7 @@ objects:
     parent: anatomy:pectoral_girdle
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [shoulder blade]
     unicode_pua: E003
     ligature: ':scapula:'
@@ -64,6 +123,7 @@ objects:
     parent: anatomy:thoracic_cage
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [breastbone]
     unicode_pua: E004
     ligature: ':sternum:'
@@ -78,6 +138,7 @@ objects:
     parent: anatomy:thoracic_cage
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [costal bone]
     unicode_pua: E005
     ligature: ':rib:'
@@ -92,6 +153,7 @@ objects:
     parent: anatomy:vertebral_column
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [spinal bone]
     unicode_pua: E006
     ligature: ':vertebra:'
@@ -106,6 +168,7 @@ objects:
     parent: anatomy:upper_limb
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [upper arm bone]
     unicode_pua: E007
     ligature: ':humerus:'
@@ -120,6 +183,7 @@ objects:
     parent: anatomy:forearm
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [radial bone]
     unicode_pua: E008
     ligature: ':radius:'
@@ -134,6 +198,7 @@ objects:
     parent: anatomy:forearm
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [ulnar bone]
     unicode_pua: E009
     ligature: ':ulna:'
@@ -148,6 +213,7 @@ objects:
     parent: anatomy:pelvic_girdle
     paired: false
     laterality_supported: true
+    review_required: true
     aliases: [bony pelvis, hip girdle]
     unicode_pua: E00A
     ligature: ':pelvis:'
@@ -162,6 +228,7 @@ objects:
     parent: anatomy:lower_limb
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [thigh bone]
     unicode_pua: E00B
     ligature: ':femur:'
@@ -178,6 +245,7 @@ objects:
     laterality_supported: true
     laterality: left
     glyph_base: anatomy:femur
+    review_required: true
     aliases: [left thigh bone]
     unicode_pua: E00C
     ligature: ':left_femur:'
@@ -194,6 +262,7 @@ objects:
     laterality_supported: true
     laterality: right
     glyph_base: anatomy:femur
+    review_required: true
     aliases: [right thigh bone]
     unicode_pua: E00D
     ligature: ':right_femur:'
@@ -208,6 +277,7 @@ objects:
     parent: anatomy:lower_limb
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [kneecap]
     unicode_pua: E00E
     ligature: ':patella:'
@@ -222,6 +292,7 @@ objects:
     parent: anatomy:lower_limb
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [shin bone]
     unicode_pua: E00F
     ligature: ':tibia:'
@@ -236,6 +307,7 @@ objects:
     parent: anatomy:lower_limb
     paired: true
     laterality_supported: true
+    review_required: true
     aliases: [calf bone]
     unicode_pua: E010
     ligature: ':fibula:'
@@ -250,6 +322,7 @@ objects:
     parent: anatomy:nervous_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [encephalon]
     unicode_pua: E011
     ligature: ':brain:'
@@ -264,6 +337,7 @@ objects:
     parent: anatomy:circulatory_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [cardiac organ]
     unicode_pua: E012
     ligature: ':heart:'
@@ -279,6 +353,7 @@ objects:
     paired: true
     laterality_supported: true
     laterality: left
+    review_required: true
     aliases: [left pulmonary lung]
     unicode_pua: E013
     ligature: ':left_lung:'
@@ -294,6 +369,7 @@ objects:
     paired: true
     laterality_supported: true
     laterality: right
+    review_required: true
     aliases: [right pulmonary lung]
     unicode_pua: E014
     ligature: ':right_lung:'
@@ -308,6 +384,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [hepatic organ]
     unicode_pua: E015
     ligature: ':liver:'
@@ -322,6 +399,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [biliary bladder]
     unicode_pua: E016
     ligature: ':gallbladder:'
@@ -336,6 +414,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [pancreatic organ]
     unicode_pua: E017
     ligature: ':pancreas:'
@@ -350,6 +429,7 @@ objects:
     parent: anatomy:lymphatic_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [splenic organ]
     unicode_pua: E018
     ligature: ':spleen:'
@@ -364,6 +444,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [gastric organ]
     unicode_pua: E019
     ligature: ':stomach:'
@@ -378,6 +459,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [small bowel]
     unicode_pua: E01A
     ligature: ':small_intestine:'
@@ -392,6 +474,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [large bowel, colon]
     unicode_pua: E01B
     ligature: ':large_intestine:'
@@ -407,6 +490,7 @@ objects:
     paired: true
     laterality_supported: true
     laterality: left
+    review_required: true
     aliases: [left renal organ]
     unicode_pua: E01C
     ligature: ':left_kidney:'
@@ -422,6 +506,7 @@ objects:
     paired: true
     laterality_supported: true
     laterality: right
+    review_required: true
     aliases: [right renal organ]
     unicode_pua: E01D
     ligature: ':right_kidney:'
@@ -436,6 +521,7 @@ objects:
     parent: anatomy:urinary_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [bladder]
     unicode_pua: E01E
     ligature: ':urinary_bladder:'
@@ -450,6 +536,7 @@ objects:
     parent: anatomy:endocrine_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [thyroid]
     unicode_pua: E01F
     ligature: ':thyroid:'
@@ -464,6 +551,7 @@ objects:
     parent: anatomy:digestive_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [gullet]
     unicode_pua: E020
     ligature: ':esophagus:'
@@ -478,6 +566,7 @@ objects:
     parent: anatomy:respiratory_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [windpipe]
     unicode_pua: E021
     ligature: ':trachea:'
@@ -492,6 +581,7 @@ objects:
     parent: anatomy:integumentary_system
     paired: false
     laterality_supported: false
+    review_required: true
     aliases: [cutaneous tissue]
     unicode_pua: E022
     ligature: ':skin:'
@@ -499,4 +589,3 @@ objects:
     external_ids: {uberon: UBERON:0002097}
     sources: [uberon, bones_original_art]
     glyph: {base: skin, monochrome: glyphs/mono/skin.svg, color: glyphs/color/skin.svg}
-

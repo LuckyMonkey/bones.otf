@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Skin</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M230 170 Q500 80 770 170 L850 420 L760 840 L240 840 L150 420 Z" fill="#d8a57f"/>
-  <path d="M260 250 Q500 175 740 250 L780 420 L705 760 L295 760 L220 420 Z" fill="#f1c3a1"/>
-  <path d="M330 350 Q500 300 670 350 M300 470 Q500 420 700 470 M285 590 Q500 540 715 590" fill="#b87962"/>
+  <path d="M230 170 Q500 80 770 170 L850 420 L760 840 L240 840 L150 420 Z" fill="#d8a57f" data-role="body"/>
+  <path d="M260 250 Q500 175 740 250 L780 420 L705 760 L295 760 L220 420 Z" fill="#f1c3a1" data-role="detail"/>
+  <path d="M330 350 Q500 300 670 350 M300 470 Q500 420 700 470 M285 590 Q500 540 715 590" fill="#b87962" data-role="detail"/>
   </g>
 </svg>

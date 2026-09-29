@@ -35,8 +35,12 @@ class OntologyTest(unittest.TestCase):
             self.assertTrue((ROOT / item["glyph"]["color"]).is_file(), item["id"])
             self.assertEqual(item["shortcode"], item["ligature"])
             self.assertTrue(item["external_ids"], item["id"])
+            self.assertIsInstance(item["review_required"], bool)
+
+    def test_parent_graph_resolves(self):
+        known = {group["id"] for group in self.data["groups"]} | {item["id"] for item in self.data["objects"]}
+        self.assertTrue(all(item["parent"] in known for item in self.data["objects"]))
 
 
 if __name__ == "__main__":
     unittest.main()
-

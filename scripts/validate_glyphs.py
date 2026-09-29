@@ -12,6 +12,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 SVG_RE = re.compile(r'<svg[^>]+viewBox="0 0 1000 1000"')
 PATH_RE = re.compile(r'<path\b[^>]*\bd="[^"]+"')
+ROLE_RE = re.compile(r'<path\b[^>]*data-role="(?:body|detail)"')
 
 
 def main() -> int:
@@ -23,7 +24,7 @@ def main() -> int:
             if not path.is_file():
                 raise SystemExit(f"missing SVG: {path}")
             text = path.read_text(encoding="utf-8")
-            if not SVG_RE.search(text) or not PATH_RE.search(text) or "<image" in text:
+            if not SVG_RE.search(text) or not PATH_RE.search(text) or not ROLE_RE.search(text) or "<image" in text:
                 raise SystemExit(f"invalid vector SVG: {path}")
             checked += 1
     print(f"SVG masters OK: {checked} vector files")
@@ -32,4 +33,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

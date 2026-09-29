@@ -37,7 +37,17 @@ class ShapingTest(unittest.TestCase):
         self.assertNotIn(".notdef", names)
         self.assertNotIn("anatomy_femur", self.shape_names("femur"))
 
+    def test_compact_webfont_shapes_tokens(self):
+        data = (ROOT / "dist/BONES.woff2").read_bytes()
+        face = hb.Face(data)
+        font = hb.Font(face)
+        order = TTFont(str(ROOT / "dist/BONES.woff2")).getGlyphOrder()
+        buffer = hb.Buffer()
+        buffer.add_str(":femur:")
+        buffer.guess_segment_properties()
+        hb.shape(font, buffer)
+        self.assertEqual([order[info.codepoint] for info in buffer.glyph_infos], ["anatomy_femur"])
+
 
 if __name__ == "__main__":
     unittest.main()
-

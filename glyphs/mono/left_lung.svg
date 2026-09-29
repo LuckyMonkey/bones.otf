@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Left lung</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M470 220 Q260 145 170 360 L165 700 Q190 825 335 790 L475 650 L475 300 Z" fill="#17232b"/>
-  <path d="M470 270 L470 670 L355 710 L310 410 Z" fill="#17232b"/>
+  <path d="M470 220 Q260 145 170 360 L165 700 Q190 825 335 790 L475 650 L475 300 Z" fill="#17232b" data-role="body"/>
+  <path d="M470 270 L470 670 L355 710 L310 410 Z" fill="#f4f0e8" data-role="detail"/>
   </g>
 </svg>

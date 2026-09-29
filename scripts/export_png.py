@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import shutil
 import subprocess
+from concurrent.futures import ThreadPoolExecutor
+import os
 from pathlib import Path
 
 import yaml
@@ -24,18 +26,20 @@ def export(source: Path, target: Path, size: int) -> None:
 
 def main() -> int:
     data = yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())
-    count = 0
+    jobs = []
     for item in data["objects"]:
         name = item["id"].split(":", 1)[1]
         for variant, field in (("mono", "monochrome"), ("color", "color")):
             source = ROOT / item["glyph"][field]
             for size in SIZES:
-                export(source, ROOT / "dist/png" / variant / f"{name}-{size}.png", size)
-                count += 1
+                jobs.append((source, ROOT / "dist/png" / variant / f"{name}-{size}.png", size))
+    workers = max(1, int(os.environ.get("BONES_PNG_WORKERS", os.cpu_count() or 4)))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        list(pool.map(lambda job: export(*job), jobs))
+    count = len(jobs)
     print(f"exported {count} PNG previews")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

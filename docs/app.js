@@ -15,7 +15,7 @@
 
   function filtered() {
     const query = (search.value || '').toLowerCase();
-    return registry.filter((item) => (filter === 'all' || item.category === filter) && [item.id, item.label, item.shortcode, item.codepoint, ...item.aliases].some((value) => String(value).toLowerCase().includes(query)));
+    return registry.filter((item) => (filter === 'all' || item.category === filter) && [item.id, item.label, item.shortcode, item.codepoint, ...item.aliases, ...Object.values(item.external_ids || {})].some((value) => String(value).toLowerCase().includes(query)));
   }
 
   function render() {
@@ -51,4 +51,3 @@
   updatePlayground();
   render();
 }());
-

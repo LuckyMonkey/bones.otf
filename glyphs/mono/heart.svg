@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title">
   <title id="title">Heart</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M500 820 C450 760 175 585 175 350 C175 185 390 130 500 315 C610 130 825 185 825 350 C825 585 550 760 500 820 Z" fill="#17232b"/>
-  <path d="M485 270 L485 430 L420 520 L500 605 L580 520 L515 430 L515 270 Z" fill="#17232b"/>
-  <path d="M500 315 L570 180 L630 155 L620 275 L550 350 Z" fill="#17232b"/>
+  <path d="M500 820 C450 760 175 585 175 350 C175 185 390 130 500 315 C610 130 825 185 825 350 C825 585 550 760 500 820 Z" fill="#17232b" data-role="body"/>
+  <path d="M485 270 L485 430 L420 520 L500 605 L580 520 L515 430 L515 270 Z" fill="#f4f0e8" data-role="detail"/>
+  <path d="M500 315 L570 180 L630 155 L620 275 L550 350 Z" fill="#17232b" data-role="body"/>
   </g>
 </svg>

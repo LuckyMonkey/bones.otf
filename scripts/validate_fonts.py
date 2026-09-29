@@ -18,10 +18,11 @@ def main() -> int:
             raise SystemExit(f"{filename}: expected 35 PUA mappings, got {len(pua)}")
         if filename.startswith("BONES-Color") and "COLR" not in font:
             raise SystemExit(f"{filename}: missing COLR")
+        if filename.endswith(".otf") and (font.sfntVersion != "OTTO" or "CFF " not in font):
+            raise SystemExit(f"{filename}: expected CFF OpenType outlines")
     print("font validation OK: checksums, cmap, PUA, and color tables")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

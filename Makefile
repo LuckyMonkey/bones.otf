@@ -16,6 +16,7 @@ validate:
 build: validate
 	$(PYTHON) scripts/generate_registry.py
 	$(PYTHON) scripts/build_font.py
+	$(PYTHON) scripts/subset_webfonts.py
 	$(PYTHON) scripts/validate_fonts.py
 	$(PYTHON) scripts/export_png.py
 	$(PYTHON) scripts/build_docs.py
