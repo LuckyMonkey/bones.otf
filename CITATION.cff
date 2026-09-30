@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If BONES.OTF helps your work, please cite the project."
+title: "BONES.OTF"
+abstract: "An open, semantic anatomical symbol system with stable object identities, vector glyphs, and emoji-like rendering."
+type: software
+version: 0.1.0
+date-released: 2026-09-29
+license: MIT
+url: https://github.com/LuckyMonkey/bones.otf
+repository-code: https://github.com/LuckyMonkey/bones.otf
+authors:
+  - name: BONES.OTF contributors

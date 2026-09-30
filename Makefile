@@ -1,7 +1,7 @@
 PYTHON ?= .venv/bin/python
 TRACE_PYTHON ?= /usr/bin/python3
 
-.PHONY: all build test validate trace clean install
+.PHONY: all build test validate trace site clean install
 
 all: build
 
@@ -25,9 +25,13 @@ build: validate
 	$(PYTHON) scripts/export_png.py
 	$(PYTHON) scripts/build_docs.py
 
-test: build
+test: site
 	$(PYTHON) -m unittest discover -s tests -p 'test_*.py' -v
+
+site: build
+	$(PYTHON) scripts/build_site.py
 
 clean:
 	rm -rf dist/png glyphs/png
 	rm -f font/sources/*.fea font/sources/*.json
+	rm -rf _site

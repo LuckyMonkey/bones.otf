@@ -36,6 +36,14 @@ class WebPackageTest(unittest.TestCase):
         self.assertIn('renderOrganAtlas', (ROOT / "docs/app.js").read_text())
         self.assertIn('id="playground"', demo)
 
+    def test_pages_artifact_is_deployable(self):
+        site = ROOT / "_site"
+        self.assertTrue((site / "index.html").is_file())
+        self.assertTrue((site / "docs/index.html").is_file())
+        self.assertTrue((site / "dist/BONES-Color.woff2").is_file())
+        self.assertTrue((site / "glyphs/color/heart.svg").is_file())
+        self.assertNotIn("dist/png", "\n".join(str(path) for path in site.rglob("*")))
+
 
 if __name__ == "__main__":
     unittest.main()

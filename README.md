@@ -1,4 +1,10 @@
-# BONES.OTF
+# BONES.OTF 🦴
+
+[![Validate BONES](https://github.com/LuckyMonkey/bones.otf/actions/workflows/ci.yml/badge.svg)](https://github.com/LuckyMonkey/bones.otf/actions/workflows/ci.yml)
+[![Deploy demo](https://github.com/LuckyMonkey/bones.otf/actions/workflows/pages.yml/badge.svg)](https://github.com/LuckyMonkey/bones.otf/actions/workflows/pages.yml)
+[![Live demo](https://img.shields.io/badge/demo-live-b54c4e)](https://luckymonkey.github.io/bones.otf/)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Font: OFL](https://img.shields.io/badge/font-OFL--1.1-gold.svg)](font/OFL.txt)
 
 BONES.OTF is an open anatomical symbol system.
 
@@ -7,7 +13,7 @@ typographic representation. BONES gives anatomical structures stable object
 identities, Unicode-compatible representations, semantic text aliases, vector
 glyphs, and emoji-like rendering.
 
-It is not Wingdings.
+It is not Wingdings. 🧬
 
 Ordinary letters are never repurposed. Authors write `:femur:` or
 `:left_kidney:`; without BONES installed, that text remains exactly meaningful.
@@ -33,8 +39,28 @@ Artifacts include `dist/BONES.otf`, `dist/BONES.ttf`, `dist/BONES-Color.otf`,
 `dist/BONES-Color.ttf`, WOFF2 files, SVG assets, PNG exports, a zero-framework
 specimen site in `docs/`, and a small JavaScript package in `packages/js/`.
 
-Open `demo.html` for the standalone live rendering demo, or `docs/index.html`
-for the full searchable specimen registry.
+Open [`demo.html`](demo.html) for the standalone live rendering demo, or
+[`docs/index.html`](docs/index.html) for the full searchable specimen registry.
+
+## See it live 🚀
+
+- **[Open the BONES demo](https://luckymonkey.github.io/bones.otf/)** — the
+  x-ray assembly, color glyphs, semantic playground, and anatomy cards.
+- **[Search the full specimen registry](https://luckymonkey.github.io/bones.otf/docs/)**
+  — filter bones, organs, and tissues; copy shortcodes or PUA characters.
+- **[Download the WOFF2 webfonts](https://github.com/LuckyMonkey/bones.otf/tree/main/dist)**
+  — use the monochrome or COLRv1 color renderer in your own page.
+
+The smallest honest demo is:
+
+```text
+🦴 Fracture of the :left_femur:.
+🧠 :brain:  🫀 :heart:  🫁 :left_lung:
+```
+
+The emoji are ordinary Unicode examples. The colon-delimited names are BONES
+semantic text; the font turns them into detailed anatomy glyphs when selected.
+If the font is missing, the source still says what the author meant. 🎨
 
 ## Build
 
@@ -55,12 +81,18 @@ generated SVG vector sources. FontTools creates TrueType-outline `.ttf`, CFF
 application is required. See `docs/licensing.md` for the mixed provenance of
 the inherited prose outlines and original BONES glyphs.
 
+For the user-facing examples and accessibility rules, read
+[`docs/using.md`](docs/using.md). ♿
+
 ## Usage
 
 ```html
 <link rel="stylesheet" href="./dist/bones.css">
 <span class="bones" aria-label="Femur">:femur:</span>
 <span class="bones" role="img" aria-label="Left kidney">:left_kidney:</span>
+
+<!-- A readable semantic fallback plus a color/emoji-like renderer. -->
+<span class="bones-emoji" role="img" aria-label="Heart">:heart:</span>
 ```
 
 The JavaScript helper resolves both semantic IDs and shortcodes:
@@ -74,7 +106,18 @@ resolveShortcode(":heart:");
 
 Private-use characters need an explicit accessible label in HTML. Do not expose
 `U+E00B` to a screen reader as if it were a standard Unicode character. See
-`docs/accessibility.md` and `docs/anatomical-review.md`.
+[`docs/accessibility.md`](docs/accessibility.md) and
+[`docs/anatomical-review.md`](docs/anatomical-review.md).
+
+## Repository map 📚
+
+- `ontology/` — canonical anatomy objects and provenance.
+- `registry/` — append-only PUA assignments, aliases, and ligatures.
+- `glyphs/` — deterministic monochrome and color SVG masters.
+- `dist/` — font release artifacts and webfont CSS.
+- `packages/js/` — generated JavaScript/TypeScript metadata API.
+- `docs/` — searchable specimen site and project guidance.
+- `.github/workflows/` — reproducible validation and Pages deployment.
 
 ## Identity and Unicode
 
@@ -103,3 +146,7 @@ every adult skeletal substructure or view is clinically complete. Repeated
 carpals, phalanges, ribs, and tarsals have distinct canonical identities and
 may explicitly share a small-size glyph master. `review_required` identifies
 where an anatomy expert should review classification or outline before 1.0.
+
+The public demo is a release-quality MVP, not a clinical reference tool. Please
+report anatomical corrections with sources; stable object IDs and released PUA
+assignments are never casually recycled. 🔬
