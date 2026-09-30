@@ -16,12 +16,23 @@ ROOT = Path(__file__).resolve().parents[1]
 SIZES = (16, 20, 24, 32, 48, 64, 128, 256)
 
 
+def rasterizer() -> str:
+    for command in ("rsvg-convert", "magick", "convert"):
+        if shutil.which(command):
+            return command
+    raise RuntimeError(
+        "PNG export needs rsvg-convert or ImageMagick (magick/convert); "
+        "install imagemagick and retry"
+    )
+
+
 def export(source: Path, target: Path, size: int) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
-    if shutil.which("rsvg-convert"):
+    command = rasterizer()
+    if command == "rsvg-convert":
         subprocess.run(["rsvg-convert", "--width", str(size), "--height", str(size), "--output", str(target), str(source)], check=True)
     else:
-        subprocess.run(["convert", "-background", "none", "-resize", f"{size}x{size}", str(source), str(target)], check=True)
+        subprocess.run([command, "-background", "none", "-resize", f"{size}x{size}", str(source), str(target)], check=True)
 
 
 def main() -> int:

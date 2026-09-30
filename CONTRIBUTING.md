@@ -9,3 +9,6 @@ expert review.
 Run `make test` before opening a change. Generated files are intentionally
 reproducible and should be refreshed by the build rather than edited by hand.
 
+The build needs Python 3, the packages in `requirements.txt`, and either
+`rsvg-convert` or ImageMagick (`magick`/`convert`) for PNG previews. GitHub CI
+installs ImageMagick automatically. 🛠️

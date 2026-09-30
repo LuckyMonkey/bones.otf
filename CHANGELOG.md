@@ -7,6 +7,8 @@
   security policy, citation metadata, and emoji-forward usage documentation.
 - Made the Makefile use the checked-in virtualenv when present and fall back to
   `python3` on clean CI runners.
+- Made PNG export select `rsvg-convert`, ImageMagick `magick`, or `convert` with
+  a clear dependency error; CI installs the SVG rasterizers explicitly.
 - Updated the demo skeleton assembly without changing its x-ray frame or splayed layout:
   added the 24-rib cage, individually placed C1–L5 vertebral levels, mandible,
   sacrum/coccyx, hand anchors, and foot anchors, with an expanded object index.

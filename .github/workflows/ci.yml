@@ -23,6 +23,8 @@ jobs:
           cache-dependency-path: requirements.txt
       - name: Install build dependencies
         run: python -m pip install -r requirements.txt
+      - name: Install SVG rasterizer
+        run: sudo apt-get update && sudo apt-get install --yes imagemagick librsvg2-bin
       - name: Build and test
         run: make test
       - name: Verify generated files are reproducible
