@@ -44,6 +44,36 @@
     .skeleton-part { position: absolute; z-index: 1; display: block; margin: 0; }
     .skeleton-part img { display: block; width: 100%; height: 100%; object-fit: contain; opacity: .92; filter: brightness(0) invert(1) drop-shadow(0 0 2px #fff) drop-shadow(0 0 8px #e7f5ff8c); mix-blend-mode: screen; }
     .skeleton-part.mirror img { transform: scaleX(-1); }
+    .part-rib { z-index: 0; width: 28%; height: 6.5%; opacity: .5; }
+    .rib-left { left: 22%; transform: rotate(-2deg); }
+    .rib-right { left: 50%; transform: rotate(2deg); }
+    .rib-1 { top: 20%; } .rib-2 { top: 22%; } .rib-3 { top: 24%; } .rib-4 { top: 26%; }
+    .rib-5 { top: 28%; } .rib-6 { top: 30%; } .rib-7 { top: 32%; } .rib-8 { top: 34%; }
+    .rib-9 { top: 36%; } .rib-10 { top: 38%; } .rib-11 { top: 40%; } .rib-12 { top: 42%; }
+    .spine-level { left: 44%; width: 12%; height: 4.5%; opacity: .84; }
+    .spine-c1 { top: 14%; } .spine-c2 { top: 16%; } .spine-c3 { top: 18%; } .spine-c4 { top: 20%; }
+    .spine-c5 { top: 22%; } .spine-c6 { top: 24%; } .spine-c7 { top: 26%; }
+    .spine-t1 { top: 28%; } .spine-t2 { top: 30%; } .spine-t3 { top: 32%; } .spine-t4 { top: 34%; }
+    .spine-t5 { top: 36%; } .spine-t6 { top: 38%; } .spine-t7 { top: 40%; } .spine-t8 { top: 42%; }
+    .spine-t9 { top: 44%; } .spine-t10 { top: 46%; } .spine-t11 { top: 48%; } .spine-t12 { top: 50%; }
+    .spine-l1 { top: 52%; } .spine-l2 { top: 54%; } .spine-l3 { top: 56%; } .spine-l4 { top: 58%; } .spine-l5 { top: 60%; }
+    .part-sacrum { top: 57%; left: 41%; width: 18%; height: 10%; opacity: .82; }
+    .part-coccyx { top: 63%; left: 46%; width: 8%; height: 7%; opacity: .78; }
+    .hand-part { z-index: 2; opacity: .8; }
+    .hand-carpus-left { top: 61%; left: 11%; width: 15%; height: 11%; transform: rotate(-20deg); }
+    .hand-carpus-right { top: 61%; left: 74%; width: 15%; height: 11%; transform: rotate(20deg); }
+    .hand-metacarpus-left { top: 64%; left: 1%; width: 24%; height: 13%; transform: rotate(-18deg); }
+    .hand-metacarpus-right { top: 64%; left: 75%; width: 24%; height: 13%; transform: rotate(18deg); }
+    .hand-phalanges-left { top: 68%; left: 0; width: 19%; height: 14%; transform: rotate(-17deg); }
+    .hand-phalanges-right { top: 68%; left: 81%; width: 19%; height: 14%; transform: rotate(17deg); }
+    .foot-part { z-index: 2; opacity: .82; }
+    .foot-tarsus-left { top: 91%; left: 16%; width: 20%; height: 9%; transform: rotate(-10deg); }
+    .foot-tarsus-right { top: 91%; left: 64%; width: 20%; height: 9%; transform: rotate(10deg); }
+    .foot-metatarsus-left { top: 94%; left: 4%; width: 23%; height: 8%; transform: rotate(-9deg); }
+    .foot-metatarsus-right { top: 94%; left: 73%; width: 23%; height: 8%; transform: rotate(9deg); }
+    .foot-phalanges-left { top: 95%; left: 0; width: 14%; height: 7%; transform: rotate(-8deg); }
+    .foot-phalanges-right { top: 95%; left: 86%; width: 14%; height: 7%; transform: rotate(8deg); }
+    .part-mandible { top: 10%; left: 38%; width: 24%; height: 8%; z-index: 3; opacity: .78; }
     .part-skull { top: 2%; left: 34%; width: 32%; height: 14%; }
     .part-clavicle-left { top: 13%; left: 19%; width: 27%; height: 7%; transform: rotate(-5deg); }
     .part-clavicle-right { top: 13%; left: 54%; width: 27%; height: 7%; transform: rotate(5deg); }
@@ -135,12 +165,62 @@
         <div class="skeleton-stage" role="img" aria-label="Representative human skeleton assembly made from BONES Gray's Anatomy bone glyphs">
           <span class="stage-label axial">AXIAL</span><span class="stage-label appendicular">APPENDICULAR</span>
           <figure class="skeleton-part part-skull"><img src="glyphs/color/skull.svg" alt=""></figure>
+          <figure class="skeleton-part part-mandible"><img src="glyphs/color/mandible.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-1"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-1 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-2"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-2 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-3"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-3 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-4"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-4 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-5"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-5 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-6"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-6 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-7"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-7 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-8"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-8 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-9"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-9 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-10"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-10 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-11"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-11 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-12"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-12 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c1"><img src="glyphs/color/c1_atlas.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c2"><img src="glyphs/color/c2_axis.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c3"><img src="glyphs/color/c3.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c4"><img src="glyphs/color/c4.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c5"><img src="glyphs/color/c5.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c6"><img src="glyphs/color/c6.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-c7"><img src="glyphs/color/c7.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t1"><img src="glyphs/color/t1.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t2"><img src="glyphs/color/t2.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t3"><img src="glyphs/color/t3.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t4"><img src="glyphs/color/t4.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t5"><img src="glyphs/color/t5.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t6"><img src="glyphs/color/t6.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t7"><img src="glyphs/color/t7.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t8"><img src="glyphs/color/t8.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t9"><img src="glyphs/color/t9.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t10"><img src="glyphs/color/t10.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t11"><img src="glyphs/color/t11.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-t12"><img src="glyphs/color/t12.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-l1"><img src="glyphs/color/l1.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-l2"><img src="glyphs/color/l2.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-l3"><img src="glyphs/color/l3.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-l4"><img src="glyphs/color/l4.svg" alt=""></figure>
+          <figure class="skeleton-part spine-level spine-l5"><img src="glyphs/color/l5.svg" alt=""></figure>
+          <figure class="skeleton-part part-sacrum"><img src="glyphs/color/sacrum.svg" alt=""></figure>
+          <figure class="skeleton-part part-coccyx"><img src="glyphs/color/coccyx.svg" alt=""></figure>
           <figure class="skeleton-part part-clavicle-left"><img src="glyphs/color/clavicle.svg" alt=""></figure>
           <figure class="skeleton-part part-clavicle-right mirror"><img src="glyphs/color/clavicle.svg" alt=""></figure>
           <figure class="skeleton-part part-scapula-left"><img src="glyphs/color/scapula.svg" alt=""></figure>
           <figure class="skeleton-part part-scapula-right mirror"><img src="glyphs/color/scapula.svg" alt=""></figure>
           <figure class="skeleton-part part-sternum"><img src="glyphs/color/sternum.svg" alt=""></figure>
-          <figure class="skeleton-part part-vertebra"><img src="glyphs/color/vertebra.svg" alt=""></figure>
           <figure class="skeleton-part part-humerus-left"><img src="glyphs/color/humerus.svg" alt=""></figure>
           <figure class="skeleton-part part-humerus-right mirror"><img src="glyphs/color/humerus.svg" alt=""></figure>
           <figure class="skeleton-part part-radius-left"><img src="glyphs/color/radius.svg" alt=""></figure>
@@ -156,6 +236,18 @@
           <figure class="skeleton-part part-tibia-right mirror"><img src="glyphs/color/tibia.svg" alt=""></figure>
           <figure class="skeleton-part part-fibula-left"><img src="glyphs/color/fibula.svg" alt=""></figure>
           <figure class="skeleton-part part-fibula-right mirror"><img src="glyphs/color/fibula.svg" alt=""></figure>
+          <figure class="skeleton-part hand-part hand-carpus-left"><img src="glyphs/color/left_scaphoid.svg" alt=""></figure>
+          <figure class="skeleton-part hand-part hand-carpus-right mirror"><img src="glyphs/color/right_scaphoid.svg" alt=""></figure>
+          <figure class="skeleton-part hand-part hand-metacarpus-left"><img src="glyphs/color/left_metacarpal_1.svg" alt=""></figure>
+          <figure class="skeleton-part hand-part hand-metacarpus-right mirror"><img src="glyphs/color/right_metacarpal_1.svg" alt=""></figure>
+          <figure class="skeleton-part hand-part hand-phalanges-left"><img src="glyphs/color/left_thumb_proximal_phalanx.svg" alt=""></figure>
+          <figure class="skeleton-part hand-part hand-phalanges-right mirror"><img src="glyphs/color/right_thumb_proximal_phalanx.svg" alt=""></figure>
+          <figure class="skeleton-part foot-part foot-tarsus-left"><img src="glyphs/color/left_talus.svg" alt=""></figure>
+          <figure class="skeleton-part foot-part foot-tarsus-right mirror"><img src="glyphs/color/right_talus.svg" alt=""></figure>
+          <figure class="skeleton-part foot-part foot-metatarsus-left"><img src="glyphs/color/left_metatarsal_1.svg" alt=""></figure>
+          <figure class="skeleton-part foot-part foot-metatarsus-right mirror"><img src="glyphs/color/right_metatarsal_1.svg" alt=""></figure>
+          <figure class="skeleton-part foot-part foot-phalanges-left"><img src="glyphs/color/left_great_toe_proximal_phalanx.svg" alt=""></figure>
+          <figure class="skeleton-part foot-part foot-phalanges-right mirror"><img src="glyphs/color/right_great_toe_proximal_phalanx.svg" alt=""></figure>
         </div>
         <aside class="skeleton-index" aria-label="Objects used in the assembly">
           <div class="skeleton-index-head"><span>Object index</span><span>Gray / SVG</span></div>
@@ -164,17 +256,20 @@
             <a class="anatomy-chip" href="#registry-title"><strong>Clavicle ×2</strong><code>anatomy:clavicle</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Scapula ×2</strong><code>anatomy:scapula</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Sternum</strong><code>anatomy:sternum</code></a>
-            <a class="anatomy-chip" href="#registry-title"><strong>Vertebra</strong><code>anatomy:vertebra</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Spine · C1–L5</strong><code>:c1_atlas: … :l5:</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Humerus ×2</strong><code>anatomy:humerus</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Radius + ulna</strong><code>anatomy:radius · :ulna:</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Pelvis</strong><code>anatomy:pelvis</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Femur ×2</strong><code>anatomy:left_femur</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Patella ×2</strong><code>anatomy:patella</code></a>
             <a class="anatomy-chip" href="#registry-title"><strong>Tibia + fibula</strong><code>anatomy:tibia · :fibula:</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Rib cage ×24</strong><code>:left_rib_1: … :right_rib_12:</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Hands · carpals</strong><code>:left_scaphoid: + phalanges</code></a>
+            <a class="anatomy-chip" href="#registry-title"><strong>Feet · tarsals</strong><code>:left_talus: + toe phalanges</code></a>
           </div>
         </aside>
       </div>
-      <p class="skeleton-caption">A visual assembly, not a new canonical object: every part remains independently addressable in the registry. The lower extremities stop at the representative bone set while the complete skeletal ontology expands.</p>
+      <p class="skeleton-caption">A visual assembly, not a new canonical object: the rib cage, vertebral levels, sacrum, hands, and feet now sit on their anatomical anchors while every part remains independently addressable in the registry.</p>
     </section>
 
     <section class="panel" aria-labelledby="organs-title">

@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Updated the demo skeleton assembly without changing its x-ray frame or splayed layout:
+  added the 24-rib cage, individually placed C1–L5 vertebral levels, mandible,
+  sacrum/coccyx, hand anchors, and foot anchors, with an expanded object index.
 - Expanded the skeletal ontology from 17 to 186 bone objects: named cranial and
   facial bones, C1–C7, T1–T12, L1–L5, sacrum, coccyx, numbered ribs, carpals,
   metacarpals, hand phalanges, tarsals, metatarsals, and foot phalanges.
