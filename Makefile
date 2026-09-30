@@ -1,4 +1,4 @@
-PYTHON ?= .venv/bin/python
+PYTHON ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python3)
 TRACE_PYTHON ?= /usr/bin/python3
 
 .PHONY: all build test validate trace site clean install
