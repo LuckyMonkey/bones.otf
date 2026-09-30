@@ -49,6 +49,52 @@ plates:
   fibula:
     file: Unterschenkel.gif
     page: https://commons.wikimedia.org/wiki/File:Unterschenkel.gif
+bones:
+  sphenoid:
+    file: Gray147.png
+    page: https://commons.wikimedia.org/wiki/File:Gray147.png
+  zygomatic:
+    file: Gray164.png
+    page: https://commons.wikimedia.org/wiki/File:Gray164.png
+  carpus:
+    file: Gray220.png
+    page: https://commons.wikimedia.org/wiki/File:Gray220.png
+  hand_detail:
+    file: Gray219.png
+    page: https://commons.wikimedia.org/wiki/File:Gray219.png
+  atlas_axis:
+    file: Gray308.png
+    page: https://commons.wikimedia.org/wiki/File:Gray308.png
+  atlas:
+    file: Gray86.png
+    page: https://commons.wikimedia.org/wiki/File:Gray86.png
+  axis:
+    file: Gray87.png
+    page: https://commons.wikimedia.org/wiki/File:Gray87.png
+  cervical:
+    file: Gray84.png
+    page: https://commons.wikimedia.org/wiki/File:Gray84.png
+  vertebral_column:
+    file: Gray 111 - Vertebral column.png
+    page: https://commons.wikimedia.org/wiki/File:Gray_111_-_Vertebral_column.png
+  thoracic_vertebra:
+    file: Gray82.png
+    page: https://commons.wikimedia.org/wiki/File:Gray82.png
+  lumbar_vertebra:
+    file: Gray92.png
+    page: https://commons.wikimedia.org/wiki/File:Gray92.png
+  sacrum:
+    file: Gray95.png
+    page: https://commons.wikimedia.org/wiki/File:Gray95.png
+  coccyx:
+    file: Gray100.png
+    page: https://commons.wikimedia.org/wiki/File:Gray100.png
+  sacrum_coccyx:
+    file: Gray97.png
+    page: https://commons.wikimedia.org/wiki/File:Gray97.png
+  foot:
+    file: Gray foot bone medial view.gif
+    page: https://commons.wikimedia.org/wiki/File:Gray_foot_bone_medial_view.gif
 organs:
   brain:
     file: Gray725.png

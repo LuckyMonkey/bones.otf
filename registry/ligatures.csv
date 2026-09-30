@@ -16,6 +16,175 @@ anatomy:right_femur,Right femur,:right_femur:,anatomy_right_femur,U+E00D
 anatomy:patella,Patella,:patella:,anatomy_patella,U+E00E
 anatomy:tibia,Tibia,:tibia:,anatomy_tibia,U+E00F
 anatomy:fibula,Fibula,:fibula:,anatomy_fibula,U+E010
+anatomy:frontal,Frontal bone,:frontal:,anatomy_frontal,U+E023
+anatomy:parietal,Parietal bone,:parietal:,anatomy_parietal,U+E024
+anatomy:temporal,Temporal bone,:temporal:,anatomy_temporal,U+E025
+anatomy:occipital,Occipital bone,:occipital:,anatomy_occipital,U+E026
+anatomy:sphenoid,Sphenoid bone,:sphenoid:,anatomy_sphenoid,U+E027
+anatomy:ethmoid,Ethmoid bone,:ethmoid:,anatomy_ethmoid,U+E028
+anatomy:nasal,Nasal bone,:nasal:,anatomy_nasal,U+E029
+anatomy:maxilla,Maxilla,:maxilla:,anatomy_maxilla,U+E02A
+anatomy:zygomatic,Zygomatic bone,:zygomatic:,anatomy_zygomatic,U+E02B
+anatomy:lacrimal,Lacrimal bone,:lacrimal:,anatomy_lacrimal,U+E02C
+anatomy:palatine,Palatine bone,:palatine:,anatomy_palatine,U+E02D
+anatomy:vomer,Vomer,:vomer:,anatomy_vomer,U+E02E
+anatomy:hyoid,Hyoid bone,:hyoid:,anatomy_hyoid,U+E02F
+anatomy:c1_atlas,C1 / Atlas,:c1_atlas:,anatomy_c1_atlas,U+E030
+anatomy:c2_axis,C2 / Axis,:c2_axis:,anatomy_c2_axis,U+E031
+anatomy:c3,C3 cervical vertebra,:c3:,anatomy_c3,U+E032
+anatomy:c4,C4 cervical vertebra,:c4:,anatomy_c4,U+E033
+anatomy:c5,C5 cervical vertebra,:c5:,anatomy_c5,U+E034
+anatomy:c6,C6 cervical vertebra,:c6:,anatomy_c6,U+E035
+anatomy:c7,C7 cervical vertebra,:c7:,anatomy_c7,U+E036
+anatomy:t1,T1 thoracic vertebra,:t1:,anatomy_t1,U+E037
+anatomy:t2,T2 thoracic vertebra,:t2:,anatomy_t2,U+E038
+anatomy:t3,T3 thoracic vertebra,:t3:,anatomy_t3,U+E039
+anatomy:t4,T4 thoracic vertebra,:t4:,anatomy_t4,U+E03A
+anatomy:t5,T5 thoracic vertebra,:t5:,anatomy_t5,U+E03B
+anatomy:t6,T6 thoracic vertebra,:t6:,anatomy_t6,U+E03C
+anatomy:t7,T7 thoracic vertebra,:t7:,anatomy_t7,U+E03D
+anatomy:t8,T8 thoracic vertebra,:t8:,anatomy_t8,U+E03E
+anatomy:t9,T9 thoracic vertebra,:t9:,anatomy_t9,U+E03F
+anatomy:t10,T10 thoracic vertebra,:t10:,anatomy_t10,U+E040
+anatomy:t11,T11 thoracic vertebra,:t11:,anatomy_t11,U+E041
+anatomy:t12,T12 thoracic vertebra,:t12:,anatomy_t12,U+E042
+anatomy:l1,L1 lumbar vertebra,:l1:,anatomy_l1,U+E043
+anatomy:l2,L2 lumbar vertebra,:l2:,anatomy_l2,U+E044
+anatomy:l3,L3 lumbar vertebra,:l3:,anatomy_l3,U+E045
+anatomy:l4,L4 lumbar vertebra,:l4:,anatomy_l4,U+E046
+anatomy:l5,L5 lumbar vertebra,:l5:,anatomy_l5,U+E047
+anatomy:sacrum,Sacrum,:sacrum:,anatomy_sacrum,U+E048
+anatomy:coccyx,Coccyx,:coccyx:,anatomy_coccyx,U+E049
+anatomy:left_rib_1,Left rib 1,:left_rib_1:,anatomy_left_rib_1,U+E04A
+anatomy:right_rib_1,Right rib 1,:right_rib_1:,anatomy_right_rib_1,U+E04B
+anatomy:left_rib_2,Left rib 2,:left_rib_2:,anatomy_left_rib_2,U+E04C
+anatomy:right_rib_2,Right rib 2,:right_rib_2:,anatomy_right_rib_2,U+E04D
+anatomy:left_rib_3,Left rib 3,:left_rib_3:,anatomy_left_rib_3,U+E04E
+anatomy:right_rib_3,Right rib 3,:right_rib_3:,anatomy_right_rib_3,U+E04F
+anatomy:left_rib_4,Left rib 4,:left_rib_4:,anatomy_left_rib_4,U+E050
+anatomy:right_rib_4,Right rib 4,:right_rib_4:,anatomy_right_rib_4,U+E051
+anatomy:left_rib_5,Left rib 5,:left_rib_5:,anatomy_left_rib_5,U+E052
+anatomy:right_rib_5,Right rib 5,:right_rib_5:,anatomy_right_rib_5,U+E053
+anatomy:left_rib_6,Left rib 6,:left_rib_6:,anatomy_left_rib_6,U+E054
+anatomy:right_rib_6,Right rib 6,:right_rib_6:,anatomy_right_rib_6,U+E055
+anatomy:left_rib_7,Left rib 7,:left_rib_7:,anatomy_left_rib_7,U+E056
+anatomy:right_rib_7,Right rib 7,:right_rib_7:,anatomy_right_rib_7,U+E057
+anatomy:left_rib_8,Left rib 8,:left_rib_8:,anatomy_left_rib_8,U+E058
+anatomy:right_rib_8,Right rib 8,:right_rib_8:,anatomy_right_rib_8,U+E059
+anatomy:left_rib_9,Left rib 9,:left_rib_9:,anatomy_left_rib_9,U+E05A
+anatomy:right_rib_9,Right rib 9,:right_rib_9:,anatomy_right_rib_9,U+E05B
+anatomy:left_rib_10,Left rib 10,:left_rib_10:,anatomy_left_rib_10,U+E05C
+anatomy:right_rib_10,Right rib 10,:right_rib_10:,anatomy_right_rib_10,U+E05D
+anatomy:left_rib_11,Left rib 11,:left_rib_11:,anatomy_left_rib_11,U+E05E
+anatomy:right_rib_11,Right rib 11,:right_rib_11:,anatomy_right_rib_11,U+E05F
+anatomy:left_rib_12,Left rib 12,:left_rib_12:,anatomy_left_rib_12,U+E060
+anatomy:right_rib_12,Right rib 12,:right_rib_12:,anatomy_right_rib_12,U+E061
+anatomy:left_scaphoid,Left scaphoid,:left_scaphoid:,anatomy_left_scaphoid,U+E062
+anatomy:right_scaphoid,Right scaphoid,:right_scaphoid:,anatomy_right_scaphoid,U+E063
+anatomy:left_lunate,Left lunate,:left_lunate:,anatomy_left_lunate,U+E064
+anatomy:right_lunate,Right lunate,:right_lunate:,anatomy_right_lunate,U+E065
+anatomy:left_triquetrum,Left triquetrum,:left_triquetrum:,anatomy_left_triquetrum,U+E066
+anatomy:right_triquetrum,Right triquetrum,:right_triquetrum:,anatomy_right_triquetrum,U+E067
+anatomy:left_pisiform,Left pisiform,:left_pisiform:,anatomy_left_pisiform,U+E068
+anatomy:right_pisiform,Right pisiform,:right_pisiform:,anatomy_right_pisiform,U+E069
+anatomy:left_trapezium,Left trapezium,:left_trapezium:,anatomy_left_trapezium,U+E06A
+anatomy:right_trapezium,Right trapezium,:right_trapezium:,anatomy_right_trapezium,U+E06B
+anatomy:left_trapezoid,Left trapezoid,:left_trapezoid:,anatomy_left_trapezoid,U+E06C
+anatomy:right_trapezoid,Right trapezoid,:right_trapezoid:,anatomy_right_trapezoid,U+E06D
+anatomy:left_capitate,Left capitate,:left_capitate:,anatomy_left_capitate,U+E06E
+anatomy:right_capitate,Right capitate,:right_capitate:,anatomy_right_capitate,U+E06F
+anatomy:left_hamate,Left hamate,:left_hamate:,anatomy_left_hamate,U+E070
+anatomy:right_hamate,Right hamate,:right_hamate:,anatomy_right_hamate,U+E071
+anatomy:left_metacarpal_1,Left metacarpal 1,:left_metacarpal_1:,anatomy_left_metacarpal_1,U+E072
+anatomy:right_metacarpal_1,Right metacarpal 1,:right_metacarpal_1:,anatomy_right_metacarpal_1,U+E073
+anatomy:left_metacarpal_2,Left metacarpal 2,:left_metacarpal_2:,anatomy_left_metacarpal_2,U+E074
+anatomy:right_metacarpal_2,Right metacarpal 2,:right_metacarpal_2:,anatomy_right_metacarpal_2,U+E075
+anatomy:left_metacarpal_3,Left metacarpal 3,:left_metacarpal_3:,anatomy_left_metacarpal_3,U+E076
+anatomy:right_metacarpal_3,Right metacarpal 3,:right_metacarpal_3:,anatomy_right_metacarpal_3,U+E077
+anatomy:left_metacarpal_4,Left metacarpal 4,:left_metacarpal_4:,anatomy_left_metacarpal_4,U+E078
+anatomy:right_metacarpal_4,Right metacarpal 4,:right_metacarpal_4:,anatomy_right_metacarpal_4,U+E079
+anatomy:left_metacarpal_5,Left metacarpal 5,:left_metacarpal_5:,anatomy_left_metacarpal_5,U+E07A
+anatomy:right_metacarpal_5,Right metacarpal 5,:right_metacarpal_5:,anatomy_right_metacarpal_5,U+E07B
+anatomy:left_thumb_proximal_phalanx,Left thumb proximal phalanx,:left_thumb_proximal_phalanx:,anatomy_left_thumb_proximal_phalanx,U+E07C
+anatomy:left_thumb_distal_phalanx,Left thumb distal phalanx,:left_thumb_distal_phalanx:,anatomy_left_thumb_distal_phalanx,U+E07D
+anatomy:right_thumb_proximal_phalanx,Right thumb proximal phalanx,:right_thumb_proximal_phalanx:,anatomy_right_thumb_proximal_phalanx,U+E07E
+anatomy:right_thumb_distal_phalanx,Right thumb distal phalanx,:right_thumb_distal_phalanx:,anatomy_right_thumb_distal_phalanx,U+E07F
+anatomy:left_index_proximal_phalanx,Left index proximal phalanx,:left_index_proximal_phalanx:,anatomy_left_index_proximal_phalanx,U+E080
+anatomy:left_index_middle_phalanx,Left index middle phalanx,:left_index_middle_phalanx:,anatomy_left_index_middle_phalanx,U+E081
+anatomy:left_index_distal_phalanx,Left index distal phalanx,:left_index_distal_phalanx:,anatomy_left_index_distal_phalanx,U+E082
+anatomy:right_index_proximal_phalanx,Right index proximal phalanx,:right_index_proximal_phalanx:,anatomy_right_index_proximal_phalanx,U+E083
+anatomy:right_index_middle_phalanx,Right index middle phalanx,:right_index_middle_phalanx:,anatomy_right_index_middle_phalanx,U+E084
+anatomy:right_index_distal_phalanx,Right index distal phalanx,:right_index_distal_phalanx:,anatomy_right_index_distal_phalanx,U+E085
+anatomy:left_middle_proximal_phalanx,Left middle proximal phalanx,:left_middle_proximal_phalanx:,anatomy_left_middle_proximal_phalanx,U+E086
+anatomy:left_middle_middle_phalanx,Left middle middle phalanx,:left_middle_middle_phalanx:,anatomy_left_middle_middle_phalanx,U+E087
+anatomy:left_middle_distal_phalanx,Left middle distal phalanx,:left_middle_distal_phalanx:,anatomy_left_middle_distal_phalanx,U+E088
+anatomy:right_middle_proximal_phalanx,Right middle proximal phalanx,:right_middle_proximal_phalanx:,anatomy_right_middle_proximal_phalanx,U+E089
+anatomy:right_middle_middle_phalanx,Right middle middle phalanx,:right_middle_middle_phalanx:,anatomy_right_middle_middle_phalanx,U+E08A
+anatomy:right_middle_distal_phalanx,Right middle distal phalanx,:right_middle_distal_phalanx:,anatomy_right_middle_distal_phalanx,U+E08B
+anatomy:left_ring_proximal_phalanx,Left ring proximal phalanx,:left_ring_proximal_phalanx:,anatomy_left_ring_proximal_phalanx,U+E08C
+anatomy:left_ring_middle_phalanx,Left ring middle phalanx,:left_ring_middle_phalanx:,anatomy_left_ring_middle_phalanx,U+E08D
+anatomy:left_ring_distal_phalanx,Left ring distal phalanx,:left_ring_distal_phalanx:,anatomy_left_ring_distal_phalanx,U+E08E
+anatomy:right_ring_proximal_phalanx,Right ring proximal phalanx,:right_ring_proximal_phalanx:,anatomy_right_ring_proximal_phalanx,U+E08F
+anatomy:right_ring_middle_phalanx,Right ring middle phalanx,:right_ring_middle_phalanx:,anatomy_right_ring_middle_phalanx,U+E090
+anatomy:right_ring_distal_phalanx,Right ring distal phalanx,:right_ring_distal_phalanx:,anatomy_right_ring_distal_phalanx,U+E091
+anatomy:left_little_proximal_phalanx,Left little proximal phalanx,:left_little_proximal_phalanx:,anatomy_left_little_proximal_phalanx,U+E092
+anatomy:left_little_middle_phalanx,Left little middle phalanx,:left_little_middle_phalanx:,anatomy_left_little_middle_phalanx,U+E093
+anatomy:left_little_distal_phalanx,Left little distal phalanx,:left_little_distal_phalanx:,anatomy_left_little_distal_phalanx,U+E094
+anatomy:right_little_proximal_phalanx,Right little proximal phalanx,:right_little_proximal_phalanx:,anatomy_right_little_proximal_phalanx,U+E095
+anatomy:right_little_middle_phalanx,Right little middle phalanx,:right_little_middle_phalanx:,anatomy_right_little_middle_phalanx,U+E096
+anatomy:right_little_distal_phalanx,Right little distal phalanx,:right_little_distal_phalanx:,anatomy_right_little_distal_phalanx,U+E097
+anatomy:left_talus,Left talus,:left_talus:,anatomy_left_talus,U+E098
+anatomy:right_talus,Right talus,:right_talus:,anatomy_right_talus,U+E099
+anatomy:left_calcaneus,Left calcaneus,:left_calcaneus:,anatomy_left_calcaneus,U+E09A
+anatomy:right_calcaneus,Right calcaneus,:right_calcaneus:,anatomy_right_calcaneus,U+E09B
+anatomy:left_navicular,Left navicular,:left_navicular:,anatomy_left_navicular,U+E09C
+anatomy:right_navicular,Right navicular,:right_navicular:,anatomy_right_navicular,U+E09D
+anatomy:left_cuboid,Left cuboid,:left_cuboid:,anatomy_left_cuboid,U+E09E
+anatomy:right_cuboid,Right cuboid,:right_cuboid:,anatomy_right_cuboid,U+E09F
+anatomy:left_medial_cuneiform,Left medial cuneiform,:left_medial_cuneiform:,anatomy_left_medial_cuneiform,U+E0A0
+anatomy:right_medial_cuneiform,Right medial cuneiform,:right_medial_cuneiform:,anatomy_right_medial_cuneiform,U+E0A1
+anatomy:left_intermediate_cuneiform,Left intermediate cuneiform,:left_intermediate_cuneiform:,anatomy_left_intermediate_cuneiform,U+E0A2
+anatomy:right_intermediate_cuneiform,Right intermediate cuneiform,:right_intermediate_cuneiform:,anatomy_right_intermediate_cuneiform,U+E0A3
+anatomy:left_lateral_cuneiform,Left lateral cuneiform,:left_lateral_cuneiform:,anatomy_left_lateral_cuneiform,U+E0A4
+anatomy:right_lateral_cuneiform,Right lateral cuneiform,:right_lateral_cuneiform:,anatomy_right_lateral_cuneiform,U+E0A5
+anatomy:left_metatarsal_1,Left metatarsal 1,:left_metatarsal_1:,anatomy_left_metatarsal_1,U+E0A6
+anatomy:right_metatarsal_1,Right metatarsal 1,:right_metatarsal_1:,anatomy_right_metatarsal_1,U+E0A7
+anatomy:left_metatarsal_2,Left metatarsal 2,:left_metatarsal_2:,anatomy_left_metatarsal_2,U+E0A8
+anatomy:right_metatarsal_2,Right metatarsal 2,:right_metatarsal_2:,anatomy_right_metatarsal_2,U+E0A9
+anatomy:left_metatarsal_3,Left metatarsal 3,:left_metatarsal_3:,anatomy_left_metatarsal_3,U+E0AA
+anatomy:right_metatarsal_3,Right metatarsal 3,:right_metatarsal_3:,anatomy_right_metatarsal_3,U+E0AB
+anatomy:left_metatarsal_4,Left metatarsal 4,:left_metatarsal_4:,anatomy_left_metatarsal_4,U+E0AC
+anatomy:right_metatarsal_4,Right metatarsal 4,:right_metatarsal_4:,anatomy_right_metatarsal_4,U+E0AD
+anatomy:left_metatarsal_5,Left metatarsal 5,:left_metatarsal_5:,anatomy_left_metatarsal_5,U+E0AE
+anatomy:right_metatarsal_5,Right metatarsal 5,:right_metatarsal_5:,anatomy_right_metatarsal_5,U+E0AF
+anatomy:left_great_toe_proximal_phalanx,Left great toe proximal phalanx,:left_great_toe_proximal_phalanx:,anatomy_left_great_toe_proximal_phalanx,U+E0B0
+anatomy:left_great_toe_distal_phalanx,Left great toe distal phalanx,:left_great_toe_distal_phalanx:,anatomy_left_great_toe_distal_phalanx,U+E0B1
+anatomy:right_great_toe_proximal_phalanx,Right great toe proximal phalanx,:right_great_toe_proximal_phalanx:,anatomy_right_great_toe_proximal_phalanx,U+E0B2
+anatomy:right_great_toe_distal_phalanx,Right great toe distal phalanx,:right_great_toe_distal_phalanx:,anatomy_right_great_toe_distal_phalanx,U+E0B3
+anatomy:left_second_toe_proximal_phalanx,Left second toe proximal phalanx,:left_second_toe_proximal_phalanx:,anatomy_left_second_toe_proximal_phalanx,U+E0B4
+anatomy:left_second_toe_middle_phalanx,Left second toe middle phalanx,:left_second_toe_middle_phalanx:,anatomy_left_second_toe_middle_phalanx,U+E0B5
+anatomy:left_second_toe_distal_phalanx,Left second toe distal phalanx,:left_second_toe_distal_phalanx:,anatomy_left_second_toe_distal_phalanx,U+E0B6
+anatomy:right_second_toe_proximal_phalanx,Right second toe proximal phalanx,:right_second_toe_proximal_phalanx:,anatomy_right_second_toe_proximal_phalanx,U+E0B7
+anatomy:right_second_toe_middle_phalanx,Right second toe middle phalanx,:right_second_toe_middle_phalanx:,anatomy_right_second_toe_middle_phalanx,U+E0B8
+anatomy:right_second_toe_distal_phalanx,Right second toe distal phalanx,:right_second_toe_distal_phalanx:,anatomy_right_second_toe_distal_phalanx,U+E0B9
+anatomy:left_third_toe_proximal_phalanx,Left third toe proximal phalanx,:left_third_toe_proximal_phalanx:,anatomy_left_third_toe_proximal_phalanx,U+E0BA
+anatomy:left_third_toe_middle_phalanx,Left third toe middle phalanx,:left_third_toe_middle_phalanx:,anatomy_left_third_toe_middle_phalanx,U+E0BB
+anatomy:left_third_toe_distal_phalanx,Left third toe distal phalanx,:left_third_toe_distal_phalanx:,anatomy_left_third_toe_distal_phalanx,U+E0BC
+anatomy:right_third_toe_proximal_phalanx,Right third toe proximal phalanx,:right_third_toe_proximal_phalanx:,anatomy_right_third_toe_proximal_phalanx,U+E0BD
+anatomy:right_third_toe_middle_phalanx,Right third toe middle phalanx,:right_third_toe_middle_phalanx:,anatomy_right_third_toe_middle_phalanx,U+E0BE
+anatomy:right_third_toe_distal_phalanx,Right third toe distal phalanx,:right_third_toe_distal_phalanx:,anatomy_right_third_toe_distal_phalanx,U+E0BF
+anatomy:left_fourth_toe_proximal_phalanx,Left fourth toe proximal phalanx,:left_fourth_toe_proximal_phalanx:,anatomy_left_fourth_toe_proximal_phalanx,U+E0C0
+anatomy:left_fourth_toe_middle_phalanx,Left fourth toe middle phalanx,:left_fourth_toe_middle_phalanx:,anatomy_left_fourth_toe_middle_phalanx,U+E0C1
+anatomy:left_fourth_toe_distal_phalanx,Left fourth toe distal phalanx,:left_fourth_toe_distal_phalanx:,anatomy_left_fourth_toe_distal_phalanx,U+E0C2
+anatomy:right_fourth_toe_proximal_phalanx,Right fourth toe proximal phalanx,:right_fourth_toe_proximal_phalanx:,anatomy_right_fourth_toe_proximal_phalanx,U+E0C3
+anatomy:right_fourth_toe_middle_phalanx,Right fourth toe middle phalanx,:right_fourth_toe_middle_phalanx:,anatomy_right_fourth_toe_middle_phalanx,U+E0C4
+anatomy:right_fourth_toe_distal_phalanx,Right fourth toe distal phalanx,:right_fourth_toe_distal_phalanx:,anatomy_right_fourth_toe_distal_phalanx,U+E0C5
+anatomy:left_fifth_toe_proximal_phalanx,Left fifth toe proximal phalanx,:left_fifth_toe_proximal_phalanx:,anatomy_left_fifth_toe_proximal_phalanx,U+E0C6
+anatomy:left_fifth_toe_middle_phalanx,Left fifth toe middle phalanx,:left_fifth_toe_middle_phalanx:,anatomy_left_fifth_toe_middle_phalanx,U+E0C7
+anatomy:left_fifth_toe_distal_phalanx,Left fifth toe distal phalanx,:left_fifth_toe_distal_phalanx:,anatomy_left_fifth_toe_distal_phalanx,U+E0C8
+anatomy:right_fifth_toe_proximal_phalanx,Right fifth toe proximal phalanx,:right_fifth_toe_proximal_phalanx:,anatomy_right_fifth_toe_proximal_phalanx,U+E0C9
+anatomy:right_fifth_toe_middle_phalanx,Right fifth toe middle phalanx,:right_fifth_toe_middle_phalanx:,anatomy_right_fifth_toe_middle_phalanx,U+E0CA
+anatomy:right_fifth_toe_distal_phalanx,Right fifth toe distal phalanx,:right_fifth_toe_distal_phalanx:,anatomy_right_fifth_toe_distal_phalanx,U+E0CB
 anatomy:brain,Brain,:brain:,anatomy_brain,U+E011
 anatomy:heart,Heart,:heart:,anatomy_heart,U+E012
 anatomy:left_lung,Left lung,:left_lung:,anatomy_left_lung,U+E013

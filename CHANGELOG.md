@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Expanded the skeletal ontology from 17 to 186 bone objects: named cranial and
+  facial bones, C1–C7, T1–T12, L1–L5, sacrum, coccyx, numbered ribs, carpals,
+  metacarpals, hand phalanges, tarsals, metatarsals, and foot phalanges.
+- Added 15 Gray-derived trace families for the new small-bone and vertebral
+  masters, with append-only PUA assignments through U+E0CB and explicit shared
+  glyph-base declarations for repeated structures.
 - Replaced the initial symbolic bone silhouettes with deterministic, source-derived
   Gray's Anatomy plate trace masters for the representative bone set, including
   separate radius/ulna and tibia/fibula crops, preserved engraved detail, and

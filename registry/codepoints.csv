@@ -16,6 +16,175 @@ anatomy:right_femur,Right femur,bone,skeletal,U+E00D,,anatomy_right_femur,gly
 anatomy:patella,Patella,bone,skeletal,U+E00E,,anatomy_patella,glyphs/mono/patella.svg,glyphs/color/patella.svg
 anatomy:tibia,Tibia,bone,skeletal,U+E00F,,anatomy_tibia,glyphs/mono/tibia.svg,glyphs/color/tibia.svg
 anatomy:fibula,Fibula,bone,skeletal,U+E010,,anatomy_fibula,glyphs/mono/fibula.svg,glyphs/color/fibula.svg
+anatomy:frontal,Frontal bone,bone,skeletal,U+E023,,anatomy_frontal,glyphs/mono/frontal.svg,glyphs/color/frontal.svg
+anatomy:parietal,Parietal bone,bone,skeletal,U+E024,,anatomy_parietal,glyphs/mono/parietal.svg,glyphs/color/parietal.svg
+anatomy:temporal,Temporal bone,bone,skeletal,U+E025,,anatomy_temporal,glyphs/mono/temporal.svg,glyphs/color/temporal.svg
+anatomy:occipital,Occipital bone,bone,skeletal,U+E026,,anatomy_occipital,glyphs/mono/occipital.svg,glyphs/color/occipital.svg
+anatomy:sphenoid,Sphenoid bone,bone,skeletal,U+E027,,anatomy_sphenoid,glyphs/mono/sphenoid.svg,glyphs/color/sphenoid.svg
+anatomy:ethmoid,Ethmoid bone,bone,skeletal,U+E028,,anatomy_ethmoid,glyphs/mono/ethmoid.svg,glyphs/color/ethmoid.svg
+anatomy:nasal,Nasal bone,bone,skeletal,U+E029,,anatomy_nasal,glyphs/mono/nasal.svg,glyphs/color/nasal.svg
+anatomy:maxilla,Maxilla,bone,skeletal,U+E02A,,anatomy_maxilla,glyphs/mono/maxilla.svg,glyphs/color/maxilla.svg
+anatomy:zygomatic,Zygomatic bone,bone,skeletal,U+E02B,,anatomy_zygomatic,glyphs/mono/zygomatic.svg,glyphs/color/zygomatic.svg
+anatomy:lacrimal,Lacrimal bone,bone,skeletal,U+E02C,,anatomy_lacrimal,glyphs/mono/lacrimal.svg,glyphs/color/lacrimal.svg
+anatomy:palatine,Palatine bone,bone,skeletal,U+E02D,,anatomy_palatine,glyphs/mono/palatine.svg,glyphs/color/palatine.svg
+anatomy:vomer,Vomer,bone,skeletal,U+E02E,,anatomy_vomer,glyphs/mono/vomer.svg,glyphs/color/vomer.svg
+anatomy:hyoid,Hyoid bone,bone,skeletal,U+E02F,,anatomy_hyoid,glyphs/mono/hyoid.svg,glyphs/color/hyoid.svg
+anatomy:c1_atlas,C1 / Atlas,bone,skeletal,U+E030,,anatomy_c1_atlas,glyphs/mono/c1_atlas.svg,glyphs/color/c1_atlas.svg
+anatomy:c2_axis,C2 / Axis,bone,skeletal,U+E031,,anatomy_c2_axis,glyphs/mono/c2_axis.svg,glyphs/color/c2_axis.svg
+anatomy:c3,C3 cervical vertebra,bone,skeletal,U+E032,,anatomy_c3,glyphs/mono/c3.svg,glyphs/color/c3.svg
+anatomy:c4,C4 cervical vertebra,bone,skeletal,U+E033,,anatomy_c4,glyphs/mono/c4.svg,glyphs/color/c4.svg
+anatomy:c5,C5 cervical vertebra,bone,skeletal,U+E034,,anatomy_c5,glyphs/mono/c5.svg,glyphs/color/c5.svg
+anatomy:c6,C6 cervical vertebra,bone,skeletal,U+E035,,anatomy_c6,glyphs/mono/c6.svg,glyphs/color/c6.svg
+anatomy:c7,C7 cervical vertebra,bone,skeletal,U+E036,,anatomy_c7,glyphs/mono/c7.svg,glyphs/color/c7.svg
+anatomy:t1,T1 thoracic vertebra,bone,skeletal,U+E037,,anatomy_t1,glyphs/mono/t1.svg,glyphs/color/t1.svg
+anatomy:t2,T2 thoracic vertebra,bone,skeletal,U+E038,,anatomy_t2,glyphs/mono/t2.svg,glyphs/color/t2.svg
+anatomy:t3,T3 thoracic vertebra,bone,skeletal,U+E039,,anatomy_t3,glyphs/mono/t3.svg,glyphs/color/t3.svg
+anatomy:t4,T4 thoracic vertebra,bone,skeletal,U+E03A,,anatomy_t4,glyphs/mono/t4.svg,glyphs/color/t4.svg
+anatomy:t5,T5 thoracic vertebra,bone,skeletal,U+E03B,,anatomy_t5,glyphs/mono/t5.svg,glyphs/color/t5.svg
+anatomy:t6,T6 thoracic vertebra,bone,skeletal,U+E03C,,anatomy_t6,glyphs/mono/t6.svg,glyphs/color/t6.svg
+anatomy:t7,T7 thoracic vertebra,bone,skeletal,U+E03D,,anatomy_t7,glyphs/mono/t7.svg,glyphs/color/t7.svg
+anatomy:t8,T8 thoracic vertebra,bone,skeletal,U+E03E,,anatomy_t8,glyphs/mono/t8.svg,glyphs/color/t8.svg
+anatomy:t9,T9 thoracic vertebra,bone,skeletal,U+E03F,,anatomy_t9,glyphs/mono/t9.svg,glyphs/color/t9.svg
+anatomy:t10,T10 thoracic vertebra,bone,skeletal,U+E040,,anatomy_t10,glyphs/mono/t10.svg,glyphs/color/t10.svg
+anatomy:t11,T11 thoracic vertebra,bone,skeletal,U+E041,,anatomy_t11,glyphs/mono/t11.svg,glyphs/color/t11.svg
+anatomy:t12,T12 thoracic vertebra,bone,skeletal,U+E042,,anatomy_t12,glyphs/mono/t12.svg,glyphs/color/t12.svg
+anatomy:l1,L1 lumbar vertebra,bone,skeletal,U+E043,,anatomy_l1,glyphs/mono/l1.svg,glyphs/color/l1.svg
+anatomy:l2,L2 lumbar vertebra,bone,skeletal,U+E044,,anatomy_l2,glyphs/mono/l2.svg,glyphs/color/l2.svg
+anatomy:l3,L3 lumbar vertebra,bone,skeletal,U+E045,,anatomy_l3,glyphs/mono/l3.svg,glyphs/color/l3.svg
+anatomy:l4,L4 lumbar vertebra,bone,skeletal,U+E046,,anatomy_l4,glyphs/mono/l4.svg,glyphs/color/l4.svg
+anatomy:l5,L5 lumbar vertebra,bone,skeletal,U+E047,,anatomy_l5,glyphs/mono/l5.svg,glyphs/color/l5.svg
+anatomy:sacrum,Sacrum,bone,skeletal,U+E048,,anatomy_sacrum,glyphs/mono/sacrum.svg,glyphs/color/sacrum.svg
+anatomy:coccyx,Coccyx,bone,skeletal,U+E049,,anatomy_coccyx,glyphs/mono/coccyx.svg,glyphs/color/coccyx.svg
+anatomy:left_rib_1,Left rib 1,bone,skeletal,U+E04A,,anatomy_left_rib_1,glyphs/mono/left_rib_1.svg,glyphs/color/left_rib_1.svg
+anatomy:right_rib_1,Right rib 1,bone,skeletal,U+E04B,,anatomy_right_rib_1,glyphs/mono/right_rib_1.svg,glyphs/color/right_rib_1.svg
+anatomy:left_rib_2,Left rib 2,bone,skeletal,U+E04C,,anatomy_left_rib_2,glyphs/mono/left_rib_2.svg,glyphs/color/left_rib_2.svg
+anatomy:right_rib_2,Right rib 2,bone,skeletal,U+E04D,,anatomy_right_rib_2,glyphs/mono/right_rib_2.svg,glyphs/color/right_rib_2.svg
+anatomy:left_rib_3,Left rib 3,bone,skeletal,U+E04E,,anatomy_left_rib_3,glyphs/mono/left_rib_3.svg,glyphs/color/left_rib_3.svg
+anatomy:right_rib_3,Right rib 3,bone,skeletal,U+E04F,,anatomy_right_rib_3,glyphs/mono/right_rib_3.svg,glyphs/color/right_rib_3.svg
+anatomy:left_rib_4,Left rib 4,bone,skeletal,U+E050,,anatomy_left_rib_4,glyphs/mono/left_rib_4.svg,glyphs/color/left_rib_4.svg
+anatomy:right_rib_4,Right rib 4,bone,skeletal,U+E051,,anatomy_right_rib_4,glyphs/mono/right_rib_4.svg,glyphs/color/right_rib_4.svg
+anatomy:left_rib_5,Left rib 5,bone,skeletal,U+E052,,anatomy_left_rib_5,glyphs/mono/left_rib_5.svg,glyphs/color/left_rib_5.svg
+anatomy:right_rib_5,Right rib 5,bone,skeletal,U+E053,,anatomy_right_rib_5,glyphs/mono/right_rib_5.svg,glyphs/color/right_rib_5.svg
+anatomy:left_rib_6,Left rib 6,bone,skeletal,U+E054,,anatomy_left_rib_6,glyphs/mono/left_rib_6.svg,glyphs/color/left_rib_6.svg
+anatomy:right_rib_6,Right rib 6,bone,skeletal,U+E055,,anatomy_right_rib_6,glyphs/mono/right_rib_6.svg,glyphs/color/right_rib_6.svg
+anatomy:left_rib_7,Left rib 7,bone,skeletal,U+E056,,anatomy_left_rib_7,glyphs/mono/left_rib_7.svg,glyphs/color/left_rib_7.svg
+anatomy:right_rib_7,Right rib 7,bone,skeletal,U+E057,,anatomy_right_rib_7,glyphs/mono/right_rib_7.svg,glyphs/color/right_rib_7.svg
+anatomy:left_rib_8,Left rib 8,bone,skeletal,U+E058,,anatomy_left_rib_8,glyphs/mono/left_rib_8.svg,glyphs/color/left_rib_8.svg
+anatomy:right_rib_8,Right rib 8,bone,skeletal,U+E059,,anatomy_right_rib_8,glyphs/mono/right_rib_8.svg,glyphs/color/right_rib_8.svg
+anatomy:left_rib_9,Left rib 9,bone,skeletal,U+E05A,,anatomy_left_rib_9,glyphs/mono/left_rib_9.svg,glyphs/color/left_rib_9.svg
+anatomy:right_rib_9,Right rib 9,bone,skeletal,U+E05B,,anatomy_right_rib_9,glyphs/mono/right_rib_9.svg,glyphs/color/right_rib_9.svg
+anatomy:left_rib_10,Left rib 10,bone,skeletal,U+E05C,,anatomy_left_rib_10,glyphs/mono/left_rib_10.svg,glyphs/color/left_rib_10.svg
+anatomy:right_rib_10,Right rib 10,bone,skeletal,U+E05D,,anatomy_right_rib_10,glyphs/mono/right_rib_10.svg,glyphs/color/right_rib_10.svg
+anatomy:left_rib_11,Left rib 11,bone,skeletal,U+E05E,,anatomy_left_rib_11,glyphs/mono/left_rib_11.svg,glyphs/color/left_rib_11.svg
+anatomy:right_rib_11,Right rib 11,bone,skeletal,U+E05F,,anatomy_right_rib_11,glyphs/mono/right_rib_11.svg,glyphs/color/right_rib_11.svg
+anatomy:left_rib_12,Left rib 12,bone,skeletal,U+E060,,anatomy_left_rib_12,glyphs/mono/left_rib_12.svg,glyphs/color/left_rib_12.svg
+anatomy:right_rib_12,Right rib 12,bone,skeletal,U+E061,,anatomy_right_rib_12,glyphs/mono/right_rib_12.svg,glyphs/color/right_rib_12.svg
+anatomy:left_scaphoid,Left scaphoid,bone,skeletal,U+E062,,anatomy_left_scaphoid,glyphs/mono/left_scaphoid.svg,glyphs/color/left_scaphoid.svg
+anatomy:right_scaphoid,Right scaphoid,bone,skeletal,U+E063,,anatomy_right_scaphoid,glyphs/mono/right_scaphoid.svg,glyphs/color/right_scaphoid.svg
+anatomy:left_lunate,Left lunate,bone,skeletal,U+E064,,anatomy_left_lunate,glyphs/mono/left_lunate.svg,glyphs/color/left_lunate.svg
+anatomy:right_lunate,Right lunate,bone,skeletal,U+E065,,anatomy_right_lunate,glyphs/mono/right_lunate.svg,glyphs/color/right_lunate.svg
+anatomy:left_triquetrum,Left triquetrum,bone,skeletal,U+E066,,anatomy_left_triquetrum,glyphs/mono/left_triquetrum.svg,glyphs/color/left_triquetrum.svg
+anatomy:right_triquetrum,Right triquetrum,bone,skeletal,U+E067,,anatomy_right_triquetrum,glyphs/mono/right_triquetrum.svg,glyphs/color/right_triquetrum.svg
+anatomy:left_pisiform,Left pisiform,bone,skeletal,U+E068,,anatomy_left_pisiform,glyphs/mono/left_pisiform.svg,glyphs/color/left_pisiform.svg
+anatomy:right_pisiform,Right pisiform,bone,skeletal,U+E069,,anatomy_right_pisiform,glyphs/mono/right_pisiform.svg,glyphs/color/right_pisiform.svg
+anatomy:left_trapezium,Left trapezium,bone,skeletal,U+E06A,,anatomy_left_trapezium,glyphs/mono/left_trapezium.svg,glyphs/color/left_trapezium.svg
+anatomy:right_trapezium,Right trapezium,bone,skeletal,U+E06B,,anatomy_right_trapezium,glyphs/mono/right_trapezium.svg,glyphs/color/right_trapezium.svg
+anatomy:left_trapezoid,Left trapezoid,bone,skeletal,U+E06C,,anatomy_left_trapezoid,glyphs/mono/left_trapezoid.svg,glyphs/color/left_trapezoid.svg
+anatomy:right_trapezoid,Right trapezoid,bone,skeletal,U+E06D,,anatomy_right_trapezoid,glyphs/mono/right_trapezoid.svg,glyphs/color/right_trapezoid.svg
+anatomy:left_capitate,Left capitate,bone,skeletal,U+E06E,,anatomy_left_capitate,glyphs/mono/left_capitate.svg,glyphs/color/left_capitate.svg
+anatomy:right_capitate,Right capitate,bone,skeletal,U+E06F,,anatomy_right_capitate,glyphs/mono/right_capitate.svg,glyphs/color/right_capitate.svg
+anatomy:left_hamate,Left hamate,bone,skeletal,U+E070,,anatomy_left_hamate,glyphs/mono/left_hamate.svg,glyphs/color/left_hamate.svg
+anatomy:right_hamate,Right hamate,bone,skeletal,U+E071,,anatomy_right_hamate,glyphs/mono/right_hamate.svg,glyphs/color/right_hamate.svg
+anatomy:left_metacarpal_1,Left metacarpal 1,bone,skeletal,U+E072,,anatomy_left_metacarpal_1,glyphs/mono/left_metacarpal_1.svg,glyphs/color/left_metacarpal_1.svg
+anatomy:right_metacarpal_1,Right metacarpal 1,bone,skeletal,U+E073,,anatomy_right_metacarpal_1,glyphs/mono/right_metacarpal_1.svg,glyphs/color/right_metacarpal_1.svg
+anatomy:left_metacarpal_2,Left metacarpal 2,bone,skeletal,U+E074,,anatomy_left_metacarpal_2,glyphs/mono/left_metacarpal_2.svg,glyphs/color/left_metacarpal_2.svg
+anatomy:right_metacarpal_2,Right metacarpal 2,bone,skeletal,U+E075,,anatomy_right_metacarpal_2,glyphs/mono/right_metacarpal_2.svg,glyphs/color/right_metacarpal_2.svg
+anatomy:left_metacarpal_3,Left metacarpal 3,bone,skeletal,U+E076,,anatomy_left_metacarpal_3,glyphs/mono/left_metacarpal_3.svg,glyphs/color/left_metacarpal_3.svg
+anatomy:right_metacarpal_3,Right metacarpal 3,bone,skeletal,U+E077,,anatomy_right_metacarpal_3,glyphs/mono/right_metacarpal_3.svg,glyphs/color/right_metacarpal_3.svg
+anatomy:left_metacarpal_4,Left metacarpal 4,bone,skeletal,U+E078,,anatomy_left_metacarpal_4,glyphs/mono/left_metacarpal_4.svg,glyphs/color/left_metacarpal_4.svg
+anatomy:right_metacarpal_4,Right metacarpal 4,bone,skeletal,U+E079,,anatomy_right_metacarpal_4,glyphs/mono/right_metacarpal_4.svg,glyphs/color/right_metacarpal_4.svg
+anatomy:left_metacarpal_5,Left metacarpal 5,bone,skeletal,U+E07A,,anatomy_left_metacarpal_5,glyphs/mono/left_metacarpal_5.svg,glyphs/color/left_metacarpal_5.svg
+anatomy:right_metacarpal_5,Right metacarpal 5,bone,skeletal,U+E07B,,anatomy_right_metacarpal_5,glyphs/mono/right_metacarpal_5.svg,glyphs/color/right_metacarpal_5.svg
+anatomy:left_thumb_proximal_phalanx,Left thumb proximal phalanx,bone,skeletal,U+E07C,,anatomy_left_thumb_proximal_phalanx,glyphs/mono/left_thumb_proximal_phalanx.svg,glyphs/color/left_thumb_proximal_phalanx.svg
+anatomy:left_thumb_distal_phalanx,Left thumb distal phalanx,bone,skeletal,U+E07D,,anatomy_left_thumb_distal_phalanx,glyphs/mono/left_thumb_distal_phalanx.svg,glyphs/color/left_thumb_distal_phalanx.svg
+anatomy:right_thumb_proximal_phalanx,Right thumb proximal phalanx,bone,skeletal,U+E07E,,anatomy_right_thumb_proximal_phalanx,glyphs/mono/right_thumb_proximal_phalanx.svg,glyphs/color/right_thumb_proximal_phalanx.svg
+anatomy:right_thumb_distal_phalanx,Right thumb distal phalanx,bone,skeletal,U+E07F,,anatomy_right_thumb_distal_phalanx,glyphs/mono/right_thumb_distal_phalanx.svg,glyphs/color/right_thumb_distal_phalanx.svg
+anatomy:left_index_proximal_phalanx,Left index proximal phalanx,bone,skeletal,U+E080,,anatomy_left_index_proximal_phalanx,glyphs/mono/left_index_proximal_phalanx.svg,glyphs/color/left_index_proximal_phalanx.svg
+anatomy:left_index_middle_phalanx,Left index middle phalanx,bone,skeletal,U+E081,,anatomy_left_index_middle_phalanx,glyphs/mono/left_index_middle_phalanx.svg,glyphs/color/left_index_middle_phalanx.svg
+anatomy:left_index_distal_phalanx,Left index distal phalanx,bone,skeletal,U+E082,,anatomy_left_index_distal_phalanx,glyphs/mono/left_index_distal_phalanx.svg,glyphs/color/left_index_distal_phalanx.svg
+anatomy:right_index_proximal_phalanx,Right index proximal phalanx,bone,skeletal,U+E083,,anatomy_right_index_proximal_phalanx,glyphs/mono/right_index_proximal_phalanx.svg,glyphs/color/right_index_proximal_phalanx.svg
+anatomy:right_index_middle_phalanx,Right index middle phalanx,bone,skeletal,U+E084,,anatomy_right_index_middle_phalanx,glyphs/mono/right_index_middle_phalanx.svg,glyphs/color/right_index_middle_phalanx.svg
+anatomy:right_index_distal_phalanx,Right index distal phalanx,bone,skeletal,U+E085,,anatomy_right_index_distal_phalanx,glyphs/mono/right_index_distal_phalanx.svg,glyphs/color/right_index_distal_phalanx.svg
+anatomy:left_middle_proximal_phalanx,Left middle proximal phalanx,bone,skeletal,U+E086,,anatomy_left_middle_proximal_phalanx,glyphs/mono/left_middle_proximal_phalanx.svg,glyphs/color/left_middle_proximal_phalanx.svg
+anatomy:left_middle_middle_phalanx,Left middle middle phalanx,bone,skeletal,U+E087,,anatomy_left_middle_middle_phalanx,glyphs/mono/left_middle_middle_phalanx.svg,glyphs/color/left_middle_middle_phalanx.svg
+anatomy:left_middle_distal_phalanx,Left middle distal phalanx,bone,skeletal,U+E088,,anatomy_left_middle_distal_phalanx,glyphs/mono/left_middle_distal_phalanx.svg,glyphs/color/left_middle_distal_phalanx.svg
+anatomy:right_middle_proximal_phalanx,Right middle proximal phalanx,bone,skeletal,U+E089,,anatomy_right_middle_proximal_phalanx,glyphs/mono/right_middle_proximal_phalanx.svg,glyphs/color/right_middle_proximal_phalanx.svg
+anatomy:right_middle_middle_phalanx,Right middle middle phalanx,bone,skeletal,U+E08A,,anatomy_right_middle_middle_phalanx,glyphs/mono/right_middle_middle_phalanx.svg,glyphs/color/right_middle_middle_phalanx.svg
+anatomy:right_middle_distal_phalanx,Right middle distal phalanx,bone,skeletal,U+E08B,,anatomy_right_middle_distal_phalanx,glyphs/mono/right_middle_distal_phalanx.svg,glyphs/color/right_middle_distal_phalanx.svg
+anatomy:left_ring_proximal_phalanx,Left ring proximal phalanx,bone,skeletal,U+E08C,,anatomy_left_ring_proximal_phalanx,glyphs/mono/left_ring_proximal_phalanx.svg,glyphs/color/left_ring_proximal_phalanx.svg
+anatomy:left_ring_middle_phalanx,Left ring middle phalanx,bone,skeletal,U+E08D,,anatomy_left_ring_middle_phalanx,glyphs/mono/left_ring_middle_phalanx.svg,glyphs/color/left_ring_middle_phalanx.svg
+anatomy:left_ring_distal_phalanx,Left ring distal phalanx,bone,skeletal,U+E08E,,anatomy_left_ring_distal_phalanx,glyphs/mono/left_ring_distal_phalanx.svg,glyphs/color/left_ring_distal_phalanx.svg
+anatomy:right_ring_proximal_phalanx,Right ring proximal phalanx,bone,skeletal,U+E08F,,anatomy_right_ring_proximal_phalanx,glyphs/mono/right_ring_proximal_phalanx.svg,glyphs/color/right_ring_proximal_phalanx.svg
+anatomy:right_ring_middle_phalanx,Right ring middle phalanx,bone,skeletal,U+E090,,anatomy_right_ring_middle_phalanx,glyphs/mono/right_ring_middle_phalanx.svg,glyphs/color/right_ring_middle_phalanx.svg
+anatomy:right_ring_distal_phalanx,Right ring distal phalanx,bone,skeletal,U+E091,,anatomy_right_ring_distal_phalanx,glyphs/mono/right_ring_distal_phalanx.svg,glyphs/color/right_ring_distal_phalanx.svg
+anatomy:left_little_proximal_phalanx,Left little proximal phalanx,bone,skeletal,U+E092,,anatomy_left_little_proximal_phalanx,glyphs/mono/left_little_proximal_phalanx.svg,glyphs/color/left_little_proximal_phalanx.svg
+anatomy:left_little_middle_phalanx,Left little middle phalanx,bone,skeletal,U+E093,,anatomy_left_little_middle_phalanx,glyphs/mono/left_little_middle_phalanx.svg,glyphs/color/left_little_middle_phalanx.svg
+anatomy:left_little_distal_phalanx,Left little distal phalanx,bone,skeletal,U+E094,,anatomy_left_little_distal_phalanx,glyphs/mono/left_little_distal_phalanx.svg,glyphs/color/left_little_distal_phalanx.svg
+anatomy:right_little_proximal_phalanx,Right little proximal phalanx,bone,skeletal,U+E095,,anatomy_right_little_proximal_phalanx,glyphs/mono/right_little_proximal_phalanx.svg,glyphs/color/right_little_proximal_phalanx.svg
+anatomy:right_little_middle_phalanx,Right little middle phalanx,bone,skeletal,U+E096,,anatomy_right_little_middle_phalanx,glyphs/mono/right_little_middle_phalanx.svg,glyphs/color/right_little_middle_phalanx.svg
+anatomy:right_little_distal_phalanx,Right little distal phalanx,bone,skeletal,U+E097,,anatomy_right_little_distal_phalanx,glyphs/mono/right_little_distal_phalanx.svg,glyphs/color/right_little_distal_phalanx.svg
+anatomy:left_talus,Left talus,bone,skeletal,U+E098,,anatomy_left_talus,glyphs/mono/left_talus.svg,glyphs/color/left_talus.svg
+anatomy:right_talus,Right talus,bone,skeletal,U+E099,,anatomy_right_talus,glyphs/mono/right_talus.svg,glyphs/color/right_talus.svg
+anatomy:left_calcaneus,Left calcaneus,bone,skeletal,U+E09A,,anatomy_left_calcaneus,glyphs/mono/left_calcaneus.svg,glyphs/color/left_calcaneus.svg
+anatomy:right_calcaneus,Right calcaneus,bone,skeletal,U+E09B,,anatomy_right_calcaneus,glyphs/mono/right_calcaneus.svg,glyphs/color/right_calcaneus.svg
+anatomy:left_navicular,Left navicular,bone,skeletal,U+E09C,,anatomy_left_navicular,glyphs/mono/left_navicular.svg,glyphs/color/left_navicular.svg
+anatomy:right_navicular,Right navicular,bone,skeletal,U+E09D,,anatomy_right_navicular,glyphs/mono/right_navicular.svg,glyphs/color/right_navicular.svg
+anatomy:left_cuboid,Left cuboid,bone,skeletal,U+E09E,,anatomy_left_cuboid,glyphs/mono/left_cuboid.svg,glyphs/color/left_cuboid.svg
+anatomy:right_cuboid,Right cuboid,bone,skeletal,U+E09F,,anatomy_right_cuboid,glyphs/mono/right_cuboid.svg,glyphs/color/right_cuboid.svg
+anatomy:left_medial_cuneiform,Left medial cuneiform,bone,skeletal,U+E0A0,,anatomy_left_medial_cuneiform,glyphs/mono/left_medial_cuneiform.svg,glyphs/color/left_medial_cuneiform.svg
+anatomy:right_medial_cuneiform,Right medial cuneiform,bone,skeletal,U+E0A1,,anatomy_right_medial_cuneiform,glyphs/mono/right_medial_cuneiform.svg,glyphs/color/right_medial_cuneiform.svg
+anatomy:left_intermediate_cuneiform,Left intermediate cuneiform,bone,skeletal,U+E0A2,,anatomy_left_intermediate_cuneiform,glyphs/mono/left_intermediate_cuneiform.svg,glyphs/color/left_intermediate_cuneiform.svg
+anatomy:right_intermediate_cuneiform,Right intermediate cuneiform,bone,skeletal,U+E0A3,,anatomy_right_intermediate_cuneiform,glyphs/mono/right_intermediate_cuneiform.svg,glyphs/color/right_intermediate_cuneiform.svg
+anatomy:left_lateral_cuneiform,Left lateral cuneiform,bone,skeletal,U+E0A4,,anatomy_left_lateral_cuneiform,glyphs/mono/left_lateral_cuneiform.svg,glyphs/color/left_lateral_cuneiform.svg
+anatomy:right_lateral_cuneiform,Right lateral cuneiform,bone,skeletal,U+E0A5,,anatomy_right_lateral_cuneiform,glyphs/mono/right_lateral_cuneiform.svg,glyphs/color/right_lateral_cuneiform.svg
+anatomy:left_metatarsal_1,Left metatarsal 1,bone,skeletal,U+E0A6,,anatomy_left_metatarsal_1,glyphs/mono/left_metatarsal_1.svg,glyphs/color/left_metatarsal_1.svg
+anatomy:right_metatarsal_1,Right metatarsal 1,bone,skeletal,U+E0A7,,anatomy_right_metatarsal_1,glyphs/mono/right_metatarsal_1.svg,glyphs/color/right_metatarsal_1.svg
+anatomy:left_metatarsal_2,Left metatarsal 2,bone,skeletal,U+E0A8,,anatomy_left_metatarsal_2,glyphs/mono/left_metatarsal_2.svg,glyphs/color/left_metatarsal_2.svg
+anatomy:right_metatarsal_2,Right metatarsal 2,bone,skeletal,U+E0A9,,anatomy_right_metatarsal_2,glyphs/mono/right_metatarsal_2.svg,glyphs/color/right_metatarsal_2.svg
+anatomy:left_metatarsal_3,Left metatarsal 3,bone,skeletal,U+E0AA,,anatomy_left_metatarsal_3,glyphs/mono/left_metatarsal_3.svg,glyphs/color/left_metatarsal_3.svg
+anatomy:right_metatarsal_3,Right metatarsal 3,bone,skeletal,U+E0AB,,anatomy_right_metatarsal_3,glyphs/mono/right_metatarsal_3.svg,glyphs/color/right_metatarsal_3.svg
+anatomy:left_metatarsal_4,Left metatarsal 4,bone,skeletal,U+E0AC,,anatomy_left_metatarsal_4,glyphs/mono/left_metatarsal_4.svg,glyphs/color/left_metatarsal_4.svg
+anatomy:right_metatarsal_4,Right metatarsal 4,bone,skeletal,U+E0AD,,anatomy_right_metatarsal_4,glyphs/mono/right_metatarsal_4.svg,glyphs/color/right_metatarsal_4.svg
+anatomy:left_metatarsal_5,Left metatarsal 5,bone,skeletal,U+E0AE,,anatomy_left_metatarsal_5,glyphs/mono/left_metatarsal_5.svg,glyphs/color/left_metatarsal_5.svg
+anatomy:right_metatarsal_5,Right metatarsal 5,bone,skeletal,U+E0AF,,anatomy_right_metatarsal_5,glyphs/mono/right_metatarsal_5.svg,glyphs/color/right_metatarsal_5.svg
+anatomy:left_great_toe_proximal_phalanx,Left great toe proximal phalanx,bone,skeletal,U+E0B0,,anatomy_left_great_toe_proximal_phalanx,glyphs/mono/left_great_toe_proximal_phalanx.svg,glyphs/color/left_great_toe_proximal_phalanx.svg
+anatomy:left_great_toe_distal_phalanx,Left great toe distal phalanx,bone,skeletal,U+E0B1,,anatomy_left_great_toe_distal_phalanx,glyphs/mono/left_great_toe_distal_phalanx.svg,glyphs/color/left_great_toe_distal_phalanx.svg
+anatomy:right_great_toe_proximal_phalanx,Right great toe proximal phalanx,bone,skeletal,U+E0B2,,anatomy_right_great_toe_proximal_phalanx,glyphs/mono/right_great_toe_proximal_phalanx.svg,glyphs/color/right_great_toe_proximal_phalanx.svg
+anatomy:right_great_toe_distal_phalanx,Right great toe distal phalanx,bone,skeletal,U+E0B3,,anatomy_right_great_toe_distal_phalanx,glyphs/mono/right_great_toe_distal_phalanx.svg,glyphs/color/right_great_toe_distal_phalanx.svg
+anatomy:left_second_toe_proximal_phalanx,Left second toe proximal phalanx,bone,skeletal,U+E0B4,,anatomy_left_second_toe_proximal_phalanx,glyphs/mono/left_second_toe_proximal_phalanx.svg,glyphs/color/left_second_toe_proximal_phalanx.svg
+anatomy:left_second_toe_middle_phalanx,Left second toe middle phalanx,bone,skeletal,U+E0B5,,anatomy_left_second_toe_middle_phalanx,glyphs/mono/left_second_toe_middle_phalanx.svg,glyphs/color/left_second_toe_middle_phalanx.svg
+anatomy:left_second_toe_distal_phalanx,Left second toe distal phalanx,bone,skeletal,U+E0B6,,anatomy_left_second_toe_distal_phalanx,glyphs/mono/left_second_toe_distal_phalanx.svg,glyphs/color/left_second_toe_distal_phalanx.svg
+anatomy:right_second_toe_proximal_phalanx,Right second toe proximal phalanx,bone,skeletal,U+E0B7,,anatomy_right_second_toe_proximal_phalanx,glyphs/mono/right_second_toe_proximal_phalanx.svg,glyphs/color/right_second_toe_proximal_phalanx.svg
+anatomy:right_second_toe_middle_phalanx,Right second toe middle phalanx,bone,skeletal,U+E0B8,,anatomy_right_second_toe_middle_phalanx,glyphs/mono/right_second_toe_middle_phalanx.svg,glyphs/color/right_second_toe_middle_phalanx.svg
+anatomy:right_second_toe_distal_phalanx,Right second toe distal phalanx,bone,skeletal,U+E0B9,,anatomy_right_second_toe_distal_phalanx,glyphs/mono/right_second_toe_distal_phalanx.svg,glyphs/color/right_second_toe_distal_phalanx.svg
+anatomy:left_third_toe_proximal_phalanx,Left third toe proximal phalanx,bone,skeletal,U+E0BA,,anatomy_left_third_toe_proximal_phalanx,glyphs/mono/left_third_toe_proximal_phalanx.svg,glyphs/color/left_third_toe_proximal_phalanx.svg
+anatomy:left_third_toe_middle_phalanx,Left third toe middle phalanx,bone,skeletal,U+E0BB,,anatomy_left_third_toe_middle_phalanx,glyphs/mono/left_third_toe_middle_phalanx.svg,glyphs/color/left_third_toe_middle_phalanx.svg
+anatomy:left_third_toe_distal_phalanx,Left third toe distal phalanx,bone,skeletal,U+E0BC,,anatomy_left_third_toe_distal_phalanx,glyphs/mono/left_third_toe_distal_phalanx.svg,glyphs/color/left_third_toe_distal_phalanx.svg
+anatomy:right_third_toe_proximal_phalanx,Right third toe proximal phalanx,bone,skeletal,U+E0BD,,anatomy_right_third_toe_proximal_phalanx,glyphs/mono/right_third_toe_proximal_phalanx.svg,glyphs/color/right_third_toe_proximal_phalanx.svg
+anatomy:right_third_toe_middle_phalanx,Right third toe middle phalanx,bone,skeletal,U+E0BE,,anatomy_right_third_toe_middle_phalanx,glyphs/mono/right_third_toe_middle_phalanx.svg,glyphs/color/right_third_toe_middle_phalanx.svg
+anatomy:right_third_toe_distal_phalanx,Right third toe distal phalanx,bone,skeletal,U+E0BF,,anatomy_right_third_toe_distal_phalanx,glyphs/mono/right_third_toe_distal_phalanx.svg,glyphs/color/right_third_toe_distal_phalanx.svg
+anatomy:left_fourth_toe_proximal_phalanx,Left fourth toe proximal phalanx,bone,skeletal,U+E0C0,,anatomy_left_fourth_toe_proximal_phalanx,glyphs/mono/left_fourth_toe_proximal_phalanx.svg,glyphs/color/left_fourth_toe_proximal_phalanx.svg
+anatomy:left_fourth_toe_middle_phalanx,Left fourth toe middle phalanx,bone,skeletal,U+E0C1,,anatomy_left_fourth_toe_middle_phalanx,glyphs/mono/left_fourth_toe_middle_phalanx.svg,glyphs/color/left_fourth_toe_middle_phalanx.svg
+anatomy:left_fourth_toe_distal_phalanx,Left fourth toe distal phalanx,bone,skeletal,U+E0C2,,anatomy_left_fourth_toe_distal_phalanx,glyphs/mono/left_fourth_toe_distal_phalanx.svg,glyphs/color/left_fourth_toe_distal_phalanx.svg
+anatomy:right_fourth_toe_proximal_phalanx,Right fourth toe proximal phalanx,bone,skeletal,U+E0C3,,anatomy_right_fourth_toe_proximal_phalanx,glyphs/mono/right_fourth_toe_proximal_phalanx.svg,glyphs/color/right_fourth_toe_proximal_phalanx.svg
+anatomy:right_fourth_toe_middle_phalanx,Right fourth toe middle phalanx,bone,skeletal,U+E0C4,,anatomy_right_fourth_toe_middle_phalanx,glyphs/mono/right_fourth_toe_middle_phalanx.svg,glyphs/color/right_fourth_toe_middle_phalanx.svg
+anatomy:right_fourth_toe_distal_phalanx,Right fourth toe distal phalanx,bone,skeletal,U+E0C5,,anatomy_right_fourth_toe_distal_phalanx,glyphs/mono/right_fourth_toe_distal_phalanx.svg,glyphs/color/right_fourth_toe_distal_phalanx.svg
+anatomy:left_fifth_toe_proximal_phalanx,Left fifth toe proximal phalanx,bone,skeletal,U+E0C6,,anatomy_left_fifth_toe_proximal_phalanx,glyphs/mono/left_fifth_toe_proximal_phalanx.svg,glyphs/color/left_fifth_toe_proximal_phalanx.svg
+anatomy:left_fifth_toe_middle_phalanx,Left fifth toe middle phalanx,bone,skeletal,U+E0C7,,anatomy_left_fifth_toe_middle_phalanx,glyphs/mono/left_fifth_toe_middle_phalanx.svg,glyphs/color/left_fifth_toe_middle_phalanx.svg
+anatomy:left_fifth_toe_distal_phalanx,Left fifth toe distal phalanx,bone,skeletal,U+E0C8,,anatomy_left_fifth_toe_distal_phalanx,glyphs/mono/left_fifth_toe_distal_phalanx.svg,glyphs/color/left_fifth_toe_distal_phalanx.svg
+anatomy:right_fifth_toe_proximal_phalanx,Right fifth toe proximal phalanx,bone,skeletal,U+E0C9,,anatomy_right_fifth_toe_proximal_phalanx,glyphs/mono/right_fifth_toe_proximal_phalanx.svg,glyphs/color/right_fifth_toe_proximal_phalanx.svg
+anatomy:right_fifth_toe_middle_phalanx,Right fifth toe middle phalanx,bone,skeletal,U+E0CA,,anatomy_right_fifth_toe_middle_phalanx,glyphs/mono/right_fifth_toe_middle_phalanx.svg,glyphs/color/right_fifth_toe_middle_phalanx.svg
+anatomy:right_fifth_toe_distal_phalanx,Right fifth toe distal phalanx,bone,skeletal,U+E0CB,,anatomy_right_fifth_toe_distal_phalanx,glyphs/mono/right_fifth_toe_distal_phalanx.svg,glyphs/color/right_fifth_toe_distal_phalanx.svg
 anatomy:brain,Brain,organ,nervous,U+E011,,anatomy_brain,glyphs/mono/brain.svg,glyphs/color/brain.svg
 anatomy:heart,Heart,organ,circulatory,U+E012,,anatomy_heart,glyphs/mono/heart.svg,glyphs/color/heart.svg
 anatomy:left_lung,Left lung,organ,respiratory,U+E013,,anatomy_left_lung,glyphs/mono/left_lung.svg,glyphs/color/left_lung.svg

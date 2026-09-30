@@ -5,12 +5,15 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import yaml
 from fontTools.subset import Options, Subsetter
 from fontTools.ttLib import TTFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-UNICODES = list(range(0x20, 0x7F)) + list(range(0xE000, 0xE023))
+def unicode_inventory() -> list[int]:
+    data = yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())
+    return list(range(0x20, 0x7F)) + [int(item["unicode_pua"], 16) for item in data["objects"]]
 
 
 def subset(source: Path, target: Path) -> None:
@@ -22,7 +25,7 @@ def subset(source: Path, target: Path) -> None:
     options.glyph_names = True
     options.retain_gids = False
     subsetter = Subsetter(options=options)
-    subsetter.populate(unicodes=UNICODES)
+    subsetter.populate(unicodes=unicode_inventory())
     subsetter.subset(font)
     font.recalcTimestamp = False
     font["head"].created = 2398377600

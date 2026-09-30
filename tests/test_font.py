@@ -1,10 +1,12 @@
 import unittest
 from pathlib import Path
 
+import yaml
 from fontTools.ttLib import TTFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
+EXPECTED_PUA = len(yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())["objects"])
 
 
 class FontTest(unittest.TestCase):
@@ -36,7 +38,7 @@ class FontTest(unittest.TestCase):
         for name in ("BONES.woff2", "BONES-Color.woff2"):
             font = TTFont(str(ROOT / "dist" / name))
             self.assertIn("cmap", font)
-            self.assertEqual(len([codepoint for codepoint in font.getBestCmap() if 0xE000 <= codepoint <= 0xF8FF]), 35)
+            self.assertEqual(len([codepoint for codepoint in font.getBestCmap() if 0xE000 <= codepoint <= 0xF8FF]), EXPECTED_PUA)
 
 
 if __name__ == "__main__":

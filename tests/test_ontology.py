@@ -17,8 +17,8 @@ class OntologyTest(unittest.TestCase):
 
     def test_vertical_slice_counts(self):
         objects = self.data["objects"]
-        self.assertEqual(len(objects), 35)
-        self.assertEqual(sum(item["category"] == "bone" for item in objects), 17)
+        self.assertEqual(len(objects), 204)
+        self.assertEqual(sum(item["category"] == "bone" for item in objects), 186)
         self.assertEqual(sum(item["category"] == "organ" for item in objects), 17)
         self.assertEqual(sum(item["category"] == "tissue" for item in objects), 1)
 
@@ -28,6 +28,8 @@ class OntologyTest(unittest.TestCase):
         self.assertEqual(len({item["unicode_pua"] for item in objects}), len(objects))
         self.assertIn("anatomy:femur", {item["id"] for item in objects})
         self.assertIn("anatomy:left_kidney", {item["id"] for item in objects})
+        self.assertIn("anatomy:left_scaphoid", {item["id"] for item in objects})
+        self.assertIn("anatomy:right_fifth_toe_distal_phalanx", {item["id"] for item in objects})
 
     def test_assets_and_labels_exist(self):
         for item in self.data["objects"]:

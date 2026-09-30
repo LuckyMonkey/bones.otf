@@ -5,7 +5,8 @@ The representative bone and organ set uses a visual language based on the public
 Wikimedia Commons and are retained as provenance references in
 `sources/gray-plates/raw/`. The exact file page for each source, edition, and
 license note is in `sources/gray-plates.yaml`. The current source set covers
-the 17 bone objects and the existing organ/tissue vertical slice, including
+186 bone objects across 48 source-derived glyph bases and the existing
+organ/tissue vertical slice, including
 brain, heart, lungs, liver, gallbladder, pancreas, spleen, stomach, intestines,
 kidneys, bladder, thyroid, esophagus, trachea, and skin.
 

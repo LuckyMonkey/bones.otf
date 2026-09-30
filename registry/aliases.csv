@@ -52,6 +52,515 @@ anatomy:tibia,shin bone,alias
 anatomy:fibula,Fibula,label
 anatomy:fibula,:fibula:,shortcode
 anatomy:fibula,calf bone,alias
+anatomy:frontal,Frontal bone,label
+anatomy:frontal,:frontal:,shortcode
+anatomy:frontal,forehead bone,alias
+anatomy:parietal,Parietal bone,label
+anatomy:parietal,:parietal:,shortcode
+anatomy:parietal,parietal bone,alias
+anatomy:temporal,Temporal bone,label
+anatomy:temporal,:temporal:,shortcode
+anatomy:temporal,temporal bone,alias
+anatomy:occipital,Occipital bone,label
+anatomy:occipital,:occipital:,shortcode
+anatomy:occipital,occipital bone,alias
+anatomy:sphenoid,Sphenoid bone,label
+anatomy:sphenoid,:sphenoid:,shortcode
+anatomy:sphenoid,sphenoid,alias
+anatomy:ethmoid,Ethmoid bone,label
+anatomy:ethmoid,:ethmoid:,shortcode
+anatomy:ethmoid,ethmoid bone,alias
+anatomy:nasal,Nasal bone,label
+anatomy:nasal,:nasal:,shortcode
+anatomy:nasal,nasal bone,alias
+anatomy:maxilla,Maxilla,label
+anatomy:maxilla,:maxilla:,shortcode
+anatomy:maxilla,upper jaw,alias
+anatomy:zygomatic,Zygomatic bone,label
+anatomy:zygomatic,:zygomatic:,shortcode
+anatomy:zygomatic,cheekbone,alias
+anatomy:lacrimal,Lacrimal bone,label
+anatomy:lacrimal,:lacrimal:,shortcode
+anatomy:lacrimal,lacrimal bone,alias
+anatomy:palatine,Palatine bone,label
+anatomy:palatine,:palatine:,shortcode
+anatomy:palatine,palatine bone,alias
+anatomy:vomer,Vomer,label
+anatomy:vomer,:vomer:,shortcode
+anatomy:vomer,vomer bone,alias
+anatomy:hyoid,Hyoid bone,label
+anatomy:hyoid,:hyoid:,shortcode
+anatomy:hyoid,tongue bone,alias
+anatomy:c1_atlas,C1 / Atlas,label
+anatomy:c1_atlas,:c1_atlas:,shortcode
+anatomy:c1_atlas,atlas,alias
+anatomy:c1_atlas,first cervical vertebra,alias
+anatomy:c2_axis,C2 / Axis,label
+anatomy:c2_axis,:c2_axis:,shortcode
+anatomy:c2_axis,axis,alias
+anatomy:c2_axis,second cervical vertebra,alias
+anatomy:c3,C3 cervical vertebra,label
+anatomy:c3,:c3:,shortcode
+anatomy:c3,cervical vertebra 3,alias
+anatomy:c4,C4 cervical vertebra,label
+anatomy:c4,:c4:,shortcode
+anatomy:c4,cervical vertebra 4,alias
+anatomy:c5,C5 cervical vertebra,label
+anatomy:c5,:c5:,shortcode
+anatomy:c5,cervical vertebra 5,alias
+anatomy:c6,C6 cervical vertebra,label
+anatomy:c6,:c6:,shortcode
+anatomy:c6,cervical vertebra 6,alias
+anatomy:c7,C7 cervical vertebra,label
+anatomy:c7,:c7:,shortcode
+anatomy:c7,cervical vertebra 7,alias
+anatomy:t1,T1 thoracic vertebra,label
+anatomy:t1,:t1:,shortcode
+anatomy:t1,thoracic vertebra 1,alias
+anatomy:t2,T2 thoracic vertebra,label
+anatomy:t2,:t2:,shortcode
+anatomy:t2,thoracic vertebra 2,alias
+anatomy:t3,T3 thoracic vertebra,label
+anatomy:t3,:t3:,shortcode
+anatomy:t3,thoracic vertebra 3,alias
+anatomy:t4,T4 thoracic vertebra,label
+anatomy:t4,:t4:,shortcode
+anatomy:t4,thoracic vertebra 4,alias
+anatomy:t5,T5 thoracic vertebra,label
+anatomy:t5,:t5:,shortcode
+anatomy:t5,thoracic vertebra 5,alias
+anatomy:t6,T6 thoracic vertebra,label
+anatomy:t6,:t6:,shortcode
+anatomy:t6,thoracic vertebra 6,alias
+anatomy:t7,T7 thoracic vertebra,label
+anatomy:t7,:t7:,shortcode
+anatomy:t7,thoracic vertebra 7,alias
+anatomy:t8,T8 thoracic vertebra,label
+anatomy:t8,:t8:,shortcode
+anatomy:t8,thoracic vertebra 8,alias
+anatomy:t9,T9 thoracic vertebra,label
+anatomy:t9,:t9:,shortcode
+anatomy:t9,thoracic vertebra 9,alias
+anatomy:t10,T10 thoracic vertebra,label
+anatomy:t10,:t10:,shortcode
+anatomy:t10,thoracic vertebra 10,alias
+anatomy:t11,T11 thoracic vertebra,label
+anatomy:t11,:t11:,shortcode
+anatomy:t11,thoracic vertebra 11,alias
+anatomy:t12,T12 thoracic vertebra,label
+anatomy:t12,:t12:,shortcode
+anatomy:t12,thoracic vertebra 12,alias
+anatomy:l1,L1 lumbar vertebra,label
+anatomy:l1,:l1:,shortcode
+anatomy:l1,lumbar vertebra 1,alias
+anatomy:l2,L2 lumbar vertebra,label
+anatomy:l2,:l2:,shortcode
+anatomy:l2,lumbar vertebra 2,alias
+anatomy:l3,L3 lumbar vertebra,label
+anatomy:l3,:l3:,shortcode
+anatomy:l3,lumbar vertebra 3,alias
+anatomy:l4,L4 lumbar vertebra,label
+anatomy:l4,:l4:,shortcode
+anatomy:l4,lumbar vertebra 4,alias
+anatomy:l5,L5 lumbar vertebra,label
+anatomy:l5,:l5:,shortcode
+anatomy:l5,lumbar vertebra 5,alias
+anatomy:sacrum,Sacrum,label
+anatomy:sacrum,:sacrum:,shortcode
+anatomy:sacrum,sacral bone,alias
+anatomy:coccyx,Coccyx,label
+anatomy:coccyx,:coccyx:,shortcode
+anatomy:coccyx,tailbone,alias
+anatomy:left_rib_1,Left rib 1,label
+anatomy:left_rib_1,:left_rib_1:,shortcode
+anatomy:left_rib_1,left rib 1,alias
+anatomy:right_rib_1,Right rib 1,label
+anatomy:right_rib_1,:right_rib_1:,shortcode
+anatomy:right_rib_1,right rib 1,alias
+anatomy:left_rib_2,Left rib 2,label
+anatomy:left_rib_2,:left_rib_2:,shortcode
+anatomy:left_rib_2,left rib 2,alias
+anatomy:right_rib_2,Right rib 2,label
+anatomy:right_rib_2,:right_rib_2:,shortcode
+anatomy:right_rib_2,right rib 2,alias
+anatomy:left_rib_3,Left rib 3,label
+anatomy:left_rib_3,:left_rib_3:,shortcode
+anatomy:left_rib_3,left rib 3,alias
+anatomy:right_rib_3,Right rib 3,label
+anatomy:right_rib_3,:right_rib_3:,shortcode
+anatomy:right_rib_3,right rib 3,alias
+anatomy:left_rib_4,Left rib 4,label
+anatomy:left_rib_4,:left_rib_4:,shortcode
+anatomy:left_rib_4,left rib 4,alias
+anatomy:right_rib_4,Right rib 4,label
+anatomy:right_rib_4,:right_rib_4:,shortcode
+anatomy:right_rib_4,right rib 4,alias
+anatomy:left_rib_5,Left rib 5,label
+anatomy:left_rib_5,:left_rib_5:,shortcode
+anatomy:left_rib_5,left rib 5,alias
+anatomy:right_rib_5,Right rib 5,label
+anatomy:right_rib_5,:right_rib_5:,shortcode
+anatomy:right_rib_5,right rib 5,alias
+anatomy:left_rib_6,Left rib 6,label
+anatomy:left_rib_6,:left_rib_6:,shortcode
+anatomy:left_rib_6,left rib 6,alias
+anatomy:right_rib_6,Right rib 6,label
+anatomy:right_rib_6,:right_rib_6:,shortcode
+anatomy:right_rib_6,right rib 6,alias
+anatomy:left_rib_7,Left rib 7,label
+anatomy:left_rib_7,:left_rib_7:,shortcode
+anatomy:left_rib_7,left rib 7,alias
+anatomy:right_rib_7,Right rib 7,label
+anatomy:right_rib_7,:right_rib_7:,shortcode
+anatomy:right_rib_7,right rib 7,alias
+anatomy:left_rib_8,Left rib 8,label
+anatomy:left_rib_8,:left_rib_8:,shortcode
+anatomy:left_rib_8,left rib 8,alias
+anatomy:right_rib_8,Right rib 8,label
+anatomy:right_rib_8,:right_rib_8:,shortcode
+anatomy:right_rib_8,right rib 8,alias
+anatomy:left_rib_9,Left rib 9,label
+anatomy:left_rib_9,:left_rib_9:,shortcode
+anatomy:left_rib_9,left rib 9,alias
+anatomy:right_rib_9,Right rib 9,label
+anatomy:right_rib_9,:right_rib_9:,shortcode
+anatomy:right_rib_9,right rib 9,alias
+anatomy:left_rib_10,Left rib 10,label
+anatomy:left_rib_10,:left_rib_10:,shortcode
+anatomy:left_rib_10,left rib 10,alias
+anatomy:right_rib_10,Right rib 10,label
+anatomy:right_rib_10,:right_rib_10:,shortcode
+anatomy:right_rib_10,right rib 10,alias
+anatomy:left_rib_11,Left rib 11,label
+anatomy:left_rib_11,:left_rib_11:,shortcode
+anatomy:left_rib_11,left rib 11,alias
+anatomy:right_rib_11,Right rib 11,label
+anatomy:right_rib_11,:right_rib_11:,shortcode
+anatomy:right_rib_11,right rib 11,alias
+anatomy:left_rib_12,Left rib 12,label
+anatomy:left_rib_12,:left_rib_12:,shortcode
+anatomy:left_rib_12,left rib 12,alias
+anatomy:right_rib_12,Right rib 12,label
+anatomy:right_rib_12,:right_rib_12:,shortcode
+anatomy:right_rib_12,right rib 12,alias
+anatomy:left_scaphoid,Left scaphoid,label
+anatomy:left_scaphoid,:left_scaphoid:,shortcode
+anatomy:left_scaphoid,left scaphoid bone,alias
+anatomy:right_scaphoid,Right scaphoid,label
+anatomy:right_scaphoid,:right_scaphoid:,shortcode
+anatomy:right_scaphoid,right scaphoid bone,alias
+anatomy:left_lunate,Left lunate,label
+anatomy:left_lunate,:left_lunate:,shortcode
+anatomy:left_lunate,left lunate bone,alias
+anatomy:right_lunate,Right lunate,label
+anatomy:right_lunate,:right_lunate:,shortcode
+anatomy:right_lunate,right lunate bone,alias
+anatomy:left_triquetrum,Left triquetrum,label
+anatomy:left_triquetrum,:left_triquetrum:,shortcode
+anatomy:left_triquetrum,left triquetrum bone,alias
+anatomy:right_triquetrum,Right triquetrum,label
+anatomy:right_triquetrum,:right_triquetrum:,shortcode
+anatomy:right_triquetrum,right triquetrum bone,alias
+anatomy:left_pisiform,Left pisiform,label
+anatomy:left_pisiform,:left_pisiform:,shortcode
+anatomy:left_pisiform,left pisiform bone,alias
+anatomy:right_pisiform,Right pisiform,label
+anatomy:right_pisiform,:right_pisiform:,shortcode
+anatomy:right_pisiform,right pisiform bone,alias
+anatomy:left_trapezium,Left trapezium,label
+anatomy:left_trapezium,:left_trapezium:,shortcode
+anatomy:left_trapezium,left trapezium bone,alias
+anatomy:right_trapezium,Right trapezium,label
+anatomy:right_trapezium,:right_trapezium:,shortcode
+anatomy:right_trapezium,right trapezium bone,alias
+anatomy:left_trapezoid,Left trapezoid,label
+anatomy:left_trapezoid,:left_trapezoid:,shortcode
+anatomy:left_trapezoid,left trapezoid bone,alias
+anatomy:right_trapezoid,Right trapezoid,label
+anatomy:right_trapezoid,:right_trapezoid:,shortcode
+anatomy:right_trapezoid,right trapezoid bone,alias
+anatomy:left_capitate,Left capitate,label
+anatomy:left_capitate,:left_capitate:,shortcode
+anatomy:left_capitate,left capitate bone,alias
+anatomy:right_capitate,Right capitate,label
+anatomy:right_capitate,:right_capitate:,shortcode
+anatomy:right_capitate,right capitate bone,alias
+anatomy:left_hamate,Left hamate,label
+anatomy:left_hamate,:left_hamate:,shortcode
+anatomy:left_hamate,left hamate bone,alias
+anatomy:right_hamate,Right hamate,label
+anatomy:right_hamate,:right_hamate:,shortcode
+anatomy:right_hamate,right hamate bone,alias
+anatomy:left_metacarpal_1,Left metacarpal 1,label
+anatomy:left_metacarpal_1,:left_metacarpal_1:,shortcode
+anatomy:left_metacarpal_1,left metacarpal bone 1,alias
+anatomy:right_metacarpal_1,Right metacarpal 1,label
+anatomy:right_metacarpal_1,:right_metacarpal_1:,shortcode
+anatomy:right_metacarpal_1,right metacarpal bone 1,alias
+anatomy:left_metacarpal_2,Left metacarpal 2,label
+anatomy:left_metacarpal_2,:left_metacarpal_2:,shortcode
+anatomy:left_metacarpal_2,left metacarpal bone 2,alias
+anatomy:right_metacarpal_2,Right metacarpal 2,label
+anatomy:right_metacarpal_2,:right_metacarpal_2:,shortcode
+anatomy:right_metacarpal_2,right metacarpal bone 2,alias
+anatomy:left_metacarpal_3,Left metacarpal 3,label
+anatomy:left_metacarpal_3,:left_metacarpal_3:,shortcode
+anatomy:left_metacarpal_3,left metacarpal bone 3,alias
+anatomy:right_metacarpal_3,Right metacarpal 3,label
+anatomy:right_metacarpal_3,:right_metacarpal_3:,shortcode
+anatomy:right_metacarpal_3,right metacarpal bone 3,alias
+anatomy:left_metacarpal_4,Left metacarpal 4,label
+anatomy:left_metacarpal_4,:left_metacarpal_4:,shortcode
+anatomy:left_metacarpal_4,left metacarpal bone 4,alias
+anatomy:right_metacarpal_4,Right metacarpal 4,label
+anatomy:right_metacarpal_4,:right_metacarpal_4:,shortcode
+anatomy:right_metacarpal_4,right metacarpal bone 4,alias
+anatomy:left_metacarpal_5,Left metacarpal 5,label
+anatomy:left_metacarpal_5,:left_metacarpal_5:,shortcode
+anatomy:left_metacarpal_5,left metacarpal bone 5,alias
+anatomy:right_metacarpal_5,Right metacarpal 5,label
+anatomy:right_metacarpal_5,:right_metacarpal_5:,shortcode
+anatomy:right_metacarpal_5,right metacarpal bone 5,alias
+anatomy:left_thumb_proximal_phalanx,Left thumb proximal phalanx,label
+anatomy:left_thumb_proximal_phalanx,:left_thumb_proximal_phalanx:,shortcode
+anatomy:left_thumb_proximal_phalanx,left thumb proximal finger bone,alias
+anatomy:left_thumb_distal_phalanx,Left thumb distal phalanx,label
+anatomy:left_thumb_distal_phalanx,:left_thumb_distal_phalanx:,shortcode
+anatomy:left_thumb_distal_phalanx,left thumb distal finger bone,alias
+anatomy:right_thumb_proximal_phalanx,Right thumb proximal phalanx,label
+anatomy:right_thumb_proximal_phalanx,:right_thumb_proximal_phalanx:,shortcode
+anatomy:right_thumb_proximal_phalanx,right thumb proximal finger bone,alias
+anatomy:right_thumb_distal_phalanx,Right thumb distal phalanx,label
+anatomy:right_thumb_distal_phalanx,:right_thumb_distal_phalanx:,shortcode
+anatomy:right_thumb_distal_phalanx,right thumb distal finger bone,alias
+anatomy:left_index_proximal_phalanx,Left index proximal phalanx,label
+anatomy:left_index_proximal_phalanx,:left_index_proximal_phalanx:,shortcode
+anatomy:left_index_proximal_phalanx,left index proximal finger bone,alias
+anatomy:left_index_middle_phalanx,Left index middle phalanx,label
+anatomy:left_index_middle_phalanx,:left_index_middle_phalanx:,shortcode
+anatomy:left_index_middle_phalanx,left index middle finger bone,alias
+anatomy:left_index_distal_phalanx,Left index distal phalanx,label
+anatomy:left_index_distal_phalanx,:left_index_distal_phalanx:,shortcode
+anatomy:left_index_distal_phalanx,left index distal finger bone,alias
+anatomy:right_index_proximal_phalanx,Right index proximal phalanx,label
+anatomy:right_index_proximal_phalanx,:right_index_proximal_phalanx:,shortcode
+anatomy:right_index_proximal_phalanx,right index proximal finger bone,alias
+anatomy:right_index_middle_phalanx,Right index middle phalanx,label
+anatomy:right_index_middle_phalanx,:right_index_middle_phalanx:,shortcode
+anatomy:right_index_middle_phalanx,right index middle finger bone,alias
+anatomy:right_index_distal_phalanx,Right index distal phalanx,label
+anatomy:right_index_distal_phalanx,:right_index_distal_phalanx:,shortcode
+anatomy:right_index_distal_phalanx,right index distal finger bone,alias
+anatomy:left_middle_proximal_phalanx,Left middle proximal phalanx,label
+anatomy:left_middle_proximal_phalanx,:left_middle_proximal_phalanx:,shortcode
+anatomy:left_middle_proximal_phalanx,left middle proximal finger bone,alias
+anatomy:left_middle_middle_phalanx,Left middle middle phalanx,label
+anatomy:left_middle_middle_phalanx,:left_middle_middle_phalanx:,shortcode
+anatomy:left_middle_middle_phalanx,left middle middle finger bone,alias
+anatomy:left_middle_distal_phalanx,Left middle distal phalanx,label
+anatomy:left_middle_distal_phalanx,:left_middle_distal_phalanx:,shortcode
+anatomy:left_middle_distal_phalanx,left middle distal finger bone,alias
+anatomy:right_middle_proximal_phalanx,Right middle proximal phalanx,label
+anatomy:right_middle_proximal_phalanx,:right_middle_proximal_phalanx:,shortcode
+anatomy:right_middle_proximal_phalanx,right middle proximal finger bone,alias
+anatomy:right_middle_middle_phalanx,Right middle middle phalanx,label
+anatomy:right_middle_middle_phalanx,:right_middle_middle_phalanx:,shortcode
+anatomy:right_middle_middle_phalanx,right middle middle finger bone,alias
+anatomy:right_middle_distal_phalanx,Right middle distal phalanx,label
+anatomy:right_middle_distal_phalanx,:right_middle_distal_phalanx:,shortcode
+anatomy:right_middle_distal_phalanx,right middle distal finger bone,alias
+anatomy:left_ring_proximal_phalanx,Left ring proximal phalanx,label
+anatomy:left_ring_proximal_phalanx,:left_ring_proximal_phalanx:,shortcode
+anatomy:left_ring_proximal_phalanx,left ring proximal finger bone,alias
+anatomy:left_ring_middle_phalanx,Left ring middle phalanx,label
+anatomy:left_ring_middle_phalanx,:left_ring_middle_phalanx:,shortcode
+anatomy:left_ring_middle_phalanx,left ring middle finger bone,alias
+anatomy:left_ring_distal_phalanx,Left ring distal phalanx,label
+anatomy:left_ring_distal_phalanx,:left_ring_distal_phalanx:,shortcode
+anatomy:left_ring_distal_phalanx,left ring distal finger bone,alias
+anatomy:right_ring_proximal_phalanx,Right ring proximal phalanx,label
+anatomy:right_ring_proximal_phalanx,:right_ring_proximal_phalanx:,shortcode
+anatomy:right_ring_proximal_phalanx,right ring proximal finger bone,alias
+anatomy:right_ring_middle_phalanx,Right ring middle phalanx,label
+anatomy:right_ring_middle_phalanx,:right_ring_middle_phalanx:,shortcode
+anatomy:right_ring_middle_phalanx,right ring middle finger bone,alias
+anatomy:right_ring_distal_phalanx,Right ring distal phalanx,label
+anatomy:right_ring_distal_phalanx,:right_ring_distal_phalanx:,shortcode
+anatomy:right_ring_distal_phalanx,right ring distal finger bone,alias
+anatomy:left_little_proximal_phalanx,Left little proximal phalanx,label
+anatomy:left_little_proximal_phalanx,:left_little_proximal_phalanx:,shortcode
+anatomy:left_little_proximal_phalanx,left little proximal finger bone,alias
+anatomy:left_little_middle_phalanx,Left little middle phalanx,label
+anatomy:left_little_middle_phalanx,:left_little_middle_phalanx:,shortcode
+anatomy:left_little_middle_phalanx,left little middle finger bone,alias
+anatomy:left_little_distal_phalanx,Left little distal phalanx,label
+anatomy:left_little_distal_phalanx,:left_little_distal_phalanx:,shortcode
+anatomy:left_little_distal_phalanx,left little distal finger bone,alias
+anatomy:right_little_proximal_phalanx,Right little proximal phalanx,label
+anatomy:right_little_proximal_phalanx,:right_little_proximal_phalanx:,shortcode
+anatomy:right_little_proximal_phalanx,right little proximal finger bone,alias
+anatomy:right_little_middle_phalanx,Right little middle phalanx,label
+anatomy:right_little_middle_phalanx,:right_little_middle_phalanx:,shortcode
+anatomy:right_little_middle_phalanx,right little middle finger bone,alias
+anatomy:right_little_distal_phalanx,Right little distal phalanx,label
+anatomy:right_little_distal_phalanx,:right_little_distal_phalanx:,shortcode
+anatomy:right_little_distal_phalanx,right little distal finger bone,alias
+anatomy:left_talus,Left talus,label
+anatomy:left_talus,:left_talus:,shortcode
+anatomy:left_talus,left talus bone,alias
+anatomy:right_talus,Right talus,label
+anatomy:right_talus,:right_talus:,shortcode
+anatomy:right_talus,right talus bone,alias
+anatomy:left_calcaneus,Left calcaneus,label
+anatomy:left_calcaneus,:left_calcaneus:,shortcode
+anatomy:left_calcaneus,left calcaneus bone,alias
+anatomy:right_calcaneus,Right calcaneus,label
+anatomy:right_calcaneus,:right_calcaneus:,shortcode
+anatomy:right_calcaneus,right calcaneus bone,alias
+anatomy:left_navicular,Left navicular,label
+anatomy:left_navicular,:left_navicular:,shortcode
+anatomy:left_navicular,left navicular bone,alias
+anatomy:right_navicular,Right navicular,label
+anatomy:right_navicular,:right_navicular:,shortcode
+anatomy:right_navicular,right navicular bone,alias
+anatomy:left_cuboid,Left cuboid,label
+anatomy:left_cuboid,:left_cuboid:,shortcode
+anatomy:left_cuboid,left cuboid bone,alias
+anatomy:right_cuboid,Right cuboid,label
+anatomy:right_cuboid,:right_cuboid:,shortcode
+anatomy:right_cuboid,right cuboid bone,alias
+anatomy:left_medial_cuneiform,Left medial cuneiform,label
+anatomy:left_medial_cuneiform,:left_medial_cuneiform:,shortcode
+anatomy:left_medial_cuneiform,left medial cuneiform bone,alias
+anatomy:right_medial_cuneiform,Right medial cuneiform,label
+anatomy:right_medial_cuneiform,:right_medial_cuneiform:,shortcode
+anatomy:right_medial_cuneiform,right medial cuneiform bone,alias
+anatomy:left_intermediate_cuneiform,Left intermediate cuneiform,label
+anatomy:left_intermediate_cuneiform,:left_intermediate_cuneiform:,shortcode
+anatomy:left_intermediate_cuneiform,left intermediate cuneiform bone,alias
+anatomy:right_intermediate_cuneiform,Right intermediate cuneiform,label
+anatomy:right_intermediate_cuneiform,:right_intermediate_cuneiform:,shortcode
+anatomy:right_intermediate_cuneiform,right intermediate cuneiform bone,alias
+anatomy:left_lateral_cuneiform,Left lateral cuneiform,label
+anatomy:left_lateral_cuneiform,:left_lateral_cuneiform:,shortcode
+anatomy:left_lateral_cuneiform,left lateral cuneiform bone,alias
+anatomy:right_lateral_cuneiform,Right lateral cuneiform,label
+anatomy:right_lateral_cuneiform,:right_lateral_cuneiform:,shortcode
+anatomy:right_lateral_cuneiform,right lateral cuneiform bone,alias
+anatomy:left_metatarsal_1,Left metatarsal 1,label
+anatomy:left_metatarsal_1,:left_metatarsal_1:,shortcode
+anatomy:left_metatarsal_1,left metatarsal bone 1,alias
+anatomy:right_metatarsal_1,Right metatarsal 1,label
+anatomy:right_metatarsal_1,:right_metatarsal_1:,shortcode
+anatomy:right_metatarsal_1,right metatarsal bone 1,alias
+anatomy:left_metatarsal_2,Left metatarsal 2,label
+anatomy:left_metatarsal_2,:left_metatarsal_2:,shortcode
+anatomy:left_metatarsal_2,left metatarsal bone 2,alias
+anatomy:right_metatarsal_2,Right metatarsal 2,label
+anatomy:right_metatarsal_2,:right_metatarsal_2:,shortcode
+anatomy:right_metatarsal_2,right metatarsal bone 2,alias
+anatomy:left_metatarsal_3,Left metatarsal 3,label
+anatomy:left_metatarsal_3,:left_metatarsal_3:,shortcode
+anatomy:left_metatarsal_3,left metatarsal bone 3,alias
+anatomy:right_metatarsal_3,Right metatarsal 3,label
+anatomy:right_metatarsal_3,:right_metatarsal_3:,shortcode
+anatomy:right_metatarsal_3,right metatarsal bone 3,alias
+anatomy:left_metatarsal_4,Left metatarsal 4,label
+anatomy:left_metatarsal_4,:left_metatarsal_4:,shortcode
+anatomy:left_metatarsal_4,left metatarsal bone 4,alias
+anatomy:right_metatarsal_4,Right metatarsal 4,label
+anatomy:right_metatarsal_4,:right_metatarsal_4:,shortcode
+anatomy:right_metatarsal_4,right metatarsal bone 4,alias
+anatomy:left_metatarsal_5,Left metatarsal 5,label
+anatomy:left_metatarsal_5,:left_metatarsal_5:,shortcode
+anatomy:left_metatarsal_5,left metatarsal bone 5,alias
+anatomy:right_metatarsal_5,Right metatarsal 5,label
+anatomy:right_metatarsal_5,:right_metatarsal_5:,shortcode
+anatomy:right_metatarsal_5,right metatarsal bone 5,alias
+anatomy:left_great_toe_proximal_phalanx,Left great toe proximal phalanx,label
+anatomy:left_great_toe_proximal_phalanx,:left_great_toe_proximal_phalanx:,shortcode
+anatomy:left_great_toe_proximal_phalanx,left great toe proximal toe bone,alias
+anatomy:left_great_toe_distal_phalanx,Left great toe distal phalanx,label
+anatomy:left_great_toe_distal_phalanx,:left_great_toe_distal_phalanx:,shortcode
+anatomy:left_great_toe_distal_phalanx,left great toe distal toe bone,alias
+anatomy:right_great_toe_proximal_phalanx,Right great toe proximal phalanx,label
+anatomy:right_great_toe_proximal_phalanx,:right_great_toe_proximal_phalanx:,shortcode
+anatomy:right_great_toe_proximal_phalanx,right great toe proximal toe bone,alias
+anatomy:right_great_toe_distal_phalanx,Right great toe distal phalanx,label
+anatomy:right_great_toe_distal_phalanx,:right_great_toe_distal_phalanx:,shortcode
+anatomy:right_great_toe_distal_phalanx,right great toe distal toe bone,alias
+anatomy:left_second_toe_proximal_phalanx,Left second toe proximal phalanx,label
+anatomy:left_second_toe_proximal_phalanx,:left_second_toe_proximal_phalanx:,shortcode
+anatomy:left_second_toe_proximal_phalanx,left second toe proximal toe bone,alias
+anatomy:left_second_toe_middle_phalanx,Left second toe middle phalanx,label
+anatomy:left_second_toe_middle_phalanx,:left_second_toe_middle_phalanx:,shortcode
+anatomy:left_second_toe_middle_phalanx,left second toe middle toe bone,alias
+anatomy:left_second_toe_distal_phalanx,Left second toe distal phalanx,label
+anatomy:left_second_toe_distal_phalanx,:left_second_toe_distal_phalanx:,shortcode
+anatomy:left_second_toe_distal_phalanx,left second toe distal toe bone,alias
+anatomy:right_second_toe_proximal_phalanx,Right second toe proximal phalanx,label
+anatomy:right_second_toe_proximal_phalanx,:right_second_toe_proximal_phalanx:,shortcode
+anatomy:right_second_toe_proximal_phalanx,right second toe proximal toe bone,alias
+anatomy:right_second_toe_middle_phalanx,Right second toe middle phalanx,label
+anatomy:right_second_toe_middle_phalanx,:right_second_toe_middle_phalanx:,shortcode
+anatomy:right_second_toe_middle_phalanx,right second toe middle toe bone,alias
+anatomy:right_second_toe_distal_phalanx,Right second toe distal phalanx,label
+anatomy:right_second_toe_distal_phalanx,:right_second_toe_distal_phalanx:,shortcode
+anatomy:right_second_toe_distal_phalanx,right second toe distal toe bone,alias
+anatomy:left_third_toe_proximal_phalanx,Left third toe proximal phalanx,label
+anatomy:left_third_toe_proximal_phalanx,:left_third_toe_proximal_phalanx:,shortcode
+anatomy:left_third_toe_proximal_phalanx,left third toe proximal toe bone,alias
+anatomy:left_third_toe_middle_phalanx,Left third toe middle phalanx,label
+anatomy:left_third_toe_middle_phalanx,:left_third_toe_middle_phalanx:,shortcode
+anatomy:left_third_toe_middle_phalanx,left third toe middle toe bone,alias
+anatomy:left_third_toe_distal_phalanx,Left third toe distal phalanx,label
+anatomy:left_third_toe_distal_phalanx,:left_third_toe_distal_phalanx:,shortcode
+anatomy:left_third_toe_distal_phalanx,left third toe distal toe bone,alias
+anatomy:right_third_toe_proximal_phalanx,Right third toe proximal phalanx,label
+anatomy:right_third_toe_proximal_phalanx,:right_third_toe_proximal_phalanx:,shortcode
+anatomy:right_third_toe_proximal_phalanx,right third toe proximal toe bone,alias
+anatomy:right_third_toe_middle_phalanx,Right third toe middle phalanx,label
+anatomy:right_third_toe_middle_phalanx,:right_third_toe_middle_phalanx:,shortcode
+anatomy:right_third_toe_middle_phalanx,right third toe middle toe bone,alias
+anatomy:right_third_toe_distal_phalanx,Right third toe distal phalanx,label
+anatomy:right_third_toe_distal_phalanx,:right_third_toe_distal_phalanx:,shortcode
+anatomy:right_third_toe_distal_phalanx,right third toe distal toe bone,alias
+anatomy:left_fourth_toe_proximal_phalanx,Left fourth toe proximal phalanx,label
+anatomy:left_fourth_toe_proximal_phalanx,:left_fourth_toe_proximal_phalanx:,shortcode
+anatomy:left_fourth_toe_proximal_phalanx,left fourth toe proximal toe bone,alias
+anatomy:left_fourth_toe_middle_phalanx,Left fourth toe middle phalanx,label
+anatomy:left_fourth_toe_middle_phalanx,:left_fourth_toe_middle_phalanx:,shortcode
+anatomy:left_fourth_toe_middle_phalanx,left fourth toe middle toe bone,alias
+anatomy:left_fourth_toe_distal_phalanx,Left fourth toe distal phalanx,label
+anatomy:left_fourth_toe_distal_phalanx,:left_fourth_toe_distal_phalanx:,shortcode
+anatomy:left_fourth_toe_distal_phalanx,left fourth toe distal toe bone,alias
+anatomy:right_fourth_toe_proximal_phalanx,Right fourth toe proximal phalanx,label
+anatomy:right_fourth_toe_proximal_phalanx,:right_fourth_toe_proximal_phalanx:,shortcode
+anatomy:right_fourth_toe_proximal_phalanx,right fourth toe proximal toe bone,alias
+anatomy:right_fourth_toe_middle_phalanx,Right fourth toe middle phalanx,label
+anatomy:right_fourth_toe_middle_phalanx,:right_fourth_toe_middle_phalanx:,shortcode
+anatomy:right_fourth_toe_middle_phalanx,right fourth toe middle toe bone,alias
+anatomy:right_fourth_toe_distal_phalanx,Right fourth toe distal phalanx,label
+anatomy:right_fourth_toe_distal_phalanx,:right_fourth_toe_distal_phalanx:,shortcode
+anatomy:right_fourth_toe_distal_phalanx,right fourth toe distal toe bone,alias
+anatomy:left_fifth_toe_proximal_phalanx,Left fifth toe proximal phalanx,label
+anatomy:left_fifth_toe_proximal_phalanx,:left_fifth_toe_proximal_phalanx:,shortcode
+anatomy:left_fifth_toe_proximal_phalanx,left fifth toe proximal toe bone,alias
+anatomy:left_fifth_toe_middle_phalanx,Left fifth toe middle phalanx,label
+anatomy:left_fifth_toe_middle_phalanx,:left_fifth_toe_middle_phalanx:,shortcode
+anatomy:left_fifth_toe_middle_phalanx,left fifth toe middle toe bone,alias
+anatomy:left_fifth_toe_distal_phalanx,Left fifth toe distal phalanx,label
+anatomy:left_fifth_toe_distal_phalanx,:left_fifth_toe_distal_phalanx:,shortcode
+anatomy:left_fifth_toe_distal_phalanx,left fifth toe distal toe bone,alias
+anatomy:right_fifth_toe_proximal_phalanx,Right fifth toe proximal phalanx,label
+anatomy:right_fifth_toe_proximal_phalanx,:right_fifth_toe_proximal_phalanx:,shortcode
+anatomy:right_fifth_toe_proximal_phalanx,right fifth toe proximal toe bone,alias
+anatomy:right_fifth_toe_middle_phalanx,Right fifth toe middle phalanx,label
+anatomy:right_fifth_toe_middle_phalanx,:right_fifth_toe_middle_phalanx:,shortcode
+anatomy:right_fifth_toe_middle_phalanx,right fifth toe middle toe bone,alias
+anatomy:right_fifth_toe_distal_phalanx,Right fifth toe distal phalanx,label
+anatomy:right_fifth_toe_distal_phalanx,:right_fifth_toe_distal_phalanx:,shortcode
+anatomy:right_fifth_toe_distal_phalanx,right fifth toe distal toe bone,alias
 anatomy:brain,Brain,label
 anatomy:brain,:brain:,shortcode
 anatomy:brain,encephalon,alias

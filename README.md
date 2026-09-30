@@ -18,10 +18,16 @@ official Unicode Consortium anatomical character.
 
 ## What is in 0.1.0
 
-The first release proves the complete path with 35 objects: 17 skeletal
+The 0.1.0 release proved the complete path with 35 objects: 17 skeletal
 objects (including left/right femur identities) and 18 organs/tissues. Every
 object has a canonical ID, provenance, stable PUA assignment, shortcode,
 monochrome SVG, color SVG, font glyph, accessible label, and generated metadata.
+
+The current development tree expands that vertical slice to 204 objects: 186
+bones, 17 organs, and one tissue. It includes named cranial/facial bones,
+individual C1–C7, T1–T12, and L1–L5 vertebral levels, sacrum, coccyx, numbered
+ribs, carpals, metacarpals, hand phalanges, tarsals, metatarsals, and foot
+phalanges.
 
 Artifacts include `dist/BONES.otf`, `dist/BONES.ttf`, `dist/BONES-Color.otf`,
 `dist/BONES-Color.ttf`, WOFF2 files, SVG assets, PNG exports, a zero-framework
@@ -92,9 +98,8 @@ vector derivatives, not proprietary modern medical illustrations. See
 
 ## Project status
 
-0.1.0 is an independently usable vertical slice, not a claim of complete adult
-skeletal coverage. The registry deliberately marks future individual carpals,
-metacarpals, tarsals, phalanges, ribs, and vertebral levels for expansion rather
-than assigning guessed identities. The initial objects are fully wired end to
-end and `review_required` identifies where an anatomy expert should review the
-classification or outline before a 1.0 release.
+The current tree is an independently usable expanded slice, not a claim that
+every adult skeletal substructure or view is clinically complete. Repeated
+carpals, phalanges, ribs, and tarsals have distinct canonical identities and
+may explicitly share a small-size glyph master. `review_required` identifies
+where an anatomy expert should review classification or outline before 1.0.

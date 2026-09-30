@@ -547,6 +547,5416 @@ const registry = [
     "char": ""
   },
   {
+    "id": "anatomy:frontal",
+    "label": "Frontal bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "forehead bone"
+    ],
+    "codepoint": "U+E023",
+    "ligature": ":frontal:",
+    "shortcode": ":frontal:",
+    "glyph_name": "anatomy_frontal",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/frontal.svg",
+    "color_svg": "glyphs/color/frontal.svg",
+    "external_ids": {
+      "uberon": "UBERON:0000209"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Frontal bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:parietal",
+    "label": "Parietal bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "parietal bone"
+    ],
+    "codepoint": "U+E024",
+    "ligature": ":parietal:",
+    "shortcode": ":parietal:",
+    "glyph_name": "anatomy_parietal",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/parietal.svg",
+    "color_svg": "glyphs/color/parietal.svg",
+    "external_ids": {
+      "uberon": "UBERON:0000210"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Parietal bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:temporal",
+    "label": "Temporal bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "temporal bone"
+    ],
+    "codepoint": "U+E025",
+    "ligature": ":temporal:",
+    "shortcode": ":temporal:",
+    "glyph_name": "anatomy_temporal",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/temporal.svg",
+    "color_svg": "glyphs/color/temporal.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001678"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Temporal bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:occipital",
+    "label": "Occipital bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "occipital bone"
+    ],
+    "codepoint": "U+E026",
+    "ligature": ":occipital:",
+    "shortcode": ":occipital:",
+    "glyph_name": "anatomy_occipital",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/occipital.svg",
+    "color_svg": "glyphs/color/occipital.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001676"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Occipital bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:sphenoid",
+    "label": "Sphenoid bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "sphenoid"
+    ],
+    "codepoint": "U+E027",
+    "ligature": ":sphenoid:",
+    "shortcode": ":sphenoid:",
+    "glyph_name": "anatomy_sphenoid",
+    "glyph_base": "sphenoid",
+    "svg": "glyphs/mono/sphenoid.svg",
+    "color_svg": "glyphs/color/sphenoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001677"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Sphenoid bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:ethmoid",
+    "label": "Ethmoid bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "ethmoid bone"
+    ],
+    "codepoint": "U+E028",
+    "ligature": ":ethmoid:",
+    "shortcode": ":ethmoid:",
+    "glyph_name": "anatomy_ethmoid",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/ethmoid.svg",
+    "color_svg": "glyphs/color/ethmoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001679"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Ethmoid bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:nasal",
+    "label": "Nasal bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "nasal bone"
+    ],
+    "codepoint": "U+E029",
+    "ligature": ":nasal:",
+    "shortcode": ":nasal:",
+    "glyph_name": "anatomy_nasal",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/nasal.svg",
+    "color_svg": "glyphs/color/nasal.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001681"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Nasal bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:maxilla",
+    "label": "Maxilla",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "upper jaw"
+    ],
+    "codepoint": "U+E02A",
+    "ligature": ":maxilla:",
+    "shortcode": ":maxilla:",
+    "glyph_name": "anatomy_maxilla",
+    "glyph_base": "zygomatic",
+    "svg": "glyphs/mono/maxilla.svg",
+    "color_svg": "glyphs/color/maxilla.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002397"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Maxilla",
+    "char": ""
+  },
+  {
+    "id": "anatomy:zygomatic",
+    "label": "Zygomatic bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "cheekbone"
+    ],
+    "codepoint": "U+E02B",
+    "ligature": ":zygomatic:",
+    "shortcode": ":zygomatic:",
+    "glyph_name": "anatomy_zygomatic",
+    "glyph_base": "zygomatic",
+    "svg": "glyphs/mono/zygomatic.svg",
+    "color_svg": "glyphs/color/zygomatic.svg",
+    "external_ids": {
+      "uberon": "UBERON:0004654"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Zygomatic bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:lacrimal",
+    "label": "Lacrimal bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "lacrimal bone"
+    ],
+    "codepoint": "U+E02C",
+    "ligature": ":lacrimal:",
+    "shortcode": ":lacrimal:",
+    "glyph_name": "anatomy_lacrimal",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/lacrimal.svg",
+    "color_svg": "glyphs/color/lacrimal.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001680"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Lacrimal bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:palatine",
+    "label": "Palatine bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "palatine bone"
+    ],
+    "codepoint": "U+E02D",
+    "ligature": ":palatine:",
+    "shortcode": ":palatine:",
+    "glyph_name": "anatomy_palatine",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/palatine.svg",
+    "color_svg": "glyphs/color/palatine.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001682"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Palatine bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:vomer",
+    "label": "Vomer",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:facial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "vomer bone"
+    ],
+    "codepoint": "U+E02E",
+    "ligature": ":vomer:",
+    "shortcode": ":vomer:",
+    "glyph_name": "anatomy_vomer",
+    "glyph_base": "skull",
+    "svg": "glyphs/mono/vomer.svg",
+    "color_svg": "glyphs/color/vomer.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002396"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Vomer",
+    "char": ""
+  },
+  {
+    "id": "anatomy:hyoid",
+    "label": "Hyoid bone",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:axial_skeleton",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "tongue bone"
+    ],
+    "codepoint": "U+E02F",
+    "ligature": ":hyoid:",
+    "shortcode": ":hyoid:",
+    "glyph_name": "anatomy_hyoid",
+    "glyph_base": "mandible",
+    "svg": "glyphs/mono/hyoid.svg",
+    "color_svg": "glyphs/color/hyoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001685"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Hyoid bone",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c1_atlas",
+    "label": "C1 / Atlas",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "atlas",
+      "first cervical vertebra"
+    ],
+    "codepoint": "U+E030",
+    "ligature": ":c1_atlas:",
+    "shortcode": ":c1_atlas:",
+    "glyph_name": "anatomy_c1_atlas",
+    "glyph_base": "atlas",
+    "svg": "glyphs/mono/c1_atlas.svg",
+    "color_svg": "glyphs/color/c1_atlas.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001092"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C1 / Atlas",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c2_axis",
+    "label": "C2 / Axis",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "axis",
+      "second cervical vertebra"
+    ],
+    "codepoint": "U+E031",
+    "ligature": ":c2_axis:",
+    "shortcode": ":c2_axis:",
+    "glyph_name": "anatomy_c2_axis",
+    "glyph_base": "axis",
+    "svg": "glyphs/mono/c2_axis.svg",
+    "color_svg": "glyphs/color/c2_axis.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001093"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C2 / Axis",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c3",
+    "label": "C3 cervical vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "cervical vertebra 3"
+    ],
+    "codepoint": "U+E032",
+    "ligature": ":c3:",
+    "shortcode": ":c3:",
+    "glyph_name": "anatomy_c3",
+    "glyph_base": "cervical_vertebra",
+    "svg": "glyphs/mono/c3.svg",
+    "color_svg": "glyphs/color/c3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0004612"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C3 cervical vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c4",
+    "label": "C4 cervical vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "cervical vertebra 4"
+    ],
+    "codepoint": "U+E033",
+    "ligature": ":c4:",
+    "shortcode": ":c4:",
+    "glyph_name": "anatomy_c4",
+    "glyph_base": "cervical_vertebra",
+    "svg": "glyphs/mono/c4.svg",
+    "color_svg": "glyphs/color/c4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002413"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C4 cervical vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c5",
+    "label": "C5 cervical vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "cervical vertebra 5"
+    ],
+    "codepoint": "U+E034",
+    "ligature": ":c5:",
+    "shortcode": ":c5:",
+    "glyph_name": "anatomy_c5",
+    "glyph_base": "cervical_vertebra",
+    "svg": "glyphs/mono/c5.svg",
+    "color_svg": "glyphs/color/c5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002413"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C5 cervical vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c6",
+    "label": "C6 cervical vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "cervical vertebra 6"
+    ],
+    "codepoint": "U+E035",
+    "ligature": ":c6:",
+    "shortcode": ":c6:",
+    "glyph_name": "anatomy_c6",
+    "glyph_base": "cervical_vertebra",
+    "svg": "glyphs/mono/c6.svg",
+    "color_svg": "glyphs/color/c6.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002413"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C6 cervical vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:c7",
+    "label": "C7 cervical vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "cervical vertebra 7"
+    ],
+    "codepoint": "U+E036",
+    "ligature": ":c7:",
+    "shortcode": ":c7:",
+    "glyph_name": "anatomy_c7",
+    "glyph_base": "cervical_vertebra",
+    "svg": "glyphs/mono/c7.svg",
+    "color_svg": "glyphs/color/c7.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002413"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "C7 cervical vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t1",
+    "label": "T1 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 1"
+    ],
+    "codepoint": "U+E037",
+    "ligature": ":t1:",
+    "shortcode": ":t1:",
+    "glyph_name": "anatomy_t1",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t1.svg",
+    "color_svg": "glyphs/color/t1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T1 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t2",
+    "label": "T2 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 2"
+    ],
+    "codepoint": "U+E038",
+    "ligature": ":t2:",
+    "shortcode": ":t2:",
+    "glyph_name": "anatomy_t2",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t2.svg",
+    "color_svg": "glyphs/color/t2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T2 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t3",
+    "label": "T3 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 3"
+    ],
+    "codepoint": "U+E039",
+    "ligature": ":t3:",
+    "shortcode": ":t3:",
+    "glyph_name": "anatomy_t3",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t3.svg",
+    "color_svg": "glyphs/color/t3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T3 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t4",
+    "label": "T4 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 4"
+    ],
+    "codepoint": "U+E03A",
+    "ligature": ":t4:",
+    "shortcode": ":t4:",
+    "glyph_name": "anatomy_t4",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t4.svg",
+    "color_svg": "glyphs/color/t4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T4 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t5",
+    "label": "T5 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 5"
+    ],
+    "codepoint": "U+E03B",
+    "ligature": ":t5:",
+    "shortcode": ":t5:",
+    "glyph_name": "anatomy_t5",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t5.svg",
+    "color_svg": "glyphs/color/t5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T5 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t6",
+    "label": "T6 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 6"
+    ],
+    "codepoint": "U+E03C",
+    "ligature": ":t6:",
+    "shortcode": ":t6:",
+    "glyph_name": "anatomy_t6",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t6.svg",
+    "color_svg": "glyphs/color/t6.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T6 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t7",
+    "label": "T7 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 7"
+    ],
+    "codepoint": "U+E03D",
+    "ligature": ":t7:",
+    "shortcode": ":t7:",
+    "glyph_name": "anatomy_t7",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t7.svg",
+    "color_svg": "glyphs/color/t7.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T7 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t8",
+    "label": "T8 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 8"
+    ],
+    "codepoint": "U+E03E",
+    "ligature": ":t8:",
+    "shortcode": ":t8:",
+    "glyph_name": "anatomy_t8",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t8.svg",
+    "color_svg": "glyphs/color/t8.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T8 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t9",
+    "label": "T9 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 9"
+    ],
+    "codepoint": "U+E03F",
+    "ligature": ":t9:",
+    "shortcode": ":t9:",
+    "glyph_name": "anatomy_t9",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t9.svg",
+    "color_svg": "glyphs/color/t9.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T9 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t10",
+    "label": "T10 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 10"
+    ],
+    "codepoint": "U+E040",
+    "ligature": ":t10:",
+    "shortcode": ":t10:",
+    "glyph_name": "anatomy_t10",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t10.svg",
+    "color_svg": "glyphs/color/t10.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T10 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t11",
+    "label": "T11 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 11"
+    ],
+    "codepoint": "U+E041",
+    "ligature": ":t11:",
+    "shortcode": ":t11:",
+    "glyph_name": "anatomy_t11",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t11.svg",
+    "color_svg": "glyphs/color/t11.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T11 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:t12",
+    "label": "T12 thoracic vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "thoracic vertebra 12"
+    ],
+    "codepoint": "U+E042",
+    "ligature": ":t12:",
+    "shortcode": ":t12:",
+    "glyph_name": "anatomy_t12",
+    "glyph_base": "thoracic_vertebra",
+    "svg": "glyphs/mono/t12.svg",
+    "color_svg": "glyphs/color/t12.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002347"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "T12 thoracic vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:l1",
+    "label": "L1 lumbar vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "lumbar vertebra 1"
+    ],
+    "codepoint": "U+E043",
+    "ligature": ":l1:",
+    "shortcode": ":l1:",
+    "glyph_name": "anatomy_l1",
+    "glyph_base": "lumbar_vertebra",
+    "svg": "glyphs/mono/l1.svg",
+    "color_svg": "glyphs/color/l1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002414"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "L1 lumbar vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:l2",
+    "label": "L2 lumbar vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "lumbar vertebra 2"
+    ],
+    "codepoint": "U+E044",
+    "ligature": ":l2:",
+    "shortcode": ":l2:",
+    "glyph_name": "anatomy_l2",
+    "glyph_base": "lumbar_vertebra",
+    "svg": "glyphs/mono/l2.svg",
+    "color_svg": "glyphs/color/l2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002414"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "L2 lumbar vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:l3",
+    "label": "L3 lumbar vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "lumbar vertebra 3"
+    ],
+    "codepoint": "U+E045",
+    "ligature": ":l3:",
+    "shortcode": ":l3:",
+    "glyph_name": "anatomy_l3",
+    "glyph_base": "lumbar_vertebra",
+    "svg": "glyphs/mono/l3.svg",
+    "color_svg": "glyphs/color/l3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002414"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "L3 lumbar vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:l4",
+    "label": "L4 lumbar vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "lumbar vertebra 4"
+    ],
+    "codepoint": "U+E046",
+    "ligature": ":l4:",
+    "shortcode": ":l4:",
+    "glyph_name": "anatomy_l4",
+    "glyph_base": "lumbar_vertebra",
+    "svg": "glyphs/mono/l4.svg",
+    "color_svg": "glyphs/color/l4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002414"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "L4 lumbar vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:l5",
+    "label": "L5 lumbar vertebra",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "lumbar vertebra 5"
+    ],
+    "codepoint": "U+E047",
+    "ligature": ":l5:",
+    "shortcode": ":l5:",
+    "glyph_name": "anatomy_l5",
+    "glyph_base": "lumbar_vertebra",
+    "svg": "glyphs/mono/l5.svg",
+    "color_svg": "glyphs/color/l5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002414"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "L5 lumbar vertebra",
+    "char": ""
+  },
+  {
+    "id": "anatomy:sacrum",
+    "label": "Sacrum",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "sacral bone"
+    ],
+    "codepoint": "U+E048",
+    "ligature": ":sacrum:",
+    "shortcode": ":sacrum:",
+    "glyph_name": "anatomy_sacrum",
+    "glyph_base": "sacrum",
+    "svg": "glyphs/mono/sacrum.svg",
+    "color_svg": "glyphs/color/sacrum.svg",
+    "external_ids": {
+      "uberon": "UBERON:0003690"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Sacrum",
+    "char": ""
+  },
+  {
+    "id": "anatomy:coccyx",
+    "label": "Coccyx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:vertebral_column",
+    "paired": false,
+    "laterality_supported": false,
+    "review_required": true,
+    "laterality": null,
+    "aliases": [
+      "tailbone"
+    ],
+    "codepoint": "U+E049",
+    "ligature": ":coccyx:",
+    "shortcode": ":coccyx:",
+    "glyph_name": "anatomy_coccyx",
+    "glyph_base": "coccyx",
+    "svg": "glyphs/mono/coccyx.svg",
+    "color_svg": "glyphs/color/coccyx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001350"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Coccyx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_1",
+    "label": "Left rib 1",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 1"
+    ],
+    "codepoint": "U+E04A",
+    "ligature": ":left_rib_1:",
+    "shortcode": ":left_rib_1:",
+    "glyph_name": "anatomy_left_rib_1",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_1.svg",
+    "color_svg": "glyphs/color/left_rib_1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 1",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_1",
+    "label": "Right rib 1",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 1"
+    ],
+    "codepoint": "U+E04B",
+    "ligature": ":right_rib_1:",
+    "shortcode": ":right_rib_1:",
+    "glyph_name": "anatomy_right_rib_1",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_1.svg",
+    "color_svg": "glyphs/color/right_rib_1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 1",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_2",
+    "label": "Left rib 2",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 2"
+    ],
+    "codepoint": "U+E04C",
+    "ligature": ":left_rib_2:",
+    "shortcode": ":left_rib_2:",
+    "glyph_name": "anatomy_left_rib_2",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_2.svg",
+    "color_svg": "glyphs/color/left_rib_2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 2",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_2",
+    "label": "Right rib 2",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 2"
+    ],
+    "codepoint": "U+E04D",
+    "ligature": ":right_rib_2:",
+    "shortcode": ":right_rib_2:",
+    "glyph_name": "anatomy_right_rib_2",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_2.svg",
+    "color_svg": "glyphs/color/right_rib_2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 2",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_3",
+    "label": "Left rib 3",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 3"
+    ],
+    "codepoint": "U+E04E",
+    "ligature": ":left_rib_3:",
+    "shortcode": ":left_rib_3:",
+    "glyph_name": "anatomy_left_rib_3",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_3.svg",
+    "color_svg": "glyphs/color/left_rib_3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 3",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_3",
+    "label": "Right rib 3",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 3"
+    ],
+    "codepoint": "U+E04F",
+    "ligature": ":right_rib_3:",
+    "shortcode": ":right_rib_3:",
+    "glyph_name": "anatomy_right_rib_3",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_3.svg",
+    "color_svg": "glyphs/color/right_rib_3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 3",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_4",
+    "label": "Left rib 4",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 4"
+    ],
+    "codepoint": "U+E050",
+    "ligature": ":left_rib_4:",
+    "shortcode": ":left_rib_4:",
+    "glyph_name": "anatomy_left_rib_4",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_4.svg",
+    "color_svg": "glyphs/color/left_rib_4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 4",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_4",
+    "label": "Right rib 4",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 4"
+    ],
+    "codepoint": "U+E051",
+    "ligature": ":right_rib_4:",
+    "shortcode": ":right_rib_4:",
+    "glyph_name": "anatomy_right_rib_4",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_4.svg",
+    "color_svg": "glyphs/color/right_rib_4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 4",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_5",
+    "label": "Left rib 5",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 5"
+    ],
+    "codepoint": "U+E052",
+    "ligature": ":left_rib_5:",
+    "shortcode": ":left_rib_5:",
+    "glyph_name": "anatomy_left_rib_5",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_5.svg",
+    "color_svg": "glyphs/color/left_rib_5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 5",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_5",
+    "label": "Right rib 5",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 5"
+    ],
+    "codepoint": "U+E053",
+    "ligature": ":right_rib_5:",
+    "shortcode": ":right_rib_5:",
+    "glyph_name": "anatomy_right_rib_5",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_5.svg",
+    "color_svg": "glyphs/color/right_rib_5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 5",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_6",
+    "label": "Left rib 6",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 6"
+    ],
+    "codepoint": "U+E054",
+    "ligature": ":left_rib_6:",
+    "shortcode": ":left_rib_6:",
+    "glyph_name": "anatomy_left_rib_6",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_6.svg",
+    "color_svg": "glyphs/color/left_rib_6.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 6",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_6",
+    "label": "Right rib 6",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 6"
+    ],
+    "codepoint": "U+E055",
+    "ligature": ":right_rib_6:",
+    "shortcode": ":right_rib_6:",
+    "glyph_name": "anatomy_right_rib_6",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_6.svg",
+    "color_svg": "glyphs/color/right_rib_6.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 6",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_7",
+    "label": "Left rib 7",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 7"
+    ],
+    "codepoint": "U+E056",
+    "ligature": ":left_rib_7:",
+    "shortcode": ":left_rib_7:",
+    "glyph_name": "anatomy_left_rib_7",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_7.svg",
+    "color_svg": "glyphs/color/left_rib_7.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 7",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_7",
+    "label": "Right rib 7",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 7"
+    ],
+    "codepoint": "U+E057",
+    "ligature": ":right_rib_7:",
+    "shortcode": ":right_rib_7:",
+    "glyph_name": "anatomy_right_rib_7",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_7.svg",
+    "color_svg": "glyphs/color/right_rib_7.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 7",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_8",
+    "label": "Left rib 8",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 8"
+    ],
+    "codepoint": "U+E058",
+    "ligature": ":left_rib_8:",
+    "shortcode": ":left_rib_8:",
+    "glyph_name": "anatomy_left_rib_8",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_8.svg",
+    "color_svg": "glyphs/color/left_rib_8.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 8",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_8",
+    "label": "Right rib 8",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 8"
+    ],
+    "codepoint": "U+E059",
+    "ligature": ":right_rib_8:",
+    "shortcode": ":right_rib_8:",
+    "glyph_name": "anatomy_right_rib_8",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_8.svg",
+    "color_svg": "glyphs/color/right_rib_8.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 8",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_9",
+    "label": "Left rib 9",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 9"
+    ],
+    "codepoint": "U+E05A",
+    "ligature": ":left_rib_9:",
+    "shortcode": ":left_rib_9:",
+    "glyph_name": "anatomy_left_rib_9",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_9.svg",
+    "color_svg": "glyphs/color/left_rib_9.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 9",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_9",
+    "label": "Right rib 9",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 9"
+    ],
+    "codepoint": "U+E05B",
+    "ligature": ":right_rib_9:",
+    "shortcode": ":right_rib_9:",
+    "glyph_name": "anatomy_right_rib_9",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_9.svg",
+    "color_svg": "glyphs/color/right_rib_9.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 9",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_10",
+    "label": "Left rib 10",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 10"
+    ],
+    "codepoint": "U+E05C",
+    "ligature": ":left_rib_10:",
+    "shortcode": ":left_rib_10:",
+    "glyph_name": "anatomy_left_rib_10",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_10.svg",
+    "color_svg": "glyphs/color/left_rib_10.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 10",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_10",
+    "label": "Right rib 10",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 10"
+    ],
+    "codepoint": "U+E05D",
+    "ligature": ":right_rib_10:",
+    "shortcode": ":right_rib_10:",
+    "glyph_name": "anatomy_right_rib_10",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_10.svg",
+    "color_svg": "glyphs/color/right_rib_10.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 10",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_11",
+    "label": "Left rib 11",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 11"
+    ],
+    "codepoint": "U+E05E",
+    "ligature": ":left_rib_11:",
+    "shortcode": ":left_rib_11:",
+    "glyph_name": "anatomy_left_rib_11",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_11.svg",
+    "color_svg": "glyphs/color/left_rib_11.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 11",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_11",
+    "label": "Right rib 11",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 11"
+    ],
+    "codepoint": "U+E05F",
+    "ligature": ":right_rib_11:",
+    "shortcode": ":right_rib_11:",
+    "glyph_name": "anatomy_right_rib_11",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_11.svg",
+    "color_svg": "glyphs/color/right_rib_11.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 11",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_rib_12",
+    "label": "Left rib 12",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left rib 12"
+    ],
+    "codepoint": "U+E060",
+    "ligature": ":left_rib_12:",
+    "shortcode": ":left_rib_12:",
+    "glyph_name": "anatomy_left_rib_12",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/left_rib_12.svg",
+    "color_svg": "glyphs/color/left_rib_12.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left rib 12",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_rib_12",
+    "label": "Right rib 12",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:thoracic_cage",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right rib 12"
+    ],
+    "codepoint": "U+E061",
+    "ligature": ":right_rib_12:",
+    "shortcode": ":right_rib_12:",
+    "glyph_name": "anatomy_right_rib_12",
+    "glyph_base": "rib",
+    "svg": "glyphs/mono/right_rib_12.svg",
+    "color_svg": "glyphs/color/right_rib_12.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002228"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right rib 12",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_scaphoid",
+    "label": "Left scaphoid",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left scaphoid bone"
+    ],
+    "codepoint": "U+E062",
+    "ligature": ":left_scaphoid:",
+    "shortcode": ":left_scaphoid:",
+    "glyph_name": "anatomy_left_scaphoid",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_scaphoid.svg",
+    "color_svg": "glyphs/color/left_scaphoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001435"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left scaphoid",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_scaphoid",
+    "label": "Right scaphoid",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right scaphoid bone"
+    ],
+    "codepoint": "U+E063",
+    "ligature": ":right_scaphoid:",
+    "shortcode": ":right_scaphoid:",
+    "glyph_name": "anatomy_right_scaphoid",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_scaphoid.svg",
+    "color_svg": "glyphs/color/right_scaphoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001435"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right scaphoid",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_lunate",
+    "label": "Left lunate",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left lunate bone"
+    ],
+    "codepoint": "U+E064",
+    "ligature": ":left_lunate:",
+    "shortcode": ":left_lunate:",
+    "glyph_name": "anatomy_left_lunate",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_lunate.svg",
+    "color_svg": "glyphs/color/left_lunate.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001435"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left lunate",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_lunate",
+    "label": "Right lunate",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right lunate bone"
+    ],
+    "codepoint": "U+E065",
+    "ligature": ":right_lunate:",
+    "shortcode": ":right_lunate:",
+    "glyph_name": "anatomy_right_lunate",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_lunate.svg",
+    "color_svg": "glyphs/color/right_lunate.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001435"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right lunate",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_triquetrum",
+    "label": "Left triquetrum",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left triquetrum bone"
+    ],
+    "codepoint": "U+E066",
+    "ligature": ":left_triquetrum:",
+    "shortcode": ":left_triquetrum:",
+    "glyph_name": "anatomy_left_triquetrum",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_triquetrum.svg",
+    "color_svg": "glyphs/color/left_triquetrum.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001435"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left triquetrum",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_triquetrum",
+    "label": "Right triquetrum",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right triquetrum bone"
+    ],
+    "codepoint": "U+E067",
+    "ligature": ":right_triquetrum:",
+    "shortcode": ":right_triquetrum:",
+    "glyph_name": "anatomy_right_triquetrum",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_triquetrum.svg",
+    "color_svg": "glyphs/color/right_triquetrum.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001435"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right triquetrum",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_pisiform",
+    "label": "Left pisiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left pisiform bone"
+    ],
+    "codepoint": "U+E068",
+    "ligature": ":left_pisiform:",
+    "shortcode": ":left_pisiform:",
+    "glyph_name": "anatomy_left_pisiform",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_pisiform.svg",
+    "color_svg": "glyphs/color/left_pisiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001429"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left pisiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_pisiform",
+    "label": "Right pisiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right pisiform bone"
+    ],
+    "codepoint": "U+E069",
+    "ligature": ":right_pisiform:",
+    "shortcode": ":right_pisiform:",
+    "glyph_name": "anatomy_right_pisiform",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_pisiform.svg",
+    "color_svg": "glyphs/color/right_pisiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001429"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right pisiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_trapezium",
+    "label": "Left trapezium",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left trapezium bone"
+    ],
+    "codepoint": "U+E06A",
+    "ligature": ":left_trapezium:",
+    "shortcode": ":left_trapezium:",
+    "glyph_name": "anatomy_left_trapezium",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_trapezium.svg",
+    "color_svg": "glyphs/color/left_trapezium.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001430"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left trapezium",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_trapezium",
+    "label": "Right trapezium",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right trapezium bone"
+    ],
+    "codepoint": "U+E06B",
+    "ligature": ":right_trapezium:",
+    "shortcode": ":right_trapezium:",
+    "glyph_name": "anatomy_right_trapezium",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_trapezium.svg",
+    "color_svg": "glyphs/color/right_trapezium.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001430"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right trapezium",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_trapezoid",
+    "label": "Left trapezoid",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left trapezoid bone"
+    ],
+    "codepoint": "U+E06C",
+    "ligature": ":left_trapezoid:",
+    "shortcode": ":left_trapezoid:",
+    "glyph_name": "anatomy_left_trapezoid",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_trapezoid.svg",
+    "color_svg": "glyphs/color/left_trapezoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001431"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left trapezoid",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_trapezoid",
+    "label": "Right trapezoid",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right trapezoid bone"
+    ],
+    "codepoint": "U+E06D",
+    "ligature": ":right_trapezoid:",
+    "shortcode": ":right_trapezoid:",
+    "glyph_name": "anatomy_right_trapezoid",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_trapezoid.svg",
+    "color_svg": "glyphs/color/right_trapezoid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001431"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right trapezoid",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_capitate",
+    "label": "Left capitate",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left capitate bone"
+    ],
+    "codepoint": "U+E06E",
+    "ligature": ":left_capitate:",
+    "shortcode": ":left_capitate:",
+    "glyph_name": "anatomy_left_capitate",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_capitate.svg",
+    "color_svg": "glyphs/color/left_capitate.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001432"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left capitate",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_capitate",
+    "label": "Right capitate",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right capitate bone"
+    ],
+    "codepoint": "U+E06F",
+    "ligature": ":right_capitate:",
+    "shortcode": ":right_capitate:",
+    "glyph_name": "anatomy_right_capitate",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_capitate.svg",
+    "color_svg": "glyphs/color/right_capitate.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001432"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right capitate",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_hamate",
+    "label": "Left hamate",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left hamate bone"
+    ],
+    "codepoint": "U+E070",
+    "ligature": ":left_hamate:",
+    "shortcode": ":left_hamate:",
+    "glyph_name": "anatomy_left_hamate",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/left_hamate.svg",
+    "color_svg": "glyphs/color/left_hamate.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001433"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left hamate",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_hamate",
+    "label": "Right hamate",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right hamate bone"
+    ],
+    "codepoint": "U+E071",
+    "ligature": ":right_hamate:",
+    "shortcode": ":right_hamate:",
+    "glyph_name": "anatomy_right_hamate",
+    "glyph_base": "carpus",
+    "svg": "glyphs/mono/right_hamate.svg",
+    "color_svg": "glyphs/color/right_hamate.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001433"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right hamate",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metacarpal_1",
+    "label": "Left metacarpal 1",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metacarpal bone 1"
+    ],
+    "codepoint": "U+E072",
+    "ligature": ":left_metacarpal_1:",
+    "shortcode": ":left_metacarpal_1:",
+    "glyph_name": "anatomy_left_metacarpal_1",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/left_metacarpal_1.svg",
+    "color_svg": "glyphs/color/left_metacarpal_1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metacarpal 1",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metacarpal_1",
+    "label": "Right metacarpal 1",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metacarpal bone 1"
+    ],
+    "codepoint": "U+E073",
+    "ligature": ":right_metacarpal_1:",
+    "shortcode": ":right_metacarpal_1:",
+    "glyph_name": "anatomy_right_metacarpal_1",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/right_metacarpal_1.svg",
+    "color_svg": "glyphs/color/right_metacarpal_1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metacarpal 1",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metacarpal_2",
+    "label": "Left metacarpal 2",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metacarpal bone 2"
+    ],
+    "codepoint": "U+E074",
+    "ligature": ":left_metacarpal_2:",
+    "shortcode": ":left_metacarpal_2:",
+    "glyph_name": "anatomy_left_metacarpal_2",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/left_metacarpal_2.svg",
+    "color_svg": "glyphs/color/left_metacarpal_2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metacarpal 2",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metacarpal_2",
+    "label": "Right metacarpal 2",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metacarpal bone 2"
+    ],
+    "codepoint": "U+E075",
+    "ligature": ":right_metacarpal_2:",
+    "shortcode": ":right_metacarpal_2:",
+    "glyph_name": "anatomy_right_metacarpal_2",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/right_metacarpal_2.svg",
+    "color_svg": "glyphs/color/right_metacarpal_2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metacarpal 2",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metacarpal_3",
+    "label": "Left metacarpal 3",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metacarpal bone 3"
+    ],
+    "codepoint": "U+E076",
+    "ligature": ":left_metacarpal_3:",
+    "shortcode": ":left_metacarpal_3:",
+    "glyph_name": "anatomy_left_metacarpal_3",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/left_metacarpal_3.svg",
+    "color_svg": "glyphs/color/left_metacarpal_3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metacarpal 3",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metacarpal_3",
+    "label": "Right metacarpal 3",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metacarpal bone 3"
+    ],
+    "codepoint": "U+E077",
+    "ligature": ":right_metacarpal_3:",
+    "shortcode": ":right_metacarpal_3:",
+    "glyph_name": "anatomy_right_metacarpal_3",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/right_metacarpal_3.svg",
+    "color_svg": "glyphs/color/right_metacarpal_3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metacarpal 3",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metacarpal_4",
+    "label": "Left metacarpal 4",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metacarpal bone 4"
+    ],
+    "codepoint": "U+E078",
+    "ligature": ":left_metacarpal_4:",
+    "shortcode": ":left_metacarpal_4:",
+    "glyph_name": "anatomy_left_metacarpal_4",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/left_metacarpal_4.svg",
+    "color_svg": "glyphs/color/left_metacarpal_4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metacarpal 4",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metacarpal_4",
+    "label": "Right metacarpal 4",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metacarpal bone 4"
+    ],
+    "codepoint": "U+E079",
+    "ligature": ":right_metacarpal_4:",
+    "shortcode": ":right_metacarpal_4:",
+    "glyph_name": "anatomy_right_metacarpal_4",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/right_metacarpal_4.svg",
+    "color_svg": "glyphs/color/right_metacarpal_4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metacarpal 4",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metacarpal_5",
+    "label": "Left metacarpal 5",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metacarpal bone 5"
+    ],
+    "codepoint": "U+E07A",
+    "ligature": ":left_metacarpal_5:",
+    "shortcode": ":left_metacarpal_5:",
+    "glyph_name": "anatomy_left_metacarpal_5",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/left_metacarpal_5.svg",
+    "color_svg": "glyphs/color/left_metacarpal_5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metacarpal 5",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metacarpal_5",
+    "label": "Right metacarpal 5",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metacarpal bone 5"
+    ],
+    "codepoint": "U+E07B",
+    "ligature": ":right_metacarpal_5:",
+    "shortcode": ":right_metacarpal_5:",
+    "glyph_name": "anatomy_right_metacarpal_5",
+    "glyph_base": "metacarpus",
+    "svg": "glyphs/mono/right_metacarpal_5.svg",
+    "color_svg": "glyphs/color/right_metacarpal_5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002374"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metacarpal 5",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_thumb_proximal_phalanx",
+    "label": "Left thumb proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left thumb proximal finger bone"
+    ],
+    "codepoint": "U+E07C",
+    "ligature": ":left_thumb_proximal_phalanx:",
+    "shortcode": ":left_thumb_proximal_phalanx:",
+    "glyph_name": "anatomy_left_thumb_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_thumb_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_thumb_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left thumb proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_thumb_distal_phalanx",
+    "label": "Left thumb distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left thumb distal finger bone"
+    ],
+    "codepoint": "U+E07D",
+    "ligature": ":left_thumb_distal_phalanx:",
+    "shortcode": ":left_thumb_distal_phalanx:",
+    "glyph_name": "anatomy_left_thumb_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_thumb_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_thumb_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left thumb distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_thumb_proximal_phalanx",
+    "label": "Right thumb proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right thumb proximal finger bone"
+    ],
+    "codepoint": "U+E07E",
+    "ligature": ":right_thumb_proximal_phalanx:",
+    "shortcode": ":right_thumb_proximal_phalanx:",
+    "glyph_name": "anatomy_right_thumb_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_thumb_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_thumb_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right thumb proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_thumb_distal_phalanx",
+    "label": "Right thumb distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right thumb distal finger bone"
+    ],
+    "codepoint": "U+E07F",
+    "ligature": ":right_thumb_distal_phalanx:",
+    "shortcode": ":right_thumb_distal_phalanx:",
+    "glyph_name": "anatomy_right_thumb_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_thumb_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_thumb_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right thumb distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_index_proximal_phalanx",
+    "label": "Left index proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left index proximal finger bone"
+    ],
+    "codepoint": "U+E080",
+    "ligature": ":left_index_proximal_phalanx:",
+    "shortcode": ":left_index_proximal_phalanx:",
+    "glyph_name": "anatomy_left_index_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_index_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_index_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left index proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_index_middle_phalanx",
+    "label": "Left index middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left index middle finger bone"
+    ],
+    "codepoint": "U+E081",
+    "ligature": ":left_index_middle_phalanx:",
+    "shortcode": ":left_index_middle_phalanx:",
+    "glyph_name": "anatomy_left_index_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_index_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_index_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left index middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_index_distal_phalanx",
+    "label": "Left index distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left index distal finger bone"
+    ],
+    "codepoint": "U+E082",
+    "ligature": ":left_index_distal_phalanx:",
+    "shortcode": ":left_index_distal_phalanx:",
+    "glyph_name": "anatomy_left_index_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_index_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_index_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left index distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_index_proximal_phalanx",
+    "label": "Right index proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right index proximal finger bone"
+    ],
+    "codepoint": "U+E083",
+    "ligature": ":right_index_proximal_phalanx:",
+    "shortcode": ":right_index_proximal_phalanx:",
+    "glyph_name": "anatomy_right_index_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_index_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_index_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right index proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_index_middle_phalanx",
+    "label": "Right index middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right index middle finger bone"
+    ],
+    "codepoint": "U+E084",
+    "ligature": ":right_index_middle_phalanx:",
+    "shortcode": ":right_index_middle_phalanx:",
+    "glyph_name": "anatomy_right_index_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_index_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_index_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right index middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_index_distal_phalanx",
+    "label": "Right index distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right index distal finger bone"
+    ],
+    "codepoint": "U+E085",
+    "ligature": ":right_index_distal_phalanx:",
+    "shortcode": ":right_index_distal_phalanx:",
+    "glyph_name": "anatomy_right_index_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_index_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_index_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right index distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_middle_proximal_phalanx",
+    "label": "Left middle proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left middle proximal finger bone"
+    ],
+    "codepoint": "U+E086",
+    "ligature": ":left_middle_proximal_phalanx:",
+    "shortcode": ":left_middle_proximal_phalanx:",
+    "glyph_name": "anatomy_left_middle_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_middle_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_middle_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left middle proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_middle_middle_phalanx",
+    "label": "Left middle middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left middle middle finger bone"
+    ],
+    "codepoint": "U+E087",
+    "ligature": ":left_middle_middle_phalanx:",
+    "shortcode": ":left_middle_middle_phalanx:",
+    "glyph_name": "anatomy_left_middle_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_middle_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_middle_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left middle middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_middle_distal_phalanx",
+    "label": "Left middle distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left middle distal finger bone"
+    ],
+    "codepoint": "U+E088",
+    "ligature": ":left_middle_distal_phalanx:",
+    "shortcode": ":left_middle_distal_phalanx:",
+    "glyph_name": "anatomy_left_middle_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_middle_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_middle_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left middle distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_middle_proximal_phalanx",
+    "label": "Right middle proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right middle proximal finger bone"
+    ],
+    "codepoint": "U+E089",
+    "ligature": ":right_middle_proximal_phalanx:",
+    "shortcode": ":right_middle_proximal_phalanx:",
+    "glyph_name": "anatomy_right_middle_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_middle_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_middle_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right middle proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_middle_middle_phalanx",
+    "label": "Right middle middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right middle middle finger bone"
+    ],
+    "codepoint": "U+E08A",
+    "ligature": ":right_middle_middle_phalanx:",
+    "shortcode": ":right_middle_middle_phalanx:",
+    "glyph_name": "anatomy_right_middle_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_middle_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_middle_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right middle middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_middle_distal_phalanx",
+    "label": "Right middle distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right middle distal finger bone"
+    ],
+    "codepoint": "U+E08B",
+    "ligature": ":right_middle_distal_phalanx:",
+    "shortcode": ":right_middle_distal_phalanx:",
+    "glyph_name": "anatomy_right_middle_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_middle_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_middle_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right middle distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_ring_proximal_phalanx",
+    "label": "Left ring proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left ring proximal finger bone"
+    ],
+    "codepoint": "U+E08C",
+    "ligature": ":left_ring_proximal_phalanx:",
+    "shortcode": ":left_ring_proximal_phalanx:",
+    "glyph_name": "anatomy_left_ring_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_ring_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_ring_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left ring proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_ring_middle_phalanx",
+    "label": "Left ring middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left ring middle finger bone"
+    ],
+    "codepoint": "U+E08D",
+    "ligature": ":left_ring_middle_phalanx:",
+    "shortcode": ":left_ring_middle_phalanx:",
+    "glyph_name": "anatomy_left_ring_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_ring_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_ring_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left ring middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_ring_distal_phalanx",
+    "label": "Left ring distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left ring distal finger bone"
+    ],
+    "codepoint": "U+E08E",
+    "ligature": ":left_ring_distal_phalanx:",
+    "shortcode": ":left_ring_distal_phalanx:",
+    "glyph_name": "anatomy_left_ring_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_ring_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_ring_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left ring distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_ring_proximal_phalanx",
+    "label": "Right ring proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right ring proximal finger bone"
+    ],
+    "codepoint": "U+E08F",
+    "ligature": ":right_ring_proximal_phalanx:",
+    "shortcode": ":right_ring_proximal_phalanx:",
+    "glyph_name": "anatomy_right_ring_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_ring_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_ring_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right ring proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_ring_middle_phalanx",
+    "label": "Right ring middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right ring middle finger bone"
+    ],
+    "codepoint": "U+E090",
+    "ligature": ":right_ring_middle_phalanx:",
+    "shortcode": ":right_ring_middle_phalanx:",
+    "glyph_name": "anatomy_right_ring_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_ring_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_ring_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right ring middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_ring_distal_phalanx",
+    "label": "Right ring distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right ring distal finger bone"
+    ],
+    "codepoint": "U+E091",
+    "ligature": ":right_ring_distal_phalanx:",
+    "shortcode": ":right_ring_distal_phalanx:",
+    "glyph_name": "anatomy_right_ring_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_ring_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_ring_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right ring distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_little_proximal_phalanx",
+    "label": "Left little proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left little proximal finger bone"
+    ],
+    "codepoint": "U+E092",
+    "ligature": ":left_little_proximal_phalanx:",
+    "shortcode": ":left_little_proximal_phalanx:",
+    "glyph_name": "anatomy_left_little_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_little_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_little_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left little proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_little_middle_phalanx",
+    "label": "Left little middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left little middle finger bone"
+    ],
+    "codepoint": "U+E093",
+    "ligature": ":left_little_middle_phalanx:",
+    "shortcode": ":left_little_middle_phalanx:",
+    "glyph_name": "anatomy_left_little_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_little_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_little_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left little middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_little_distal_phalanx",
+    "label": "Left little distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left little distal finger bone"
+    ],
+    "codepoint": "U+E094",
+    "ligature": ":left_little_distal_phalanx:",
+    "shortcode": ":left_little_distal_phalanx:",
+    "glyph_name": "anatomy_left_little_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/left_little_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_little_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left little distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_little_proximal_phalanx",
+    "label": "Right little proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right little proximal finger bone"
+    ],
+    "codepoint": "U+E095",
+    "ligature": ":right_little_proximal_phalanx:",
+    "shortcode": ":right_little_proximal_phalanx:",
+    "glyph_name": "anatomy_right_little_proximal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_little_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_little_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right little proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_little_middle_phalanx",
+    "label": "Right little middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right little middle finger bone"
+    ],
+    "codepoint": "U+E096",
+    "ligature": ":right_little_middle_phalanx:",
+    "shortcode": ":right_little_middle_phalanx:",
+    "glyph_name": "anatomy_right_little_middle_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_little_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_little_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right little middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_little_distal_phalanx",
+    "label": "Right little distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:upper_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right little distal finger bone"
+    ],
+    "codepoint": "U+E097",
+    "ligature": ":right_little_distal_phalanx:",
+    "shortcode": ":right_little_distal_phalanx:",
+    "glyph_name": "anatomy_right_little_distal_phalanx",
+    "glyph_base": "hand_phalanx",
+    "svg": "glyphs/mono/right_little_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_little_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001436"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right little distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_talus",
+    "label": "Left talus",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left talus bone"
+    ],
+    "codepoint": "U+E098",
+    "ligature": ":left_talus:",
+    "shortcode": ":left_talus:",
+    "glyph_name": "anatomy_left_talus",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_talus.svg",
+    "color_svg": "glyphs/color/left_talus.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002395"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left talus",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_talus",
+    "label": "Right talus",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right talus bone"
+    ],
+    "codepoint": "U+E099",
+    "ligature": ":right_talus:",
+    "shortcode": ":right_talus:",
+    "glyph_name": "anatomy_right_talus",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_talus.svg",
+    "color_svg": "glyphs/color/right_talus.svg",
+    "external_ids": {
+      "uberon": "UBERON:0002395"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right talus",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_calcaneus",
+    "label": "Left calcaneus",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left calcaneus bone"
+    ],
+    "codepoint": "U+E09A",
+    "ligature": ":left_calcaneus:",
+    "shortcode": ":left_calcaneus:",
+    "glyph_name": "anatomy_left_calcaneus",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_calcaneus.svg",
+    "color_svg": "glyphs/color/left_calcaneus.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001450"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left calcaneus",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_calcaneus",
+    "label": "Right calcaneus",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right calcaneus bone"
+    ],
+    "codepoint": "U+E09B",
+    "ligature": ":right_calcaneus:",
+    "shortcode": ":right_calcaneus:",
+    "glyph_name": "anatomy_right_calcaneus",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_calcaneus.svg",
+    "color_svg": "glyphs/color/right_calcaneus.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001450"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right calcaneus",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_navicular",
+    "label": "Left navicular",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left navicular bone"
+    ],
+    "codepoint": "U+E09C",
+    "ligature": ":left_navicular:",
+    "shortcode": ":left_navicular:",
+    "glyph_name": "anatomy_left_navicular",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_navicular.svg",
+    "color_svg": "glyphs/color/left_navicular.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001451"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left navicular",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_navicular",
+    "label": "Right navicular",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right navicular bone"
+    ],
+    "codepoint": "U+E09D",
+    "ligature": ":right_navicular:",
+    "shortcode": ":right_navicular:",
+    "glyph_name": "anatomy_right_navicular",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_navicular.svg",
+    "color_svg": "glyphs/color/right_navicular.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001451"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right navicular",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_cuboid",
+    "label": "Left cuboid",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left cuboid bone"
+    ],
+    "codepoint": "U+E09E",
+    "ligature": ":left_cuboid:",
+    "shortcode": ":left_cuboid:",
+    "glyph_name": "anatomy_left_cuboid",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_cuboid.svg",
+    "color_svg": "glyphs/color/left_cuboid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001455"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left cuboid",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_cuboid",
+    "label": "Right cuboid",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right cuboid bone"
+    ],
+    "codepoint": "U+E09F",
+    "ligature": ":right_cuboid:",
+    "shortcode": ":right_cuboid:",
+    "glyph_name": "anatomy_right_cuboid",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_cuboid.svg",
+    "color_svg": "glyphs/color/right_cuboid.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001455"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right cuboid",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_medial_cuneiform",
+    "label": "Left medial cuneiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left medial cuneiform bone"
+    ],
+    "codepoint": "U+E0A0",
+    "ligature": ":left_medial_cuneiform:",
+    "shortcode": ":left_medial_cuneiform:",
+    "glyph_name": "anatomy_left_medial_cuneiform",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_medial_cuneiform.svg",
+    "color_svg": "glyphs/color/left_medial_cuneiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001452"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left medial cuneiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_medial_cuneiform",
+    "label": "Right medial cuneiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right medial cuneiform bone"
+    ],
+    "codepoint": "U+E0A1",
+    "ligature": ":right_medial_cuneiform:",
+    "shortcode": ":right_medial_cuneiform:",
+    "glyph_name": "anatomy_right_medial_cuneiform",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_medial_cuneiform.svg",
+    "color_svg": "glyphs/color/right_medial_cuneiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001452"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right medial cuneiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_intermediate_cuneiform",
+    "label": "Left intermediate cuneiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left intermediate cuneiform bone"
+    ],
+    "codepoint": "U+E0A2",
+    "ligature": ":left_intermediate_cuneiform:",
+    "shortcode": ":left_intermediate_cuneiform:",
+    "glyph_name": "anatomy_left_intermediate_cuneiform",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_intermediate_cuneiform.svg",
+    "color_svg": "glyphs/color/left_intermediate_cuneiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001453"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left intermediate cuneiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_intermediate_cuneiform",
+    "label": "Right intermediate cuneiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right intermediate cuneiform bone"
+    ],
+    "codepoint": "U+E0A3",
+    "ligature": ":right_intermediate_cuneiform:",
+    "shortcode": ":right_intermediate_cuneiform:",
+    "glyph_name": "anatomy_right_intermediate_cuneiform",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_intermediate_cuneiform.svg",
+    "color_svg": "glyphs/color/right_intermediate_cuneiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001453"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right intermediate cuneiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_lateral_cuneiform",
+    "label": "Left lateral cuneiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left lateral cuneiform bone"
+    ],
+    "codepoint": "U+E0A4",
+    "ligature": ":left_lateral_cuneiform:",
+    "shortcode": ":left_lateral_cuneiform:",
+    "glyph_name": "anatomy_left_lateral_cuneiform",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/left_lateral_cuneiform.svg",
+    "color_svg": "glyphs/color/left_lateral_cuneiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001454"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left lateral cuneiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_lateral_cuneiform",
+    "label": "Right lateral cuneiform",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right lateral cuneiform bone"
+    ],
+    "codepoint": "U+E0A5",
+    "ligature": ":right_lateral_cuneiform:",
+    "shortcode": ":right_lateral_cuneiform:",
+    "glyph_name": "anatomy_right_lateral_cuneiform",
+    "glyph_base": "tarsus",
+    "svg": "glyphs/mono/right_lateral_cuneiform.svg",
+    "color_svg": "glyphs/color/right_lateral_cuneiform.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001454"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right lateral cuneiform",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metatarsal_1",
+    "label": "Left metatarsal 1",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metatarsal bone 1"
+    ],
+    "codepoint": "U+E0A6",
+    "ligature": ":left_metatarsal_1:",
+    "shortcode": ":left_metatarsal_1:",
+    "glyph_name": "anatomy_left_metatarsal_1",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/left_metatarsal_1.svg",
+    "color_svg": "glyphs/color/left_metatarsal_1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metatarsal 1",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metatarsal_1",
+    "label": "Right metatarsal 1",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metatarsal bone 1"
+    ],
+    "codepoint": "U+E0A7",
+    "ligature": ":right_metatarsal_1:",
+    "shortcode": ":right_metatarsal_1:",
+    "glyph_name": "anatomy_right_metatarsal_1",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/right_metatarsal_1.svg",
+    "color_svg": "glyphs/color/right_metatarsal_1.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metatarsal 1",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metatarsal_2",
+    "label": "Left metatarsal 2",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metatarsal bone 2"
+    ],
+    "codepoint": "U+E0A8",
+    "ligature": ":left_metatarsal_2:",
+    "shortcode": ":left_metatarsal_2:",
+    "glyph_name": "anatomy_left_metatarsal_2",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/left_metatarsal_2.svg",
+    "color_svg": "glyphs/color/left_metatarsal_2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metatarsal 2",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metatarsal_2",
+    "label": "Right metatarsal 2",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metatarsal bone 2"
+    ],
+    "codepoint": "U+E0A9",
+    "ligature": ":right_metatarsal_2:",
+    "shortcode": ":right_metatarsal_2:",
+    "glyph_name": "anatomy_right_metatarsal_2",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/right_metatarsal_2.svg",
+    "color_svg": "glyphs/color/right_metatarsal_2.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metatarsal 2",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metatarsal_3",
+    "label": "Left metatarsal 3",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metatarsal bone 3"
+    ],
+    "codepoint": "U+E0AA",
+    "ligature": ":left_metatarsal_3:",
+    "shortcode": ":left_metatarsal_3:",
+    "glyph_name": "anatomy_left_metatarsal_3",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/left_metatarsal_3.svg",
+    "color_svg": "glyphs/color/left_metatarsal_3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metatarsal 3",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metatarsal_3",
+    "label": "Right metatarsal 3",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metatarsal bone 3"
+    ],
+    "codepoint": "U+E0AB",
+    "ligature": ":right_metatarsal_3:",
+    "shortcode": ":right_metatarsal_3:",
+    "glyph_name": "anatomy_right_metatarsal_3",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/right_metatarsal_3.svg",
+    "color_svg": "glyphs/color/right_metatarsal_3.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metatarsal 3",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metatarsal_4",
+    "label": "Left metatarsal 4",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metatarsal bone 4"
+    ],
+    "codepoint": "U+E0AC",
+    "ligature": ":left_metatarsal_4:",
+    "shortcode": ":left_metatarsal_4:",
+    "glyph_name": "anatomy_left_metatarsal_4",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/left_metatarsal_4.svg",
+    "color_svg": "glyphs/color/left_metatarsal_4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metatarsal 4",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metatarsal_4",
+    "label": "Right metatarsal 4",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metatarsal bone 4"
+    ],
+    "codepoint": "U+E0AD",
+    "ligature": ":right_metatarsal_4:",
+    "shortcode": ":right_metatarsal_4:",
+    "glyph_name": "anatomy_right_metatarsal_4",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/right_metatarsal_4.svg",
+    "color_svg": "glyphs/color/right_metatarsal_4.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metatarsal 4",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_metatarsal_5",
+    "label": "Left metatarsal 5",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left metatarsal bone 5"
+    ],
+    "codepoint": "U+E0AE",
+    "ligature": ":left_metatarsal_5:",
+    "shortcode": ":left_metatarsal_5:",
+    "glyph_name": "anatomy_left_metatarsal_5",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/left_metatarsal_5.svg",
+    "color_svg": "glyphs/color/left_metatarsal_5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left metatarsal 5",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_metatarsal_5",
+    "label": "Right metatarsal 5",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right metatarsal bone 5"
+    ],
+    "codepoint": "U+E0AF",
+    "ligature": ":right_metatarsal_5:",
+    "shortcode": ":right_metatarsal_5:",
+    "glyph_name": "anatomy_right_metatarsal_5",
+    "glyph_base": "metatarsus",
+    "svg": "glyphs/mono/right_metatarsal_5.svg",
+    "color_svg": "glyphs/color/right_metatarsal_5.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001448"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right metatarsal 5",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_great_toe_proximal_phalanx",
+    "label": "Left great toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left great toe proximal toe bone"
+    ],
+    "codepoint": "U+E0B0",
+    "ligature": ":left_great_toe_proximal_phalanx:",
+    "shortcode": ":left_great_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_left_great_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_great_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_great_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left great toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_great_toe_distal_phalanx",
+    "label": "Left great toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left great toe distal toe bone"
+    ],
+    "codepoint": "U+E0B1",
+    "ligature": ":left_great_toe_distal_phalanx:",
+    "shortcode": ":left_great_toe_distal_phalanx:",
+    "glyph_name": "anatomy_left_great_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_great_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_great_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left great toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_great_toe_proximal_phalanx",
+    "label": "Right great toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right great toe proximal toe bone"
+    ],
+    "codepoint": "U+E0B2",
+    "ligature": ":right_great_toe_proximal_phalanx:",
+    "shortcode": ":right_great_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_right_great_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_great_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_great_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right great toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_great_toe_distal_phalanx",
+    "label": "Right great toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right great toe distal toe bone"
+    ],
+    "codepoint": "U+E0B3",
+    "ligature": ":right_great_toe_distal_phalanx:",
+    "shortcode": ":right_great_toe_distal_phalanx:",
+    "glyph_name": "anatomy_right_great_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_great_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_great_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right great toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_second_toe_proximal_phalanx",
+    "label": "Left second toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left second toe proximal toe bone"
+    ],
+    "codepoint": "U+E0B4",
+    "ligature": ":left_second_toe_proximal_phalanx:",
+    "shortcode": ":left_second_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_left_second_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_second_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_second_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left second toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_second_toe_middle_phalanx",
+    "label": "Left second toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left second toe middle toe bone"
+    ],
+    "codepoint": "U+E0B5",
+    "ligature": ":left_second_toe_middle_phalanx:",
+    "shortcode": ":left_second_toe_middle_phalanx:",
+    "glyph_name": "anatomy_left_second_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_second_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_second_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left second toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_second_toe_distal_phalanx",
+    "label": "Left second toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left second toe distal toe bone"
+    ],
+    "codepoint": "U+E0B6",
+    "ligature": ":left_second_toe_distal_phalanx:",
+    "shortcode": ":left_second_toe_distal_phalanx:",
+    "glyph_name": "anatomy_left_second_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_second_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_second_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left second toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_second_toe_proximal_phalanx",
+    "label": "Right second toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right second toe proximal toe bone"
+    ],
+    "codepoint": "U+E0B7",
+    "ligature": ":right_second_toe_proximal_phalanx:",
+    "shortcode": ":right_second_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_right_second_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_second_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_second_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right second toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_second_toe_middle_phalanx",
+    "label": "Right second toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right second toe middle toe bone"
+    ],
+    "codepoint": "U+E0B8",
+    "ligature": ":right_second_toe_middle_phalanx:",
+    "shortcode": ":right_second_toe_middle_phalanx:",
+    "glyph_name": "anatomy_right_second_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_second_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_second_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right second toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_second_toe_distal_phalanx",
+    "label": "Right second toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right second toe distal toe bone"
+    ],
+    "codepoint": "U+E0B9",
+    "ligature": ":right_second_toe_distal_phalanx:",
+    "shortcode": ":right_second_toe_distal_phalanx:",
+    "glyph_name": "anatomy_right_second_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_second_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_second_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right second toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_third_toe_proximal_phalanx",
+    "label": "Left third toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left third toe proximal toe bone"
+    ],
+    "codepoint": "U+E0BA",
+    "ligature": ":left_third_toe_proximal_phalanx:",
+    "shortcode": ":left_third_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_left_third_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_third_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_third_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left third toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_third_toe_middle_phalanx",
+    "label": "Left third toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left third toe middle toe bone"
+    ],
+    "codepoint": "U+E0BB",
+    "ligature": ":left_third_toe_middle_phalanx:",
+    "shortcode": ":left_third_toe_middle_phalanx:",
+    "glyph_name": "anatomy_left_third_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_third_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_third_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left third toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_third_toe_distal_phalanx",
+    "label": "Left third toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left third toe distal toe bone"
+    ],
+    "codepoint": "U+E0BC",
+    "ligature": ":left_third_toe_distal_phalanx:",
+    "shortcode": ":left_third_toe_distal_phalanx:",
+    "glyph_name": "anatomy_left_third_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_third_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_third_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left third toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_third_toe_proximal_phalanx",
+    "label": "Right third toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right third toe proximal toe bone"
+    ],
+    "codepoint": "U+E0BD",
+    "ligature": ":right_third_toe_proximal_phalanx:",
+    "shortcode": ":right_third_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_right_third_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_third_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_third_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right third toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_third_toe_middle_phalanx",
+    "label": "Right third toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right third toe middle toe bone"
+    ],
+    "codepoint": "U+E0BE",
+    "ligature": ":right_third_toe_middle_phalanx:",
+    "shortcode": ":right_third_toe_middle_phalanx:",
+    "glyph_name": "anatomy_right_third_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_third_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_third_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right third toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_third_toe_distal_phalanx",
+    "label": "Right third toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right third toe distal toe bone"
+    ],
+    "codepoint": "U+E0BF",
+    "ligature": ":right_third_toe_distal_phalanx:",
+    "shortcode": ":right_third_toe_distal_phalanx:",
+    "glyph_name": "anatomy_right_third_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_third_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_third_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right third toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_fourth_toe_proximal_phalanx",
+    "label": "Left fourth toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left fourth toe proximal toe bone"
+    ],
+    "codepoint": "U+E0C0",
+    "ligature": ":left_fourth_toe_proximal_phalanx:",
+    "shortcode": ":left_fourth_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_left_fourth_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_fourth_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_fourth_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left fourth toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_fourth_toe_middle_phalanx",
+    "label": "Left fourth toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left fourth toe middle toe bone"
+    ],
+    "codepoint": "U+E0C1",
+    "ligature": ":left_fourth_toe_middle_phalanx:",
+    "shortcode": ":left_fourth_toe_middle_phalanx:",
+    "glyph_name": "anatomy_left_fourth_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_fourth_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_fourth_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left fourth toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_fourth_toe_distal_phalanx",
+    "label": "Left fourth toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left fourth toe distal toe bone"
+    ],
+    "codepoint": "U+E0C2",
+    "ligature": ":left_fourth_toe_distal_phalanx:",
+    "shortcode": ":left_fourth_toe_distal_phalanx:",
+    "glyph_name": "anatomy_left_fourth_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_fourth_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_fourth_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left fourth toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_fourth_toe_proximal_phalanx",
+    "label": "Right fourth toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right fourth toe proximal toe bone"
+    ],
+    "codepoint": "U+E0C3",
+    "ligature": ":right_fourth_toe_proximal_phalanx:",
+    "shortcode": ":right_fourth_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_right_fourth_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_fourth_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_fourth_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right fourth toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_fourth_toe_middle_phalanx",
+    "label": "Right fourth toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right fourth toe middle toe bone"
+    ],
+    "codepoint": "U+E0C4",
+    "ligature": ":right_fourth_toe_middle_phalanx:",
+    "shortcode": ":right_fourth_toe_middle_phalanx:",
+    "glyph_name": "anatomy_right_fourth_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_fourth_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_fourth_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right fourth toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_fourth_toe_distal_phalanx",
+    "label": "Right fourth toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right fourth toe distal toe bone"
+    ],
+    "codepoint": "U+E0C5",
+    "ligature": ":right_fourth_toe_distal_phalanx:",
+    "shortcode": ":right_fourth_toe_distal_phalanx:",
+    "glyph_name": "anatomy_right_fourth_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_fourth_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_fourth_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right fourth toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_fifth_toe_proximal_phalanx",
+    "label": "Left fifth toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left fifth toe proximal toe bone"
+    ],
+    "codepoint": "U+E0C6",
+    "ligature": ":left_fifth_toe_proximal_phalanx:",
+    "shortcode": ":left_fifth_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_left_fifth_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_fifth_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/left_fifth_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left fifth toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_fifth_toe_middle_phalanx",
+    "label": "Left fifth toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left fifth toe middle toe bone"
+    ],
+    "codepoint": "U+E0C7",
+    "ligature": ":left_fifth_toe_middle_phalanx:",
+    "shortcode": ":left_fifth_toe_middle_phalanx:",
+    "glyph_name": "anatomy_left_fifth_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_fifth_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/left_fifth_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left fifth toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:left_fifth_toe_distal_phalanx",
+    "label": "Left fifth toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "left",
+    "aliases": [
+      "left fifth toe distal toe bone"
+    ],
+    "codepoint": "U+E0C8",
+    "ligature": ":left_fifth_toe_distal_phalanx:",
+    "shortcode": ":left_fifth_toe_distal_phalanx:",
+    "glyph_name": "anatomy_left_fifth_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/left_fifth_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/left_fifth_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Left fifth toe distal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_fifth_toe_proximal_phalanx",
+    "label": "Right fifth toe proximal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right fifth toe proximal toe bone"
+    ],
+    "codepoint": "U+E0C9",
+    "ligature": ":right_fifth_toe_proximal_phalanx:",
+    "shortcode": ":right_fifth_toe_proximal_phalanx:",
+    "glyph_name": "anatomy_right_fifth_toe_proximal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_fifth_toe_proximal_phalanx.svg",
+    "color_svg": "glyphs/color/right_fifth_toe_proximal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right fifth toe proximal phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_fifth_toe_middle_phalanx",
+    "label": "Right fifth toe middle phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right fifth toe middle toe bone"
+    ],
+    "codepoint": "U+E0CA",
+    "ligature": ":right_fifth_toe_middle_phalanx:",
+    "shortcode": ":right_fifth_toe_middle_phalanx:",
+    "glyph_name": "anatomy_right_fifth_toe_middle_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_fifth_toe_middle_phalanx.svg",
+    "color_svg": "glyphs/color/right_fifth_toe_middle_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right fifth toe middle phalanx",
+    "char": ""
+  },
+  {
+    "id": "anatomy:right_fifth_toe_distal_phalanx",
+    "label": "Right fifth toe distal phalanx",
+    "category": "bone",
+    "system": "skeletal",
+    "parent": "anatomy:lower_limb",
+    "paired": true,
+    "laterality_supported": true,
+    "review_required": true,
+    "laterality": "right",
+    "aliases": [
+      "right fifth toe distal toe bone"
+    ],
+    "codepoint": "U+E0CB",
+    "ligature": ":right_fifth_toe_distal_phalanx:",
+    "shortcode": ":right_fifth_toe_distal_phalanx:",
+    "glyph_name": "anatomy_right_fifth_toe_distal_phalanx",
+    "glyph_base": "foot_phalanx",
+    "svg": "glyphs/mono/right_fifth_toe_distal_phalanx.svg",
+    "color_svg": "glyphs/color/right_fifth_toe_distal_phalanx.svg",
+    "external_ids": {
+      "uberon": "UBERON:0001449"
+    },
+    "sources": [
+      "uberon",
+      "openstax_ap",
+      "grays_anatomy_commons",
+      "bones_original_art"
+    ],
+    "accessible_label": "Right fifth toe distal phalanx",
+    "char": ""
+  },
+  {
     "id": "anatomy:brain",
     "label": "Brain",
     "category": "organ",

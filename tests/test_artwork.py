@@ -15,7 +15,7 @@ class GrayArtworkTest(unittest.TestCase):
 
     def test_every_anatomy_object_uses_a_trace_master(self):
         bases = {item["glyph"]["base"] for item in self.data["objects"]}
-        self.assertEqual(len(bases), 33)
+        self.assertEqual(len(bases), 48)
         for base in bases:
             trace = ROOT / "glyphs/gray-trace" / f"{base}.svg"
             self.assertTrue(trace.is_file(), base)

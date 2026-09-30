@@ -118,12 +118,19 @@ def add_anatomical_glyphs(font: TTFont, items: list[dict], color: bool = False) 
         add_outline_glyph(font, glyph_name, paths, knockouts=not color and not is_trace)
         order.append(glyph_name)
         if color:
+            # COLRv1 layers are glyph references. Grouping the engraved paths
+            # by fill keeps the detailed trace intact without creating one
+            # TrueType glyph for every hatch contour (which can exceed the
+            # 65,535 glyph limit on large anatomical plates).
+            grouped: dict[str, list[tuple[str, str, str]]] = {}
+            for path_data in paths:
+                grouped.setdefault(path_data[1], []).append(path_data)
             layers = []
-            for index, path_data in enumerate(paths):
+            for index, (color_value, grouped_paths) in enumerate(grouped.items()):
                 layer_name = f"{glyph_name}_layer{index}"
-                add_outline_glyph(font, layer_name, [path_data])
+                add_outline_glyph(font, layer_name, grouped_paths)
                 order.append(layer_name)
-                layers.append((layer_name, path_data[1]))
+                layers.append((layer_name, color_value))
             color_layers[glyph_name] = layers
     font.setGlyphOrder(order)
     return color_layers

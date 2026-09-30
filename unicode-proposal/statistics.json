@@ -1,13 +1,13 @@
 {
   "version": "0.1.0",
-  "object_count": 35,
+  "object_count": 204,
   "category_counts": {
-    "bone": 17,
+    "bone": 186,
     "organ": 17,
     "tissue": 1
   },
   "system_counts": {
-    "skeletal": 17,
+    "skeletal": 186,
     "nervous": 1,
     "circulatory": 1,
     "respiratory": 3,
@@ -19,11 +19,11 @@
   },
   "pua": {
     "first": "U+E000",
-    "last": "U+E022",
-    "assigned": 35
+    "last": "U+E0CB",
+    "assigned": 204
   },
-  "shortcodes": 35,
+  "shortcodes": 204,
   "external_id_namespace_counts": {
-    "uberon": 35
+    "uberon": 204
   }
 }
