@@ -25,7 +25,6 @@ def main() -> int:
 
     copy_tree(ROOT / "docs", SITE / "docs")
     copy_tree(ROOT / "glyphs/color", SITE / "glyphs/color")
-    copy_tree(ROOT / "glyphs/assembly", SITE / "glyphs/assembly")   # the skeleton assembly's whole-region drawings
     copy_tree(ROOT / "sources", SITE / "sources")
 
     dist = SITE / "dist"

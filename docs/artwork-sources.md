@@ -1,19 +1,5 @@
 # Anatomical artwork sources
 
-## The glyph art (since 0.2): original patent-style drawings
-
-Every object has its own original line drawing in `scripts/anatomy_art.py`, drawn with the pen in
-`scripts/patent_pen.py` (every line is a filled outline, so one drawing is the SVG, the mono glyph and the color
-layers). Patent-plate conventions: heavy outline, medium detail, fine section hatching, dashed hidden lines (the
-vomer and palatine inside the skull). Series bones are drawn in context - the whole hand, foot, rib cage, spinal
-column or skull in fine line, the object heavy and hatched - and left-side objects mirror the right (anatomical
-position). Vertebral levels carry a small spinal column with their level filled in.
-
-Earlier releases traced Gray's plates directly; those traces shared one crop between many objects (every phalanx
-showed the same hand plate) and carried plate noise. The plates below remain the anatomical reference.
-
-## Reference: Gray's Anatomy (1918)
-
 The representative bone and organ set uses a visual language based on the public-domain
 1918 U.S. 20th edition of *Gray's Anatomy of the Human Body*. The scans are from
 Wikimedia Commons and are retained as provenance references in

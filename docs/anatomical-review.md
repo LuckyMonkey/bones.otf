@@ -13,9 +13,9 @@ Every current vertical-slice entry has `review_required: true`. That is an
 explicit QA flag for the simplified artwork and classification; it is not a
 claim that the object is fictional or unusable.
 
-The bone and organ glyphs are original patent-style drawings with Gray's Anatomy
-plates as the anatomical reference; they are font-sized drawings, not diagnostic
-illustrations. The registry is intentionally
+The representative bone and organ outlines use cleaned Gray's Anatomy plate
+linework as a stronger stylistic and anatomical reference, but remain font-sized
+derivatives rather than diagnostic illustrations. The registry is intentionally
 narrow and leaves individual carpals, metacarpals, tarsals, phalanges, ribs,
 vertebral levels, and many additional organs/body regions for expert review
 rather than inventing identities.

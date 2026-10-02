@@ -13,26 +13,18 @@ class GrayArtworkTest(unittest.TestCase):
         cls.data = yaml.safe_load((ROOT / "ontology/anatomy.yaml").read_text())
         cls.bones = [item for item in cls.data["objects"] if item["category"] == "bone"]
 
-    def test_every_object_has_its_own_original_drawing(self):
-        import hashlib
-        import re
-        seen = {}
+    def test_every_anatomy_object_uses_a_trace_master(self):
+        bases = {item["glyph"]["base"] for item in self.data["objects"]}
+        self.assertEqual(len(bases), 48)
+        for base in bases:
+            trace = ROOT / "glyphs/gray-trace" / f"{base}.svg"
+            self.assertTrue(trace.is_file(), base)
         for item in self.data["objects"]:
-            name = item["id"].split(":", 1)[1]
             mono = (ROOT / item["glyph"]["monochrome"]).read_text()
             color = (ROOT / item["glyph"]["color"]).read_text()
-            self.assertIn('data-source="bones-patent-art"', mono, item["id"])
-            self.assertIn('data-source="bones-patent-art"', color, item["id"])
-            self.assertEqual(set(re.findall(r'fill="(#[0-9a-f]{6})"', mono)), {"#17252c"}, item["id"])   # mono: one ink
-            digest = hashlib.sha256("".join(re.findall(r' d="([^"]+)"', mono)).encode()).hexdigest()
-            self.assertNotIn(digest, seen, f"{name} draws exactly like {seen.get(digest)}")
-            seen[digest] = name
-
-    def test_left_and_right_mirror(self):
-        import re
-        left = (ROOT / "glyphs/mono/left_scaphoid.svg").read_text()
-        right = (ROOT / "glyphs/mono/right_scaphoid.svg").read_text()
-        self.assertNotEqual(left, right)
+            self.assertIn('data-source="gray-anatomy"', mono, item["id"])
+            self.assertIn('data-source="gray-anatomy"', color, item["id"])
+            self.assertNotIn('#b4384c', mono, item["id"])
 
     def test_raw_plate_provenance_is_present(self):
         manifest = yaml.safe_load((ROOT / "sources/gray-plates.yaml").read_text())
