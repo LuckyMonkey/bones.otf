@@ -76,7 +76,8 @@ def text_boxes(gray: np.ndarray, spec: dict) -> list:
         big = cv2.resize(view, None, fx=k, fy=k, interpolation=cv2.INTER_CUBIC)
         with tempfile.NamedTemporaryFile(suffix=".png") as f:
             cv2.imwrite(f.name, big)
-            tsv = subprocess.run(["tesseract", f.name, "stdout", "--psm", "11", "tsv"], capture_output=True, text=True).stdout
+            tsv = subprocess.run(["tesseract", f.name, "stdout", "--psm", "11", "tsv"], capture_output=True, text=True,
+                                 env={**__import__("os").environ, "OMP_THREAD_LIMIT": "1"}).stdout   # the pool already uses every core
         H, W = view.shape
         for row in tsv.splitlines()[1:]:
             c = row.split("\t")
@@ -253,7 +254,9 @@ def main(argv) -> int:
     for n in names:
         ink_d, sil_d = traced[_key(specs[n])][bool(specs[n].get("mirror"))]
         svg = svg_for(labels.get(n, n), specs[n]["file"].rsplit(".", 1)[0], ink_d, sil_d)
-        (OUT / f"{n}.svg").write_text(svg, encoding="utf-8")
+        target = (ROOT / "glyphs/assembly" / f"{n[len('assembly_'):]}.svg") if n.startswith("assembly_") else (OUT / f"{n}.svg")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(svg, encoding="utf-8")
         print(f"{n:<34} {ink_d.count('M'):>5} contours  {len(svg) // 1024:>4} KB")
     return 0
 

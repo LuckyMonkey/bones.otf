@@ -59,6 +59,12 @@
     .spine-l1 { top: 52%; } .spine-l2 { top: 54%; } .spine-l3 { top: 56%; } .spine-l4 { top: 58%; } .spine-l5 { top: 60%; }
     .part-sacrum { top: 57%; left: 41%; width: 18%; height: 10%; opacity: .82; }
     .part-coccyx { top: 63%; left: 46%; width: 8%; height: 7%; opacity: .78; }
+    /* whole Gray plates (Fig. 220 hand, Fig. 268 foot), traced into glyphs/assembly/ */
+    .part-hand { z-index: 2; top: 60%; width: 22%; height: 24%; opacity: .82; }
+    .part-hand-left { left: 0; transform: rotate(10deg); } .part-hand-right { left: 78%; transform: rotate(-10deg); }
+    .part-foot { z-index: 2; top: 86%; width: 15%; height: 15%; opacity: .82; }
+    .part-foot-left { left: 22%; } .part-foot-right { left: 63%; }
+    .part-foot img { transform: rotate(180deg); } .part-foot.mirror img { transform: rotate(180deg) scaleX(-1); }
     .hand-part { z-index: 2; opacity: .8; }
     .hand-carpus-left { top: 61%; left: 11%; width: 15%; height: 11%; transform: rotate(-20deg); }
     .hand-carpus-right { top: 61%; left: 74%; width: 15%; height: 11%; transform: rotate(20deg); }
@@ -166,30 +172,30 @@
           <span class="stage-label axial">AXIAL</span><span class="stage-label appendicular">APPENDICULAR</span>
           <figure class="skeleton-part part-skull"><img src="glyphs/color/skull.svg" alt=""></figure>
           <figure class="skeleton-part part-mandible"><img src="glyphs/color/mandible.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-1"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-1 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-2"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-2 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-3"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-3 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-4"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-4 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-5"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-5 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-6"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-6 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-7"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-7 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-8"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-8 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-9"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-9 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-10"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-10 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-11"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-11 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-left rib-12"><img src="glyphs/color/rib.svg" alt=""></figure>
-          <figure class="skeleton-part part-rib rib-right rib-12 mirror"><img src="glyphs/color/rib.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-1"><img src="glyphs/color/right_rib_1.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-1"><img src="glyphs/color/left_rib_1.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-2"><img src="glyphs/color/right_rib_2.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-2"><img src="glyphs/color/left_rib_2.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-3"><img src="glyphs/color/right_rib_3.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-3"><img src="glyphs/color/left_rib_3.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-4"><img src="glyphs/color/right_rib_4.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-4"><img src="glyphs/color/left_rib_4.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-5"><img src="glyphs/color/right_rib_5.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-5"><img src="glyphs/color/left_rib_5.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-6"><img src="glyphs/color/right_rib_6.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-6"><img src="glyphs/color/left_rib_6.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-7"><img src="glyphs/color/right_rib_7.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-7"><img src="glyphs/color/left_rib_7.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-8"><img src="glyphs/color/right_rib_8.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-8"><img src="glyphs/color/left_rib_8.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-9"><img src="glyphs/color/right_rib_9.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-9"><img src="glyphs/color/left_rib_9.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-10"><img src="glyphs/color/right_rib_10.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-10"><img src="glyphs/color/left_rib_10.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-11"><img src="glyphs/color/right_rib_11.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-11"><img src="glyphs/color/left_rib_11.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-left rib-12"><img src="glyphs/color/right_rib_12.svg" alt=""></figure>
+          <figure class="skeleton-part part-rib rib-right rib-12"><img src="glyphs/color/left_rib_12.svg" alt=""></figure>
           <figure class="skeleton-part spine-level spine-c1"><img src="glyphs/color/c1_atlas.svg" alt=""></figure>
           <figure class="skeleton-part spine-level spine-c2"><img src="glyphs/color/c2_axis.svg" alt=""></figure>
           <figure class="skeleton-part spine-level spine-c3"><img src="glyphs/color/c3.svg" alt=""></figure>
@@ -236,18 +242,10 @@
           <figure class="skeleton-part part-tibia-right mirror"><img src="glyphs/color/tibia.svg" alt=""></figure>
           <figure class="skeleton-part part-fibula-left"><img src="glyphs/color/fibula.svg" alt=""></figure>
           <figure class="skeleton-part part-fibula-right mirror"><img src="glyphs/color/fibula.svg" alt=""></figure>
-          <figure class="skeleton-part hand-part hand-carpus-left"><img src="glyphs/color/left_scaphoid.svg" alt=""></figure>
-          <figure class="skeleton-part hand-part hand-carpus-right mirror"><img src="glyphs/color/right_scaphoid.svg" alt=""></figure>
-          <figure class="skeleton-part hand-part hand-metacarpus-left"><img src="glyphs/color/left_metacarpal_1.svg" alt=""></figure>
-          <figure class="skeleton-part hand-part hand-metacarpus-right mirror"><img src="glyphs/color/right_metacarpal_1.svg" alt=""></figure>
-          <figure class="skeleton-part hand-part hand-phalanges-left"><img src="glyphs/color/left_thumb_proximal_phalanx.svg" alt=""></figure>
-          <figure class="skeleton-part hand-part hand-phalanges-right mirror"><img src="glyphs/color/right_thumb_proximal_phalanx.svg" alt=""></figure>
-          <figure class="skeleton-part foot-part foot-tarsus-left"><img src="glyphs/color/left_talus.svg" alt=""></figure>
-          <figure class="skeleton-part foot-part foot-tarsus-right mirror"><img src="glyphs/color/right_talus.svg" alt=""></figure>
-          <figure class="skeleton-part foot-part foot-metatarsus-left"><img src="glyphs/color/left_metatarsal_1.svg" alt=""></figure>
-          <figure class="skeleton-part foot-part foot-metatarsus-right mirror"><img src="glyphs/color/right_metatarsal_1.svg" alt=""></figure>
-          <figure class="skeleton-part foot-part foot-phalanges-left"><img src="glyphs/color/left_great_toe_proximal_phalanx.svg" alt=""></figure>
-          <figure class="skeleton-part foot-part foot-phalanges-right mirror"><img src="glyphs/color/right_great_toe_proximal_phalanx.svg" alt=""></figure>
+          <figure class="skeleton-part part-hand part-hand-left"><img src="glyphs/assembly/hand.svg" alt=""></figure>
+          <figure class="skeleton-part part-hand part-hand-right mirror"><img src="glyphs/assembly/hand.svg" alt=""></figure>
+          <figure class="skeleton-part part-foot part-foot-left"><img src="glyphs/assembly/foot.svg" alt=""></figure>
+          <figure class="skeleton-part part-foot part-foot-right mirror"><img src="glyphs/assembly/foot.svg" alt=""></figure>
         </div>
         <aside class="skeleton-index" aria-label="Objects used in the assembly">
           <div class="skeleton-index-head"><span>Object index</span><span>Gray / SVG</span></div>

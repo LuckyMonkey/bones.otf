@@ -199,3 +199,6 @@ objects:
   left_fifth_toe_middle_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 1, ocr: false, close: 4, open: 3, mirror: true}
   right_fifth_toe_distal_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 2, ocr: false, close: 4, open: 3}
   left_fifth_toe_distal_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 2, ocr: false, close: 4, open: 3, mirror: true}
+  # not glyphs: whole plates for the demo's x-ray skeleton (written to glyphs/assembly/)
+  assembly_hand: {file: Gray220.png, keep: 0.05}
+  assembly_foot: {file: Gray268.png, keep: 0.05}

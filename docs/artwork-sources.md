@@ -1,5 +1,29 @@
 # Anatomical artwork sources
 
+## Every bone is its own figure from Gray's (since 0.2)
+
+Each of the 186 bone objects is traced from the figure Gray drew of *that bone* - the atlas from Fig. 86, the
+lunate from Fig. 222, the third metatarsal from Fig. 286 - not a crop shared with its neighbours. The table is
+`sources/gray-plates/figures.yaml` (figure, crop, mirror); the scans are in `sources/gray-plates/raw/figures/`
+with their Commons URLs in `index.json`. Where Gray drew one bone for a series (C3-C6, T2-T8, the central ribs)
+those objects share his figure; where he drew them apart (T1, T9-T12, the first and the 10th-12th ribs) they are
+apart. Gray's carpal, metacarpal, tarsal and metatarsal figures are left bones; the right ones are mirrored. Hand
+phalanges are cut from Fig. 220 with Commons' highlighted versions of that plate; toe phalanges from Fig. 268,
+split at the joints.
+
+```text
+figure scan -> crop -> remove Gray's red attachment lines -> 4x upscale -> ink (dark in every channel)
+            -> drop label letters (Tesseract word boxes; only ink wholly inside a word is removed)
+            -> bone mask (close + fill + open: drops the labels' leader lines) -> ink inside the mask
+            -> potrace Bezier outlines -> 1000-unit em; mono = ink, color = ink over a paper silhouette
+```
+
+Run it with OpenCV, Tesseract and potracer: `~/.venvs/trace/bin/python scripts/trace_gray_figures.py [names]`.
+The engraving is kept as engraving - every hatch line is an outline - so a glyph holds hundreds to thousands of
+contours; that is the point (the font is a vector source for graphics pipelines, not a set of icons).
+
+## The 0.1 plate traces
+
 The representative bone and organ set uses a visual language based on the public-domain
 1918 U.S. 20th edition of *Gray's Anatomy of the Human Body*. The scans are from
 Wikimedia Commons and are retained as provenance references in
