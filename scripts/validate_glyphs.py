@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SVG_RE = re.compile(r'<svg[^>]+viewBox="0 0 1000 1000"')
 PATH_RE = re.compile(r'<path\b[^>]*\bd="[^"]+"')
 ROLE_RE = re.compile(r'<path\b[^>]*data-role="(?:body|detail)"')
-TRACE_RE = re.compile(r'<svg\b[^>]*data-source="gray-anatomy"')
+ART_RE = re.compile(r'<svg\b[^>]*data-source="bones-patent-art"')
 
 
 def main() -> int:
@@ -27,8 +27,8 @@ def main() -> int:
             text = path.read_text(encoding="utf-8")
             if not SVG_RE.search(text) or not PATH_RE.search(text) or not ROLE_RE.search(text) or "<image" in text:
                 raise SystemExit(f"invalid vector SVG: {path}")
-            if not TRACE_RE.search(text):
-                raise SystemExit(f"anatomy glyph is not sourced from a Gray trace master: {path}")
+            if not ART_RE.search(text):
+                raise SystemExit(f"anatomy glyph has no original drawing (scripts/anatomy_art.py): {path}")
             checked += 1
     print(f"SVG masters OK: {checked} vector files")
     return 0

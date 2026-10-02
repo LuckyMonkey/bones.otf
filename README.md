@@ -132,11 +132,14 @@ the object model.
 
 The ontology records UBERON identifiers where an exact open term is available,
 and the project records OpenStax Anatomy & Physiology as the human-skeletal
-coverage reference. The representative bone and organ glyphs are derived from
-cleaned, thresholded traces of public-domain 1918 Gray's Anatomy plates hosted
-by Wikimedia Commons; the plate manifest, raw scans, crop recipes, and
-deterministic trace script are kept under `sources/gray-plates/`. BONES ships
-vector derivatives, not proprietary modern medical illustrations. See
+coverage reference. Every one of the 204 glyphs is an original patent-style line drawing
+(`scripts/anatomy_art.py`): heavy outline, medium detail, fine section hatching.
+Series bones (carpals, phalanges, ribs, vertebral levels, cranial bones) are
+drawn in context - the whole hand, foot, rib cage or skull in fine line with the
+object itself heavy and hatched - so each one is its own glyph, and left/right
+objects mirror. The public-domain 1918 Gray's Anatomy plates hosted by Wikimedia
+Commons remain the anatomical reference; the plate manifest, raw scans and the
+earlier trace masters are kept under `sources/gray-plates/` and `glyphs/gray-trace/`. See
 `docs/artwork-sources.md` for the provenance and regeneration path.
 
 ## Project status

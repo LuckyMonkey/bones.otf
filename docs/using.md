@@ -50,9 +50,9 @@ the glyph, filename, and codepoint are renderers or registry assignments. 🔖
 
 ## Source artwork
 
-The representative vector masters are deterministic traces of public-domain
-1918 Gray's Anatomy plates hosted by Wikimedia Commons. They are simplified for
-font use, not clinical diagnostic illustrations. Read
+Every glyph is an original patent-style line drawing, with public-domain 1918
+Gray's Anatomy plates (Wikimedia Commons) as the anatomical reference. They are
+drawn for font use, not clinical diagnostic illustrations. Read
 [artwork-sources.md](artwork-sources.md) before redistributing derivatives. 🫁
 
 ## Build locally

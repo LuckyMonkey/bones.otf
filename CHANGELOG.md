@@ -2,6 +2,22 @@
 
 ## Unreleased
 
+- **Glyph art overhaul: every one of the 204 objects has its own original patent-style drawing**
+  (scripts/anatomy_art.py), replacing the Gray plate traces. The traces shared one crop between many objects -
+  every phalanx showed the same hand plate, every rib the same rib plate, every cranial bone the whole skull - and
+  carried plate noise and labels. Gray's 1918 plates remain the anatomical reference (sources/gray-plates/).
+- Series bones are drawn in context, the way a patent figure points to one part: the whole hand, foot, rib cage,
+  spine or skull in fine line, the object itself in a heavy outline with section hatching. Left-side objects mirror
+  the right; vertebral levels carry a small spinal column with their level filled; the vomer and palatine, inside
+  the skull, are drawn in dashed hidden line.
+- One drawing language with PCB.OTF (scripts/patent_pen.py): every line is a filled outline, so one drawing is the
+  SVG, the mono glyph and the color layers; the color font is the same line art with muted tints.
+- The demo's x-ray skeleton is built from whole-region drawings (glyphs/assembly/: hand, foot, rib cage, spine)
+  instead of 70 per-part images.
+- The mono web font shrank from 2.5 MB to 1.9 MB.
+- tests/test_artwork.py: every object has its own drawing (no two alike), mono glyphs are one-ink line art,
+  left and right differ.
+
 - Added public-repository release plumbing: reproducible CI, GitHub Pages
   deployment, a trimmed deployable site artifact, README badges, issue templates,
   security policy, citation metadata, and emoji-forward usage documentation.
