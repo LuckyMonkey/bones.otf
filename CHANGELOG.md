@@ -2,6 +2,22 @@
 
 ## Unreleased
 
+- **Every bone is now its own Gray's Anatomy figure.** 186 bone glyphs are traced from the figure Gray drew of
+  that bone (sources/gray-plates/figures.yaml): each cranial and facial bone, atlas, axis, C7, T1 and T9-T12, the
+  typical vertebrae, sacrum, coccyx, the first, central and 10th-12th ribs, each carpal, metacarpal, tarsal and
+  metatarsal, and each phalanx cut from the hand and foot plates. The 0.1 traces shared one crop between many
+  objects (every phalanx was the same hand plate). Left/right pairs use the side Gray drew and mirror the other.
+- New tracer (scripts/trace_gray_figures.py): Gray's red attachment lines removed, label letters removed
+  (Tesseract word boxes; only ink wholly inside a word goes), leader lines dropped by the bone mask, the engraving
+  kept line for line as potrace Bezier outlines. Mono glyphs are Gray's ink alone; color glyphs add a paper
+  silhouette under it. The font is a vector source for graphics pipelines, so glyphs carry hundreds to thousands
+  of contours (dense plates are held under TrueType's point limit by a per-figure budget).
+- Fonts: the .otf keeps Gray's cubic curves (CFF); the .ttf and web fonts are quadratic TrueType. Every font file
+  now passes the browser sanitizer (OTS) - cubic glyf outlines had been rejected by browsers.
+- Demo: the x-ray skeleton glows Gray's ink (mono glyphs), each rib in its own slot, hands and feet as whole
+  traced plates (Figs. 220 and 268).
+- Organs keep their 0.1 traces for now.
+
 - Added public-repository release plumbing: reproducible CI, GitHub Pages
   deployment, a trimmed deployable site artifact, README badges, issue templates,
   security policy, citation metadata, and emoji-forward usage documentation.

@@ -25,6 +25,7 @@ def main() -> int:
 
     copy_tree(ROOT / "docs", SITE / "docs")
     copy_tree(ROOT / "glyphs/color", SITE / "glyphs/color")
+    copy_tree(ROOT / "glyphs/mono", SITE / "glyphs/mono")   # the x-ray skeleton glows Gray's ink, not the color layer's paper
     copy_tree(ROOT / "glyphs/assembly", SITE / "glyphs/assembly")   # whole Gray plates for the demo skeleton
     copy_tree(ROOT / "sources", SITE / "sources")
 

@@ -11,6 +11,7 @@ import yaml
 from fontTools.colorLib.builder import buildCOLR, buildCPAL
 from fontTools.feaLib.builder import addOpenTypeFeatures
 from fontTools.fontBuilder import FontBuilder
+from fontTools.pens.cu2quPen import Cu2QuPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.pens.reverseContourPen import ReverseContourPen
@@ -47,13 +48,22 @@ def svg_paths(path: Path) -> list[tuple[str, str, str]]:
     return result
 
 
+CUBIC = False   # the CFF pass keeps Gray's cubic curves as drawn; the TrueType pass converts them
+
+
 def glyph_from_paths(font: TTFont, paths: list[tuple[str, str, str]], knockouts: bool = False):
-    pen = TTGlyphPen(font.getGlyphSet())
-    transformed = TransformPen(pen, (UPM / 1000, 0, 0, -(UPM / 1000), 0, UPM))
-    for data, _fill, role in paths:
-        target = ReverseContourPen(transformed) if knockouts and role == "detail" else transformed
-        parse_path(data, target)
-    glyph = pen.glyph()
+    """A TrueType glyph: Gray's cubic curves converted to quadratics (browsers reject the cubic-glyf extension).
+    An engraving dense enough to pass TrueType's 65,535-point limit is converted with a looser tolerance."""
+    for max_err in (1.0, 2.5, 6.0, 15.0):
+        pen = TTGlyphPen(font.getGlyphSet())
+        quad = pen if CUBIC else Cu2QuPen(pen, max_err=max_err * UPM / 1000, reverse_direction=False)
+        transformed = TransformPen(quad, (UPM / 1000, 0, 0, -(UPM / 1000), 0, UPM))
+        for data, _fill, role in paths:
+            target = ReverseContourPen(transformed) if knockouts and role == "detail" else transformed
+            parse_path(data, target)
+        glyph = pen.glyph()
+        if glyph.numberOfContours <= 0 or len(glyph.coordinates) < 60000:
+            break
     glyph.recalcBounds(font["glyf"])
     return glyph
 
@@ -207,15 +217,24 @@ def save_variants(font: TTFont, stem: str) -> None:
     out = ROOT / "dist"
     out.mkdir(parents=True, exist_ok=True)
     font.flavor = None
+    if CUBIC:     # the CFF font, straight from the cubic outlines (converting the quadratics back bloats charstrings)
+        cff_font(font, f"{stem}-Regular").save(str(out / f"{stem}.otf"))
+        return
     font.save(str(out / f"{stem}.ttf"))
-    cff_font(font, f"{stem}-Regular").save(str(out / f"{stem}.otf"))
-    font.flavor = "woff2"
+    font.flavor = "woff2"             # the web font: quadratic TrueType, which browsers' sanitizer accepts
     font.save(str(out / f"{stem}.woff2"))
     font.flavor = None
 
 
 def main() -> int:
-    items = objects()
+    global CUBIC
+    for CUBIC in (True, False):
+        build(objects())
+    print(f"built monochrome and COLRv1 color fonts for {len(objects())} anatomical glyphs (CFF cubic + TrueType quadratic)")
+    return 0
+
+
+def build(items) -> None:
     mono = prepare_font()
     add_anatomical_glyphs(mono, items, color=False)
     update_cmap(mono, items)
@@ -232,8 +251,6 @@ def main() -> int:
     color["name"].setName("BONES Color", 4, 3, 1, 0x409)
     color["name"].setName("BONES Color-Regular", 6, 3, 1, 0x409)
     save_variants(color, "BONES-Color")
-    print(f"built monochrome and COLRv1 color fonts for {len(items)} anatomical glyphs")
-    return 0
 
 
 if __name__ == "__main__":

@@ -30,7 +30,7 @@ FIG = ROOT / "sources/gray-plates/raw/figures"
 OUT = ROOT / "glyphs/gray-trace"
 INK = "#17232b"
 PAPER = "#efe3c8"
-SCALE = 4
+SCALE = 4                      # the working resolution; a big plate can ask for less (spec "scale")
 
 
 def load(spec: dict) -> np.ndarray:
@@ -54,12 +54,12 @@ def load(spec: dict) -> np.ndarray:
         x, y, w, h = stats[i, :4]
         m = 8
         x0, y0, x1, y1 = max(0, x - m), max(0, y - m), min(img.shape[1], x + w + m), min(img.shape[0], y + h + m)
-        region = (labels == i).astype(np.uint8)[y0:y1, x0:x1] * 255
-        spec["_region"] = cv2.dilate(region, np.ones((7, 7), np.uint8))
-        return img[y0:y1, x0:x1]
+        return img[y0:y1, x0:x1]        # the island only says where; the bone itself is found like any other
     if "crop" in spec:
         x0, y0, x1, y1 = spec["crop"]
         img = img[y0:y1, x0:x1]
+    if spec.get("prescale"):  # a big plate (the pelvis, 1000 px wide) needs no 4x: trace it at a lower working size
+        img = cv2.resize(img, None, fx=spec["prescale"], fy=spec["prescale"], interpolation=cv2.INTER_AREA)
     return img
 
 
@@ -131,7 +131,11 @@ def ink_of(img: np.ndarray, spec: dict) -> np.ndarray:
     big = cv2.GaussianBlur(big, (3, 3), 0)
     t = spec.get("threshold") or min(170, cv2.threshold(big, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0])
     ink = (big < t) & ((sat < spec.get("sat", 45)) | (big < t - 70))   # tinted fills (a coloured plate) are not ink
-    return drop_letters(ink.astype(np.uint8) * 255, boxes)
+    ink = drop_letters(ink.astype(np.uint8) * 255, boxes)
+    if spec.get("thin"):     # a small figure's lines are a pixel or two wide; at 4x they read as heavy outlines
+        k = int(spec["thin"])
+        ink = cv2.erode(ink, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k, k)))
+    return ink
 
 
 def bone_mask(ink: np.ndarray, spec: dict) -> np.ndarray:
@@ -171,9 +175,25 @@ def bone_mask(ink: np.ndarray, spec: dict) -> np.ndarray:
     return cv2.dilate(mask, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (d, d)))
 
 
-def trace(bitmap: np.ndarray, turd: int) -> list:
+POINT_BUDGET = 30000   # a TrueType glyph holds at most 65,535 points; stay well clear (the color font adds a layer)
+
+
+def points(path) -> int:
+    return sum(1 + sum(2 if seg.is_corner else 3 for seg in curve.segments) for curve in path)
+
+
+def trace(bitmap: np.ndarray, turd: int, budget: int = POINT_BUDGET) -> list:
+    """Bezier outlines of the ink. A dense plate (Gray stippled the cancellous bone dot by dot) over the point budget
+    is traced again with a coarser speck filter and a looser curve fit: the finest stipple goes first, the line
+    engraving stays."""
     bm = potrace.Bitmap(bitmap == 0)                 # potracer traces the zero pixels: hand it the ink as zeros
-    return bm.trace(turdsize=turd, turnpolicy=potrace.POTRACE_TURNPOLICY_MINORITY, alphamax=1.0, opticurve=True, opttolerance=0.25)
+    tol = 0.25
+    for _ in range(6):
+        path = bm.trace(turdsize=turd, turnpolicy=potrace.POTRACE_TURNPOLICY_MINORITY, alphamax=1.0, opticurve=True, opttolerance=tol)
+        if points(path) <= budget:
+            return path
+        turd, tol = int(turd * 2.2), tol + 0.15
+    return path
 
 
 def to_d(path, fit) -> str:
@@ -246,19 +266,26 @@ def main(argv) -> int:
     for n in names:
         unique.setdefault(_key(specs[n]), specs[n])
     from multiprocessing import Pool
-    traced = {}
+    users = {}
+    for n in names:
+        users.setdefault(_key(specs[n]), []).append(n)
     with Pool() as pool:
         for key, result in pool.imap_unordered(_job, list(unique.items())):
-            traced[key] = result
             print(f"traced {yaml.safe_load(key)['file']}", flush=True)
-    for n in names:
-        ink_d, sil_d = traced[_key(specs[n])][bool(specs[n].get("mirror"))]
-        svg = svg_for(labels.get(n, n), specs[n]["file"].rsplit(".", 1)[0], ink_d, sil_d)
-        target = (ROOT / "glyphs/assembly" / f"{n[len('assembly_'):]}.svg") if n.startswith("assembly_") else (OUT / f"{n}.svg")
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(svg, encoding="utf-8")
-        print(f"{n:<34} {ink_d.count('M'):>5} contours  {len(svg) // 1024:>4} KB")
+            for n in users[key]:          # written as soon as their figure is done - a long run keeps what it finished
+                write(n, specs[n], labels, result)
     return 0
+
+
+def write(n: str, spec: dict, labels: dict, result: dict) -> None:
+    ink_d, sil_d = result[bool(spec.get("mirror"))]
+    svg = svg_for(labels.get(n, n), spec["file"].rsplit(".", 1)[0], ink_d, sil_d)
+    if n.startswith("assembly_"):     # the demo's x-ray glows the ink; a paper layer would glow as a solid blob
+        svg = "\n".join(line for line in svg.splitlines() if 'data-layer="paper"' not in line) + "\n"
+    target = (ROOT / "glyphs/assembly" / f"{n[len('assembly_'):]}.svg") if n.startswith("assembly_") else (OUT / f"{n}.svg")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(svg, encoding="utf-8")
+    print(f"{n:<34} {ink_d.count('M'):>5} contours  {len(svg) // 1024:>4} KB", flush=True)
 
 
 if __name__ == "__main__":

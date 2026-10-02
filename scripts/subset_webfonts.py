@@ -34,7 +34,7 @@ def subset(source: Path, target: Path) -> None:
 
 
 def main() -> int:
-    subset(ROOT / "dist/BONES.ttf", ROOT / "dist/BONES.woff2")
+    subset(ROOT / "dist/BONES.ttf", ROOT / "dist/BONES.woff2")              # quadratic TrueType (see build_font)
     subset(ROOT / "dist/BONES-Color.ttf", ROOT / "dist/BONES-Color.woff2")
     print("wrote compact BONES webfont subsets")
     return 0
