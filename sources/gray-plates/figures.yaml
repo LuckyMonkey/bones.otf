@@ -1,0 +1,201 @@
+# One Gray figure per object: Gray's Anatomy of the Human Body, 20th U.S. edition (1918), public domain; scans from
+# Wikimedia Commons (sources/gray-plates/raw/figures/index.json has every file's URL). Traced by
+# scripts/trace_gray_figures.py.
+#   file: the figure    crop: [x0, y0, x1, y1] source px (two-view figures: the first view)
+#   mirror: Gray drew the other side's bone      hull: an open plate whose outline does not close
+#   highlight + pick: the hand plate's yellow-highlight versions; pick = the bone's island, left to right
+objects:
+  # skull and face
+  skull: {file: Gray188.png, sat: 255, threshold: 120}
+  frontal: {file: Gray134.png, hull: true}
+  parietal: {file: Gray132.png, hull: true}
+  occipital: {file: Gray129.png}
+  temporal: {file: Gray137.png, hull: true, keep: 0.05}
+  sphenoid: {file: Gray145.png}
+  ethmoid: {file: Gray152.png}
+  nasal: {file: Gray155.png}
+  maxilla: {file: Gray157.png}
+  zygomatic: {file: Gray165.png}
+  lacrimal: {file: Gray163.png}
+  palatine: {file: Gray169.png}
+  vomer: {file: Gray174.png}
+  mandible: {file: Gray176.png}
+  hyoid: {file: Gray186.png, hull: true, keep: 0.05}
+  # the column
+  c1_atlas: {file: Gray86.png}
+  c2_axis: {file: Gray87.png}
+  c3: {file: Gray84.png}
+  c4: {file: Gray84.png}
+  c5: {file: Gray84.png}
+  c6: {file: Gray84.png}
+  c7: {file: Gray89.png}
+  t1: {file: Gray91.png, crop: [0, 0, 300, 196]}
+  t2: {file: Gray82.png}
+  t3: {file: Gray82.png}
+  t4: {file: Gray82.png}
+  t5: {file: Gray82.png}
+  t6: {file: Gray82.png}
+  t7: {file: Gray82.png}
+  t8: {file: Gray82.png}
+  t9: {file: Gray91.png, crop: [0, 182, 300, 300]}
+  t10: {file: Gray91.png, crop: [0, 290, 300, 392]}
+  t11: {file: Gray91.png, crop: [0, 382, 300, 478]}
+  t12: {file: Gray91.png, crop: [0, 470, 300, 600]}
+  l1: {file: Gray94.png}
+  l2: {file: Gray94.png}
+  l3: {file: Gray94.png}
+  l4: {file: Gray94.png}
+  l5: {file: Gray93.png}
+  vertebra: {file: Gray90.png}
+  sacrum: {file: Gray95.png}
+  coccyx: {file: Gray100.png, crop: [20, 0, 200, 248]}
+  # thorax
+  sternum: {file: Gray116.png, hull: true, keep: 0.05}
+  rib: {file: Gray123.png}
+  left_rib_1: {file: First rib Gray.png}
+  right_rib_1: {file: First rib Gray.png, mirror: true}
+  left_rib_2: {file: Gray122.png}
+  right_rib_2: {file: Gray122.png, mirror: true}
+  left_rib_3: {file: Gray122.png}
+  right_rib_3: {file: Gray122.png, mirror: true}
+  left_rib_4: {file: Gray122.png}
+  right_rib_4: {file: Gray122.png, mirror: true}
+  left_rib_5: {file: Gray122.png}
+  right_rib_5: {file: Gray122.png, mirror: true}
+  left_rib_6: {file: Gray122.png}
+  right_rib_6: {file: Gray122.png, mirror: true}
+  left_rib_7: {file: Gray122.png}
+  right_rib_7: {file: Gray122.png, mirror: true}
+  left_rib_8: {file: Gray122.png}
+  right_rib_8: {file: Gray122.png, mirror: true}
+  left_rib_9: {file: Gray122.png}
+  right_rib_9: {file: Gray122.png, mirror: true}
+  left_rib_10: {file: Gray126.png}
+  right_rib_10: {file: Gray126.png, mirror: true}
+  left_rib_11: {file: Gray127.png}
+  right_rib_11: {file: Gray127.png, mirror: true}
+  left_rib_12: {file: Gray128.png, hull: true, keep: 0.02}
+  right_rib_12: {file: Gray128.png, hull: true, keep: 0.02, mirror: true}
+  # upper limb
+  clavicle: {file: Gray200.png}
+  scapula: {file: Gray203.png}
+  humerus: {file: Gray207.png}
+  ulna: {file: Gray213.png, crop: [100, 0, 318, 1245]}
+  radius: {file: Gray213.png, crop: [318, 0, 600, 1245]}
+  # lower limb
+  pelvis: {file: Gray241.png}
+  femur: {file: Gray245.png}
+  right_femur: {file: Gray244.png}
+  left_femur: {file: Gray244.png, mirror: true}
+  patella: {file: Gray255.png}
+  tibia: {file: Gray258.png, crop: [160, 0, 346, 1000]}
+  fibula: {file: Gray258.png, crop: [40, 0, 160, 1000]}
+  # hand: Gray's carpal and metacarpal figures are left bones (first view); the hand plate (Fig. 220) is a right hand,
+  # palmar, thumb on the left - its yellow-highlight versions cut out each phalanx
+  left_scaphoid: {file: Gray221.png, crop: [0, 0, 238, 197]}
+  right_scaphoid: {file: Gray221.png, crop: [0, 0, 238, 197], mirror: true}
+  left_lunate: {file: Gray222.png, crop: [0, 0, 204, 174]}
+  right_lunate: {file: Gray222.png, crop: [0, 0, 204, 174], mirror: true}
+  left_triquetrum: {file: Gray223.png}
+  right_triquetrum: {file: Gray223.png, mirror: true}
+  left_pisiform: {file: Gray224.png}
+  right_pisiform: {file: Gray224.png, mirror: true}
+  left_trapezium: {file: Gray225.png, crop: [0, 0, 281, 177]}
+  right_trapezium: {file: Gray225.png, crop: [0, 0, 281, 177], mirror: true}
+  left_trapezoid: {file: Gray226.png, crop: [0, 0, 183, 201]}
+  right_trapezoid: {file: Gray226.png, crop: [0, 0, 183, 201], mirror: true}
+  left_capitate: {file: Gray227.png, crop: [0, 0, 250, 209]}
+  right_capitate: {file: Gray227.png, crop: [0, 0, 250, 209], mirror: true}
+  left_hamate: {file: Gray228.png, crop: [0, 0, 250, 178]}
+  right_hamate: {file: Gray228.png, crop: [0, 0, 250, 178], mirror: true}
+  left_metacarpal_1: {file: Gray229.png, crop: [0, 0, 132, 335]}
+  right_metacarpal_1: {file: Gray229.png, crop: [0, 0, 132, 335], mirror: true}
+  left_metacarpal_2: {file: Gray230.png, crop: [0, 0, 175, 453]}
+  right_metacarpal_2: {file: Gray230.png, crop: [0, 0, 175, 453], mirror: true}
+  left_metacarpal_3: {file: Gray231.png, crop: [0, 0, 150, 452]}
+  right_metacarpal_3: {file: Gray231.png, crop: [0, 0, 150, 452], mirror: true}
+  left_metacarpal_4: {file: Gray232.png, crop: [0, 0, 160, 421]}
+  right_metacarpal_4: {file: Gray232.png, crop: [0, 0, 160, 421], mirror: true}
+  left_metacarpal_5: {file: Gray233.png, crop: [0, 0, 127, 375]}
+  right_metacarpal_5: {file: Gray233.png, crop: [0, 0, 127, 375], mirror: true}
+  right_thumb_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 0}
+  left_thumb_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 0, mirror: true}
+  right_index_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 1}
+  left_index_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 1, mirror: true}
+  right_middle_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 2}
+  left_middle_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 2, mirror: true}
+  right_ring_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 3}
+  left_ring_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 3, mirror: true}
+  right_little_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 4}
+  left_little_proximal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Proximal phalanges of the hand.png', pick: 4, mirror: true}
+  right_index_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 0}
+  left_index_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 0, mirror: true}
+  right_middle_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 1}
+  left_middle_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 1, mirror: true}
+  right_ring_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 2}
+  left_ring_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 2, mirror: true}
+  right_little_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 3}
+  left_little_middle_phalanx: {file: Gray220.png, highlight: 'Gray220 - Intermediate phalanges of the hand.png', pick: 3, mirror: true}
+  right_thumb_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 0}
+  left_thumb_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 0, mirror: true}
+  right_index_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 1}
+  left_index_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 1, mirror: true}
+  right_middle_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 2}
+  left_middle_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 2, mirror: true}
+  right_ring_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 3}
+  left_ring_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 3, mirror: true}
+  right_little_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 4}
+  left_little_distal_phalanx: {file: Gray220.png, highlight: 'Gray220 - Distal phalanges of the hand.png', pick: 4, mirror: true}
+  # foot: Gray's tarsal and metatarsal figures are left bones; toe phalanges are cut from the right foot plate (Fig. 268)
+  left_talus: {file: Gray270.png}
+  right_talus: {file: Gray270.png, mirror: true}
+  left_calcaneus: {file: Gray264.png}
+  right_calcaneus: {file: Gray264.png, mirror: true}
+  left_navicular: {file: Gray276.png}
+  right_navicular: {file: Gray276.png, mirror: true}
+  left_cuboid: {file: Gray274.png}
+  right_cuboid: {file: Gray274.png, mirror: true}
+  left_medial_cuneiform: {file: Gray278.png}
+  right_medial_cuneiform: {file: Gray278.png, mirror: true}
+  left_intermediate_cuneiform: {file: Gray280.png}
+  right_intermediate_cuneiform: {file: Gray280.png, mirror: true}
+  left_lateral_cuneiform: {file: Gray282.png}
+  right_lateral_cuneiform: {file: Gray282.png, mirror: true}
+  left_metatarsal_1: {file: Gray284.png, crop: [0, 0, 160, 450]}
+  right_metatarsal_1: {file: Gray284.png, crop: [0, 0, 160, 450], mirror: true}
+  left_metatarsal_2: {file: Gray285.png, crop: [0, 0, 144, 450]}
+  right_metatarsal_2: {file: Gray285.png, crop: [0, 0, 144, 450], mirror: true}
+  left_metatarsal_3: {file: Gray286.png, crop: [0, 0, 145, 400]}
+  right_metatarsal_3: {file: Gray286.png, crop: [0, 0, 145, 400], mirror: true}
+  left_metatarsal_4: {file: Gray287.png, crop: [0, 0, 150, 400]}
+  right_metatarsal_4: {file: Gray287.png, crop: [0, 0, 150, 400], mirror: true}
+  left_metatarsal_5: {file: Gray288.png, crop: [0, 0, 133, 375]}
+  right_metatarsal_5: {file: Gray288.png, crop: [0, 0, 133, 375], mirror: true}
+  right_great_toe_proximal_phalanx: {file: Gray268.png, crop: [345, 900, 450, 1195], segment: 0, ocr: false, close: 4, open: 3}
+  left_great_toe_proximal_phalanx: {file: Gray268.png, crop: [345, 900, 450, 1195], segment: 0, ocr: false, close: 4, open: 3, mirror: true}
+  right_great_toe_distal_phalanx: {file: Gray268.png, crop: [345, 900, 450, 1195], segment: 1, ocr: false, close: 4, open: 3}
+  left_great_toe_distal_phalanx: {file: Gray268.png, crop: [345, 900, 450, 1195], segment: 1, ocr: false, close: 4, open: 3, mirror: true}
+  right_second_toe_proximal_phalanx: {file: Gray268.png, crop: [240, 935, 312, 1195], segment: 0, ocr: false, close: 4, open: 3}
+  left_second_toe_proximal_phalanx: {file: Gray268.png, crop: [240, 935, 312, 1195], segment: 0, ocr: false, close: 4, open: 3, mirror: true}
+  right_second_toe_middle_phalanx: {file: Gray268.png, crop: [240, 935, 312, 1195], segment: 1, ocr: false, close: 4, open: 3}
+  left_second_toe_middle_phalanx: {file: Gray268.png, crop: [240, 935, 312, 1195], segment: 1, ocr: false, close: 4, open: 3, mirror: true}
+  right_second_toe_distal_phalanx: {file: Gray268.png, crop: [240, 935, 312, 1195], segment: 2, ocr: false, close: 4, open: 3}
+  left_second_toe_distal_phalanx: {file: Gray268.png, crop: [240, 935, 312, 1195], segment: 2, ocr: false, close: 4, open: 3, mirror: true}
+  right_third_toe_proximal_phalanx: {file: Gray268.png, crop: [172, 935, 240, 1170], segment: 0, ocr: false, close: 4, open: 3}
+  left_third_toe_proximal_phalanx: {file: Gray268.png, crop: [172, 935, 240, 1170], segment: 0, ocr: false, close: 4, open: 3, mirror: true}
+  right_third_toe_middle_phalanx: {file: Gray268.png, crop: [172, 935, 240, 1170], segment: 1, ocr: false, close: 4, open: 3}
+  left_third_toe_middle_phalanx: {file: Gray268.png, crop: [172, 935, 240, 1170], segment: 1, ocr: false, close: 4, open: 3, mirror: true}
+  right_third_toe_distal_phalanx: {file: Gray268.png, crop: [172, 935, 240, 1170], segment: 2, ocr: false, close: 4, open: 3}
+  left_third_toe_distal_phalanx: {file: Gray268.png, crop: [172, 935, 240, 1170], segment: 2, ocr: false, close: 4, open: 3, mirror: true}
+  right_fourth_toe_proximal_phalanx: {file: Gray268.png, crop: [108, 925, 172, 1110], segment: 0, ocr: false, close: 4, open: 3}
+  left_fourth_toe_proximal_phalanx: {file: Gray268.png, crop: [108, 925, 172, 1110], segment: 0, ocr: false, close: 4, open: 3, mirror: true}
+  right_fourth_toe_middle_phalanx: {file: Gray268.png, crop: [108, 925, 172, 1110], segment: 1, ocr: false, close: 4, open: 3}
+  left_fourth_toe_middle_phalanx: {file: Gray268.png, crop: [108, 925, 172, 1110], segment: 1, ocr: false, close: 4, open: 3, mirror: true}
+  right_fourth_toe_distal_phalanx: {file: Gray268.png, crop: [108, 925, 172, 1110], segment: 2, ocr: false, close: 4, open: 3}
+  left_fourth_toe_distal_phalanx: {file: Gray268.png, crop: [108, 925, 172, 1110], segment: 2, ocr: false, close: 4, open: 3, mirror: true}
+  right_fifth_toe_proximal_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 0, ocr: false, close: 4, open: 3}
+  left_fifth_toe_proximal_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 0, ocr: false, close: 4, open: 3, mirror: true}
+  right_fifth_toe_middle_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 1, ocr: false, close: 4, open: 3}
+  left_fifth_toe_middle_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 1, ocr: false, close: 4, open: 3, mirror: true}
+  right_fifth_toe_distal_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 2, ocr: false, close: 4, open: 3}
+  left_fifth_toe_distal_phalanx: {file: Gray268.png, crop: [45, 915, 112, 1070], segment: 2, ocr: false, close: 4, open: 3, mirror: true}

@@ -62,6 +62,8 @@ def write_trace_svg(path: Path, label: str, trace_path: Path, color: bool) -> No
     text = text[:title_start] + html.escape(label) + text[title_end:]
     if not color:
         text = text.replace('fill="#b4384c"', f'fill="{MONO_INK}"')
+        # the mono glyph is Gray's ink alone; the paper silhouette is the color font's under-layer
+        text = "\n".join(line for line in text.splitlines() if 'data-layer="paper"' not in line) + "\n"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
@@ -70,7 +72,10 @@ def main() -> int:
     data = anatomy()
     for item in data["objects"]:
         base = item["glyph"]["base"]
-        trace_path = TRACE_DIR / f"{base}.svg"
+        # each object's own Gray figure (scripts/trace_gray_figures.py); organs fall back to their base trace
+        trace_path = TRACE_DIR / f"{item['id'].split(':', 1)[1]}.svg"
+        if not trace_path.is_file():
+            trace_path = TRACE_DIR / f"{base}.svg"
         if trace_path.is_file():
             write_trace_svg(ROOT / item["glyph"]["monochrome"], item["label"], trace_path, color=False)
             write_trace_svg(ROOT / item["glyph"]["color"], item["label"], trace_path, color=True)
